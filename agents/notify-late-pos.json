@@ -1,0 +1,29 @@
+{
+  "id": "notify-late-pos",
+  "name": "Workflow: Notify Late POs Not Received",
+  "tagline": "Prioritise timely delivery by notifying teams of late POs not yet received",
+  "description": "Helps in prioritising the timely delivery of items by alerting procurement and operations teams when purchase orders have not been received within expected lead times.",
+  "industry": [
+    "Food & Beverage",
+    "Discrete Manufacturing"
+  ],
+  "function": "Procurement",
+  "productLine": "Made2Manage",
+  "status": "coming-soon",
+  "flowId": "placeholder",
+  "tags": [
+    "Late POs",
+    "Notifications",
+    "Lead Times",
+    "Workflow"
+  ],
+  "emoji": "🔔",
+  "iconBg": "#FAEEDA",
+  "rating": 0,
+  "reviews": [],
+  "usageCount": 0,
+  "videoUrl": "",
+  "docsUrl": "",
+  "reviewLinks": [],
+  "featured": false
+}

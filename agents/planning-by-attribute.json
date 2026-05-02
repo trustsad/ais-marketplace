@@ -1,0 +1,29 @@
+{
+  "id": "planning-by-attribute",
+  "name": "Planning by Attribute Agent",
+  "tagline": "Plan demand and supply by product attributes rather than individual SKUs",
+  "description": "Enables planning teams to aggregate and analyse demand and supply at the product attribute level — colour, size, material — rather than individual SKUs, simplifying complexity in high-variant environments.",
+  "industry": [
+    "Apparel",
+    "Discrete Manufacturing"
+  ],
+  "function": "Planning & Forecasting",
+  "productLine": "Apparel Next Gen",
+  "status": "coming-soon",
+  "flowId": "placeholder",
+  "tags": [
+    "Attributes",
+    "Planning",
+    "SKU",
+    "Variants"
+  ],
+  "emoji": "📅",
+  "iconBg": "#FDF2F8",
+  "rating": 0,
+  "reviews": [],
+  "usageCount": 0,
+  "videoUrl": "",
+  "docsUrl": "",
+  "reviewLinks": [],
+  "featured": false
+}

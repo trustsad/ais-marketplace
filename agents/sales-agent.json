@@ -1,0 +1,30 @@
+{
+  "id": "sales-agent",
+  "name": "Sales Agent",
+  "tagline": "Manage sales pipelines, orders, and customer interactions through natural language",
+  "description": "Provides a conversational interface for managing sales pipelines, creating and updating sales orders, tracking customer interactions, and surfacing actionable insights to drive revenue growth.",
+  "industry": [
+    "Food & Beverage",
+    "Discrete Manufacturing",
+    "Apparel"
+  ],
+  "function": "Sales / CRM",
+  "productLine": "Business Central",
+  "status": "live",
+  "flowId": "placeholder",
+  "tags": [
+    "Sales Orders",
+    "Pipeline",
+    "CRM",
+    "Revenue"
+  ],
+  "emoji": "💼",
+  "iconBg": "#FBEAF0",
+  "rating": 4.5,
+  "reviews": [],
+  "usageCount": 44,
+  "videoUrl": "",
+  "docsUrl": "",
+  "reviewLinks": [],
+  "featured": false
+}

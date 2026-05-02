@@ -1,0 +1,27 @@
+{
+  "id": "style-substitution-standalone",
+  "name": "Style Substitution Agent (Stand Alone)",
+  "tagline": "Substitute style intelligence for teams outside Business Central",
+  "description": "Matches Style Card attributes and validates price range to recommend substitute styles through a standalone interface, giving teams outside of Business Central the same substitution intelligence.",
+  "industry": [
+    "Apparel"
+  ],
+  "function": "Style Management",
+  "productLine": "Apparel Next Gen",
+  "status": "live",
+  "flowId": "placeholder",
+  "tags": [
+    "Style Card",
+    "Substitution",
+    "Standalone"
+  ],
+  "emoji": "🔄",
+  "iconBg": "#FDF2F8",
+  "rating": 4.4,
+  "reviews": [],
+  "usageCount": 24,
+  "videoUrl": "",
+  "docsUrl": "",
+  "reviewLinks": [],
+  "featured": false
+}

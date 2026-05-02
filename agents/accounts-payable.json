@@ -1,0 +1,30 @@
+{
+  "id": "accounts-payable",
+  "name": "Accounts Payable (AP) Agent",
+  "tagline": "Streamline AP workflows with intelligent invoice processing and payment insights",
+  "description": "Streamlines accounts payable workflows by processing invoices, matching purchase orders, flagging discrepancies, and surfacing payment timing recommendations to optimise cash flow and supplier relationships.",
+  "industry": [
+    "Food & Beverage",
+    "Discrete Manufacturing",
+    "Apparel"
+  ],
+  "function": "Finance / AR",
+  "productLine": "Business Central",
+  "status": "live",
+  "flowId": "placeholder",
+  "tags": [
+    "AP",
+    "Invoices",
+    "Payments",
+    "Cash Flow"
+  ],
+  "emoji": "💵",
+  "iconBg": "#EEEDFE",
+  "rating": 4.6,
+  "reviews": [],
+  "usageCount": 51,
+  "videoUrl": "",
+  "docsUrl": "",
+  "reviewLinks": [],
+  "featured": false
+}

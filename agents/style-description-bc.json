@@ -1,0 +1,27 @@
+{
+  "id": "style-description-bc",
+  "name": "Style Description Agent",
+  "tagline": "Generate polished product names and marketing descriptions from Style Card details",
+  "description": "Generates polished product names and marketing-ready short descriptions directly from Style Card details in Business Central, ensuring consistent brand voice across the entire product catalog.",
+  "industry": [
+    "Apparel"
+  ],
+  "function": "Style Management",
+  "productLine": "Apparel Next Gen",
+  "status": "live",
+  "flowId": "placeholder",
+  "tags": [
+    "Style Card",
+    "Business Central",
+    "Copywriting"
+  ],
+  "emoji": "✍️",
+  "iconBg": "#FDF2F8",
+  "rating": 4.6,
+  "reviews": [],
+  "usageCount": 52,
+  "videoUrl": "",
+  "docsUrl": "",
+  "reviewLinks": [],
+  "featured": false
+}

@@ -1,0 +1,29 @@
+{
+  "id": "auto-order",
+  "name": "Auto Order Agent",
+  "tagline": "Automate purchase order creation based on reorder rules and demand signals",
+  "description": "Automatically generates purchase orders based on configured reorder rules, safety stock thresholds, and real-time demand signals — eliminating manual order creation and reducing stockout risk.",
+  "industry": [
+    "Food & Beverage",
+    "Discrete Manufacturing"
+  ],
+  "function": "Procurement",
+  "productLine": "Aptean Food & Beverage ERP",
+  "status": "live",
+  "flowId": "placeholder",
+  "tags": [
+    "Auto Order",
+    "Reorder",
+    "Purchase Orders",
+    "Demand"
+  ],
+  "emoji": "🤖",
+  "iconBg": "#FAEEDA",
+  "rating": 4.6,
+  "reviews": [],
+  "usageCount": 42,
+  "videoUrl": "",
+  "docsUrl": "",
+  "reviewLinks": [],
+  "featured": false
+}

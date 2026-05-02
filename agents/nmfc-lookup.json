@@ -1,0 +1,28 @@
+{
+  "id": "nmfc-lookup",
+  "name": "NMFC Commodity Code Lookup",
+  "tagline": "Determine the most accurate NMFC code for domestic freight classification",
+  "description": "Determines the most accurate NMFC commodity code for domestic freight, reducing classification errors and helping shippers secure correct carrier rates.",
+  "industry": [
+    "Logistics"
+  ],
+  "function": "Logistics / TMS",
+  "productLine": "TLX",
+  "status": "live",
+  "flowId": "placeholder",
+  "tags": [
+    "NMFC",
+    "Freight",
+    "Carrier",
+    "Classification"
+  ],
+  "emoji": "🚛",
+  "iconBg": "#EFF6FF",
+  "rating": 4.6,
+  "reviews": [],
+  "usageCount": 55,
+  "videoUrl": "",
+  "docsUrl": "",
+  "reviewLinks": [],
+  "featured": false
+}

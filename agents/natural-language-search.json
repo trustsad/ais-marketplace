@@ -1,0 +1,29 @@
+{
+  "id": "natural-language-search",
+  "name": "Natural Language Search",
+  "tagline": "Select ERP data using semantic AI search in plain language",
+  "description": "Enables users to query and retrieve ERP data using natural language and semantic AI search, eliminating the need to know exact field names or filter configurations.",
+  "industry": [
+    "Discrete Manufacturing",
+    "Process Manufacturing"
+  ],
+  "function": "Analytics",
+  "productLine": "oxaion ERP",
+  "status": "live",
+  "flowId": "placeholder",
+  "tags": [
+    "Search",
+    "Semantic",
+    "Natural Language",
+    "AI"
+  ],
+  "emoji": "🔎",
+  "iconBg": "#E6F1FB",
+  "rating": 4.6,
+  "reviews": [],
+  "usageCount": 22,
+  "videoUrl": "",
+  "docsUrl": "",
+  "reviewLinks": [],
+  "featured": false
+}

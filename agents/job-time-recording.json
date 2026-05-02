@@ -1,0 +1,29 @@
+{
+  "id": "job-time-recording",
+  "name": "Job and Time Recording Agent",
+  "tagline": "Automatically post job times to the time tracking system",
+  "description": "Automatically posts job times to the time tracking system based on activity logs and employee inputs, reducing manual timesheet entry and improving project costing accuracy.",
+  "industry": [
+    "Discrete Manufacturing",
+    "Process Manufacturing"
+  ],
+  "function": "Operations",
+  "productLine": "oxaion ERP",
+  "status": "coming-soon",
+  "flowId": "placeholder",
+  "tags": [
+    "Time Tracking",
+    "Jobs",
+    "Posting",
+    "Timesheets"
+  ],
+  "emoji": "⏱️",
+  "iconBg": "#F5F4EF",
+  "rating": 0,
+  "reviews": [],
+  "usageCount": 0,
+  "videoUrl": "",
+  "docsUrl": "",
+  "reviewLinks": [],
+  "featured": false
+}

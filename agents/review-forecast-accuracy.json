@@ -1,0 +1,29 @@
+{
+  "id": "review-forecast-accuracy",
+  "name": "Review Forecast Accuracy",
+  "tagline": "Evaluate forecast accuracy against actuals to improve planning reliability",
+  "description": "Reviews forecast accuracy by comparing predicted versus actual outcomes, identifying systematic biases and helping planners improve future forecast reliability.",
+  "industry": [
+    "Discrete Manufacturing",
+    "Process Manufacturing"
+  ],
+  "function": "Planning & Forecasting",
+  "productLine": "oxaion ERP",
+  "status": "live",
+  "flowId": "placeholder",
+  "tags": [
+    "Forecast",
+    "Accuracy",
+    "Planning",
+    "Actuals"
+  ],
+  "emoji": "📉",
+  "iconBg": "#E6F1FB",
+  "rating": 4.3,
+  "reviews": [],
+  "usageCount": 12,
+  "videoUrl": "",
+  "docsUrl": "",
+  "reviewLinks": [],
+  "featured": false
+}

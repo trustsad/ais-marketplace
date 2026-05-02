@@ -1,0 +1,28 @@
+{
+  "id": "retrieve-history-forecast",
+  "name": "Retrieve History or Forecast",
+  "tagline": "Retrieve historical data and forecasts through natural language",
+  "description": "Enables users to retrieve historical performance data and forecasts from the ERP through natural language queries, eliminating the need for complex report configuration.",
+  "industry": [
+    "Discrete Manufacturing",
+    "Process Manufacturing"
+  ],
+  "function": "Analytics",
+  "productLine": "oxaion ERP",
+  "status": "live",
+  "flowId": "placeholder",
+  "tags": [
+    "History",
+    "Forecast",
+    "Natural Language"
+  ],
+  "emoji": "🔍",
+  "iconBg": "#E6F1FB",
+  "rating": 4.3,
+  "reviews": [],
+  "usageCount": 13,
+  "videoUrl": "",
+  "docsUrl": "",
+  "reviewLinks": [],
+  "featured": false
+}

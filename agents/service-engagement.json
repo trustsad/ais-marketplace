@@ -1,0 +1,29 @@
+{
+  "id": "service-engagement",
+  "name": "Service Engagement Agent",
+  "tagline": "Manage service interactions and escalations proactively",
+  "description": "Manages service interactions by surfacing open service requests, recommending escalation actions, drafting customer responses, and tracking resolution progress across the service lifecycle.",
+  "industry": [
+    "Process Manufacturing",
+    "Discrete Manufacturing"
+  ],
+  "function": "Sales / CRM",
+  "productLine": "Ross",
+  "status": "coming-soon",
+  "flowId": "placeholder",
+  "tags": [
+    "Service",
+    "Escalation",
+    "CRM",
+    "Resolution"
+  ],
+  "emoji": "🛠️",
+  "iconBg": "#FBEAF0",
+  "rating": 0,
+  "reviews": [],
+  "usageCount": 0,
+  "videoUrl": "",
+  "docsUrl": "",
+  "reviewLinks": [],
+  "featured": false
+}

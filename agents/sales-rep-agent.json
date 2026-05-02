@@ -1,0 +1,30 @@
+{
+  "id": "sales-rep-agent",
+  "name": "Sales Rep Agent",
+  "tagline": "Accelerate deal velocity with quote creation, updates, and follow-up reminders",
+  "description": "Assists sales representatives with quote creation, updates, and follow-up reminders to accelerate deal velocity and reduce manual administrative effort.",
+  "industry": [
+    "Discrete Manufacturing",
+    "Food & Beverage",
+    "Apparel"
+  ],
+  "function": "Sales / CRM",
+  "productLine": "Made2Manage",
+  "status": "live",
+  "flowId": "placeholder",
+  "tags": [
+    "Quotes",
+    "Sales",
+    "Follow-Up",
+    "CRM"
+  ],
+  "emoji": "🎯",
+  "iconBg": "#FBEAF0",
+  "rating": 4.5,
+  "reviews": [],
+  "usageCount": 49,
+  "videoUrl": "",
+  "docsUrl": "",
+  "reviewLinks": [],
+  "featured": false
+}

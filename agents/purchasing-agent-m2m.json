@@ -1,0 +1,28 @@
+{
+  "id": "purchasing-agent-m2m",
+  "name": "Purchasing Agent",
+  "tagline": "Flag late POs, send supplier reminders, and surface actionable procurement tasks",
+  "description": "Manages the purchase order workspace by flagging late POs, sending supplier reminders, and surfacing actionable procurement tasks to keep supply timelines on track.",
+  "industry": [
+    "Discrete Manufacturing",
+    "Food & Beverage"
+  ],
+  "function": "Procurement",
+  "productLine": "Made2Manage",
+  "status": "live",
+  "flowId": "placeholder",
+  "tags": [
+    "Purchase Orders",
+    "Suppliers",
+    "Late POs"
+  ],
+  "emoji": "📦",
+  "iconBg": "#FAEEDA",
+  "rating": 4.6,
+  "reviews": [],
+  "usageCount": 58,
+  "videoUrl": "",
+  "docsUrl": "",
+  "reviewLinks": [],
+  "featured": false
+}

@@ -1,0 +1,29 @@
+{
+  "id": "production-efficiency",
+  "name": "Production Efficiency Agent",
+  "tagline": "Identify production variances with traceable root-cause analysis",
+  "description": "Identifies and explains production variances — material consumption, yield loss, scrap, and labor inefficiencies — with traceable root-cause analysis and actionable BOM and routing correction recommendations.",
+  "industry": [
+    "Food & Beverage",
+    "Process Manufacturing"
+  ],
+  "function": "Quality / RCA",
+  "productLine": "Aptean Food & Beverage ERP",
+  "status": "live",
+  "flowId": "placeholder",
+  "tags": [
+    "BOM",
+    "Yield Loss",
+    "Scrap",
+    "Routing"
+  ],
+  "emoji": "⚙️",
+  "iconBg": "#F0F4FF",
+  "rating": 4.7,
+  "reviews": [],
+  "usageCount": 48,
+  "videoUrl": "",
+  "docsUrl": "",
+  "reviewLinks": [],
+  "featured": false
+}

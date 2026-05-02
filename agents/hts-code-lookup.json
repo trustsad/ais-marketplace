@@ -1,0 +1,28 @@
+{
+  "id": "hts-code-lookup",
+  "name": "Harmonized Tariff (HTS) Code Lookup",
+  "tagline": "Determine the most accurate HTS code to streamline customs classification",
+  "description": "Determines the most accurate Harmonized Tariff Schedule code for a given product description, streamlining customs classification and reducing compliance risk on international shipments.",
+  "industry": [
+    "Logistics"
+  ],
+  "function": "Logistics / TMS",
+  "productLine": "TLX",
+  "status": "live",
+  "flowId": "placeholder",
+  "tags": [
+    "HTS",
+    "Customs",
+    "Classification",
+    "Trade"
+  ],
+  "emoji": "🚛",
+  "iconBg": "#EFF6FF",
+  "rating": 4.7,
+  "reviews": [],
+  "usageCount": 62,
+  "videoUrl": "",
+  "docsUrl": "",
+  "reviewLinks": [],
+  "featured": false
+}

@@ -1,0 +1,30 @@
+{
+  "id": "abc-code-classification",
+  "name": "ABC Code Classification Agent",
+  "tagline": "Reclassify ABC inventory codes using actual demand-driven value",
+  "description": "Reclassifies ABC inventory codes using actual demand-driven value, enabling planners to prioritize high-impact items and optimize replenishment effort across the inventory base.",
+  "industry": [
+    "Food & Beverage",
+    "Discrete Manufacturing",
+    "Process Manufacturing"
+  ],
+  "function": "Inventory",
+  "productLine": "Aptean Food & Beverage ERP",
+  "status": "live",
+  "flowId": "placeholder",
+  "tags": [
+    "ABC Analysis",
+    "Inventory",
+    "Replenishment",
+    "Planning"
+  ],
+  "emoji": "📊",
+  "iconBg": "#FFF8E7",
+  "rating": 4.6,
+  "reviews": [],
+  "usageCount": 37,
+  "videoUrl": "",
+  "docsUrl": "",
+  "reviewLinks": [],
+  "featured": false
+}

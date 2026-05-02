@@ -1,0 +1,29 @@
+{
+  "id": "mistral-route-transport",
+  "name": "Mistral Smart Route Planning — Transportation",
+  "tagline": "Optimise transportation routes to reduce cost and improve delivery performance",
+  "description": "Optimises transportation routes across the delivery network to reduce fuel cost, improve on-time delivery performance, and maximise vehicle utilisation.",
+  "industry": [
+    "Logistics",
+    "Discrete Manufacturing"
+  ],
+  "function": "Logistics / TMS",
+  "productLine": "Mistral ERP",
+  "status": "coming-soon",
+  "flowId": "placeholder",
+  "tags": [
+    "Route Planning",
+    "Transport",
+    "Delivery",
+    "Mistral"
+  ],
+  "emoji": "🚛",
+  "iconBg": "#EFF6FF",
+  "rating": 0,
+  "reviews": [],
+  "usageCount": 0,
+  "videoUrl": "",
+  "docsUrl": "",
+  "reviewLinks": [],
+  "featured": false
+}

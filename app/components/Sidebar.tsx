@@ -29,18 +29,28 @@ const functionDots: Record<string, string> = {
 
 const productLineDots: Record<string, string> = {
   // Microsoft BC and its verticals
-  'Business Central': '#0078D4',
-  'JustFoodERP':      '#1D9E75',
-  'bcFood':           '#2BAE80',
-  'Food & Beverage':  '#3DBE6E',
-  'Apparel':          '#C0397A',
-  'Equipment':        '#D97706',
+  'Business Central':        '#0078D4',
+  'JustFoodERP':             '#1D9E75',
+  'bcFood':                  '#2BAE80',
+  'Food & Beverage':         '#3DBE6E',
+  'Apparel':                 '#C0397A',
+  'Equipment':               '#D97706',
   // Aptean ERPs
-  'Travers':          '#7C3AED',
-  'Made2Manage':      '#B45309',
-  'M2M':              '#B45309',
-  'ProcessPro':       '#0369A1',
-  'Ross':             '#DC2626',
+  'Travers':                 '#7C3AED',
+  'Traverse Global':         '#6D28D9',
+  'Made2Manage':             '#B45309',
+  'M2M':                     '#B45309',
+  'ProcessPro':              '#0369A1',
+  'Ross':                    '#DC2626',
+  'Mistral ERP':             '#9333EA',
+  'oxaion ERP':              '#0891B2',
+  'Apparel Next Gen':        '#DB2777',
+  'Aptean Food & Beverage ERP': '#15803D',
+  'Equipment DMS':           '#D97706',
+  'Equipsoft':               '#B45309',
+  'Lascom PLM':              '#0284C7',
+  'Logility - DAI+':         '#7C3AED',
+  'TLX':                     '#059669',
 };
 
 function SectionLabel({ children }: { children: React.ReactNode }) {

@@ -1,0 +1,28 @@
+{
+  "id": "carrier-pricing-validation",
+  "name": "Carrier Pricing Agreement Validation",
+  "tagline": "Translate carrier pricing agreements into structured contract data",
+  "description": "Translates carrier pricing agreements into structured contract JSON/SQL values, automating the entry and validation of rate schedules and reducing manual contract management effort.",
+  "industry": [
+    "Logistics"
+  ],
+  "function": "Logistics / TMS",
+  "productLine": "TLX",
+  "status": "coming-soon",
+  "flowId": "placeholder",
+  "tags": [
+    "Carrier",
+    "Pricing",
+    "Contract",
+    "Rates"
+  ],
+  "emoji": "📜",
+  "iconBg": "#EFF6FF",
+  "rating": 0,
+  "reviews": [],
+  "usageCount": 0,
+  "videoUrl": "",
+  "docsUrl": "",
+  "reviewLinks": [],
+  "featured": false
+}

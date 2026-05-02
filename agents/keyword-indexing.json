@@ -1,0 +1,29 @@
+{
+  "id": "keyword-indexing",
+  "name": "Keyword Indexing of Documents",
+  "tagline": "Automatically index documents in the DMS using intelligent keyword extraction",
+  "description": "Automatically indexes documents in the Document Management System using intelligent keyword extraction, improving searchability and reducing manual tagging effort.",
+  "industry": [
+    "Discrete Manufacturing",
+    "Process Manufacturing"
+  ],
+  "function": "Document Management",
+  "productLine": "oxaion ERP",
+  "status": "live",
+  "flowId": "placeholder",
+  "tags": [
+    "DMS",
+    "Indexing",
+    "Keywords",
+    "Documents"
+  ],
+  "emoji": "🗂️",
+  "iconBg": "#F5F4EF",
+  "rating": 4.3,
+  "reviews": [],
+  "usageCount": 9,
+  "videoUrl": "",
+  "docsUrl": "",
+  "reviewLinks": [],
+  "featured": false
+}

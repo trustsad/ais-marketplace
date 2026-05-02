@@ -1,0 +1,28 @@
+{
+  "id": "safety-stock-analysis-fb",
+  "name": "Safety Stock Analysis Agent",
+  "tagline": "Calculate and recommend safety stock levels tailored to F&B volatility",
+  "description": "Calculates, monitors, and recommends safety stock levels across SKUs and locations, tailored to Food & Beverage volatility and perishability constraints.",
+  "industry": [
+    "Food & Beverage"
+  ],
+  "function": "Inventory",
+  "productLine": "Aptean Food & Beverage ERP",
+  "status": "coming-soon",
+  "flowId": "placeholder",
+  "tags": [
+    "Safety Stock",
+    "F&B",
+    "Perishability",
+    "SKU"
+  ],
+  "emoji": "🧮",
+  "iconBg": "#E1F5EE",
+  "rating": 0,
+  "reviews": [],
+  "usageCount": 0,
+  "videoUrl": "",
+  "docsUrl": "",
+  "reviewLinks": [],
+  "featured": false
+}

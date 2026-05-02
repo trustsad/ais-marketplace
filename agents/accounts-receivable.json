@@ -1,0 +1,30 @@
+{
+  "id": "accounts-receivable",
+  "name": "Accounts Receivable (AR) Agent",
+  "tagline": "Real-time AR analysis, aging reports, and customer payment behaviour insights",
+  "description": "Provides real-time AR analysis, aging reports, overdue invoice tracking, and customer payment behaviour insights. Transforms raw receivables data into actionable collection intelligence and cash flow forecasts.",
+  "industry": [
+    "Food & Beverage",
+    "Discrete Manufacturing",
+    "Apparel"
+  ],
+  "function": "Finance / AR",
+  "productLine": "Business Central",
+  "status": "live",
+  "flowId": "placeholder",
+  "tags": [
+    "AR",
+    "Aging",
+    "Collections",
+    "Cash Flow"
+  ],
+  "emoji": "💳",
+  "iconBg": "#EEEDFE",
+  "rating": 4.8,
+  "reviews": [],
+  "usageCount": 88,
+  "videoUrl": "",
+  "docsUrl": "",
+  "reviewLinks": [],
+  "featured": false
+}

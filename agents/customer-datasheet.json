@@ -1,0 +1,28 @@
+{
+  "id": "customer-datasheet",
+  "name": "Customer Datasheet Agent",
+  "tagline": "Prepare comprehensive customer data for appointments and visits",
+  "description": "Compiles and presents comprehensive customer data — order history, open items, contacts, and engagement notes — to prepare sales teams for customer appointments and visits.",
+  "industry": [
+    "Discrete Manufacturing",
+    "Process Manufacturing"
+  ],
+  "function": "Sales / CRM",
+  "productLine": "oxaion ERP",
+  "status": "live",
+  "flowId": "placeholder",
+  "tags": [
+    "Customer",
+    "Appointments",
+    "Sales Prep"
+  ],
+  "emoji": "📄",
+  "iconBg": "#FBEAF0",
+  "rating": 4.4,
+  "reviews": [],
+  "usageCount": 16,
+  "videoUrl": "",
+  "docsUrl": "",
+  "reviewLinks": [],
+  "featured": false
+}

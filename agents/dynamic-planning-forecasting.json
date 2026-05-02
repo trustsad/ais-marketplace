@@ -1,0 +1,30 @@
+{
+  "id": "dynamic-planning-forecasting",
+  "name": "Dynamic Planning and Forecasting",
+  "tagline": "Replicate MPS/MRP planning to generate optimal supply plans through natural conversation",
+  "description": "Replicates the MPS/MRP planning engine to generate, validate, and execute optimal supply plans — converting demand signals into actionable purchase orders, production orders, and transfers through natural conversation.",
+  "industry": [
+    "Food & Beverage",
+    "Process Manufacturing",
+    "Discrete Manufacturing"
+  ],
+  "function": "Planning & Forecasting",
+  "productLine": "Logility - DAI+",
+  "status": "live",
+  "flowId": "placeholder",
+  "tags": [
+    "MPS",
+    "MRP",
+    "Supply Plan",
+    "Demand"
+  ],
+  "emoji": "📅",
+  "iconBg": "#E8F5E9",
+  "rating": 4.8,
+  "reviews": [],
+  "usageCount": 67,
+  "videoUrl": "",
+  "docsUrl": "",
+  "reviewLinks": [],
+  "featured": true
+}

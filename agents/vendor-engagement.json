@@ -1,0 +1,29 @@
+{
+  "id": "vendor-engagement",
+  "name": "Vendor Engagement Agent",
+  "tagline": "Proactively manage vendor communications and performance follow-up",
+  "description": "Proactively manages vendor communications by surfacing performance issues, drafting supplier correspondence, tracking commitment responses, and flagging at-risk supply relationships.",
+  "industry": [
+    "Process Manufacturing",
+    "Food & Beverage"
+  ],
+  "function": "Procurement",
+  "productLine": "Ross",
+  "status": "coming-soon",
+  "flowId": "placeholder",
+  "tags": [
+    "Vendor",
+    "Supplier",
+    "Engagement",
+    "Performance"
+  ],
+  "emoji": "🤝",
+  "iconBg": "#FAEEDA",
+  "rating": 0,
+  "reviews": [],
+  "usageCount": 0,
+  "videoUrl": "",
+  "docsUrl": "",
+  "reviewLinks": [],
+  "featured": false
+}

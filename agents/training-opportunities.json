@@ -1,0 +1,28 @@
+{
+  "id": "training-opportunities",
+  "name": "Working with Training Opportunities",
+  "tagline": "Retrieve and review ERP training opportunities for your team",
+  "description": "Retrieves and surfaces training opportunities within the ERP system, helping teams identify skill gaps and relevant learning resources.",
+  "industry": [
+    "Discrete Manufacturing",
+    "Process Manufacturing"
+  ],
+  "function": "Operations",
+  "productLine": "oxaion ERP",
+  "status": "live",
+  "flowId": "placeholder",
+  "tags": [
+    "Training",
+    "Learning",
+    "ERP"
+  ],
+  "emoji": "🎓",
+  "iconBg": "#E6F1FB",
+  "rating": 4.2,
+  "reviews": [],
+  "usageCount": 11,
+  "videoUrl": "",
+  "docsUrl": "",
+  "reviewLinks": [],
+  "featured": false
+}

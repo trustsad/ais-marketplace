@@ -1,0 +1,29 @@
+{
+  "id": "ar-balance-traverse",
+  "name": "AR Balance Agent (Traverse)",
+  "tagline": "Accurate API-driven Accounts Receivable insights for Business Central customers",
+  "description": "Provides accurate, API-driven Accounts Receivable insights for customers in Business Central via Traverse Global. Answers questions related to sales, payments received, outstanding balances, recent payments, and overdue exposure using verified Customer data. Drills down into Customer Ledger Entries for transaction-level clarity when required.",
+  "industry": [
+    "Discrete Manufacturing",
+    "Process Manufacturing"
+  ],
+  "function": "Finance / AR",
+  "productLine": "Traverse Global",
+  "status": "coming-soon",
+  "flowId": "placeholder",
+  "tags": [
+    "AR",
+    "Balance",
+    "Business Central",
+    "Traverse"
+  ],
+  "emoji": "💳",
+  "iconBg": "#EEEDFE",
+  "rating": 0,
+  "reviews": [],
+  "usageCount": 0,
+  "videoUrl": "",
+  "docsUrl": "",
+  "reviewLinks": [],
+  "featured": false
+}

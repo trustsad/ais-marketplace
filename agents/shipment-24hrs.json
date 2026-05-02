@@ -1,0 +1,30 @@
+{
+  "id": "shipment-24hrs",
+  "name": "Shipment 24hr Agent (Traverse)",
+  "tagline": "Understand shipment activity from the last 24 hours in plain business language",
+  "description": "Pulls shipment activity from the last 24 hours and explains it in business-friendly language — what shipped, what is pending, delivery risk, and overall order health — via Traverse Global and Business Central.",
+  "industry": [
+    "Discrete Manufacturing",
+    "Process Manufacturing",
+    "Logistics"
+  ],
+  "function": "Logistics / TMS",
+  "productLine": "Traverse Global",
+  "status": "coming-soon",
+  "flowId": "placeholder",
+  "tags": [
+    "Shipments",
+    "24hr",
+    "Delivery",
+    "Traverse"
+  ],
+  "emoji": "🚛",
+  "iconBg": "#EFF6FF",
+  "rating": 0,
+  "reviews": [],
+  "usageCount": 0,
+  "videoUrl": "",
+  "docsUrl": "",
+  "reviewLinks": [],
+  "featured": false
+}

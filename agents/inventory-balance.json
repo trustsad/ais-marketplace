@@ -1,0 +1,29 @@
+{
+  "id": "inventory-balance",
+  "name": "Inventory Balance Agent",
+  "tagline": "Real-time inventory balance visibility across locations and warehouses",
+  "description": "Provides real-time inventory balance visibility across all locations and warehouses, answering queries about on-hand quantities, reserved stock, and reorder status through natural language.",
+  "industry": [
+    "Process Manufacturing",
+    "Food & Beverage"
+  ],
+  "function": "Inventory",
+  "productLine": "Ross",
+  "status": "coming-soon",
+  "flowId": "placeholder",
+  "tags": [
+    "Inventory",
+    "Balance",
+    "On-Hand",
+    "Locations"
+  ],
+  "emoji": "🏭",
+  "iconBg": "#FFF8E7",
+  "rating": 0,
+  "reviews": [],
+  "usageCount": 0,
+  "videoUrl": "",
+  "docsUrl": "",
+  "reviewLinks": [],
+  "featured": false
+}

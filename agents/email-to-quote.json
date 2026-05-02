@@ -1,0 +1,29 @@
+{
+  "id": "email-to-quote",
+  "name": "Email to Quote Agent",
+  "tagline": "Automatically create quotes from incoming emails with reference to previous orders",
+  "description": "Automatically creates sales quotes from incoming customer emails, referencing previous orders and pricing agreements to pre-populate quote details and reduce response time.",
+  "industry": [
+    "Discrete Manufacturing",
+    "Process Manufacturing"
+  ],
+  "function": "Sales / CRM",
+  "productLine": "oxaion ERP",
+  "status": "coming-soon",
+  "flowId": "placeholder",
+  "tags": [
+    "Email",
+    "Quote",
+    "Sales",
+    "Automation"
+  ],
+  "emoji": "📧",
+  "iconBg": "#FBEAF0",
+  "rating": 0,
+  "reviews": [],
+  "usageCount": 0,
+  "videoUrl": "",
+  "docsUrl": "",
+  "reviewLinks": [],
+  "featured": false
+}

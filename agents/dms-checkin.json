@@ -1,0 +1,29 @@
+{
+  "id": "dms-checkin",
+  "name": "DMS Check-In Agent",
+  "tagline": "Automatically scan mailboxes, check documents into DMS, and apply object-based tags",
+  "description": "Automatically scans incoming mailboxes, performs DMS check-in of documents, and applies object-based tagging to ensure consistent document classification and retrieval.",
+  "industry": [
+    "Discrete Manufacturing",
+    "Process Manufacturing"
+  ],
+  "function": "Document Management",
+  "productLine": "oxaion ERP",
+  "status": "coming-soon",
+  "flowId": "placeholder",
+  "tags": [
+    "DMS",
+    "Check-In",
+    "Tagging",
+    "Email"
+  ],
+  "emoji": "📁",
+  "iconBg": "#F5F4EF",
+  "rating": 0,
+  "reviews": [],
+  "usageCount": 0,
+  "videoUrl": "",
+  "docsUrl": "",
+  "reviewLinks": [],
+  "featured": false
+}

@@ -1,0 +1,29 @@
+{
+  "id": "detect-trends",
+  "name": "Detect Trends in Historic Data",
+  "tagline": "Review and surface trends from historic ERP data",
+  "description": "Analyses historic ERP data to surface meaningful trends in sales, production, and operational performance, helping planners and managers make informed decisions.",
+  "industry": [
+    "Discrete Manufacturing",
+    "Process Manufacturing"
+  ],
+  "function": "Analytics",
+  "productLine": "oxaion ERP",
+  "status": "live",
+  "flowId": "placeholder",
+  "tags": [
+    "Trends",
+    "Analytics",
+    "History",
+    "Reporting"
+  ],
+  "emoji": "📈",
+  "iconBg": "#E6F1FB",
+  "rating": 4.4,
+  "reviews": [],
+  "usageCount": 17,
+  "videoUrl": "",
+  "docsUrl": "",
+  "reviewLinks": [],
+  "featured": false
+}

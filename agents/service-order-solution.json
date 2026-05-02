@@ -1,0 +1,29 @@
+{
+  "id": "service-order-solution",
+  "name": "Service Order Solution Agent",
+  "tagline": "Intelligently route and resolve service orders with recommended solutions",
+  "description": "Intelligently routes incoming service orders, recommends solutions based on historical resolution data, assigns to appropriate resources, and tracks through to close.",
+  "industry": [
+    "Process Manufacturing",
+    "Discrete Manufacturing"
+  ],
+  "function": "Operations",
+  "productLine": "Ross",
+  "status": "coming-soon",
+  "flowId": "placeholder",
+  "tags": [
+    "Service Orders",
+    "Routing",
+    "Resolution",
+    "Field Service"
+  ],
+  "emoji": "🔧",
+  "iconBg": "#FFF3E0",
+  "rating": 0,
+  "reviews": [],
+  "usageCount": 0,
+  "videoUrl": "",
+  "docsUrl": "",
+  "reviewLinks": [],
+  "featured": false
+}

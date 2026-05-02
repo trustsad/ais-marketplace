@@ -1,0 +1,28 @@
+{
+  "id": "damage-detection-equipsoft",
+  "name": "Damage Detection Agent (Equipsoft)",
+  "tagline": "Equipsoft-native equipment damage analysis with repair cost estimation",
+  "description": "Provides quick and easy analysis of equipment physical damage within Equipsoft. Returns an estimated repair cost, parts required for repair, and approximate labour hours.",
+  "industry": [
+    "Discrete Manufacturing"
+  ],
+  "function": "Operations",
+  "productLine": "Equipsoft",
+  "status": "coming-soon",
+  "flowId": "placeholder",
+  "tags": [
+    "Damage",
+    "Equipment",
+    "Repair Cost",
+    "Equipsoft"
+  ],
+  "emoji": "🔧",
+  "iconBg": "#FFF3E0",
+  "rating": 0,
+  "reviews": [],
+  "usageCount": 0,
+  "videoUrl": "",
+  "docsUrl": "",
+  "reviewLinks": [],
+  "featured": false
+}

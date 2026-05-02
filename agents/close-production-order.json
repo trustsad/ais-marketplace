@@ -1,0 +1,30 @@
+{
+  "id": "close-production-order",
+  "name": "Close the Production Order Agent",
+  "tagline": "Validate, approve, and close production orders through an 8-stage lifecycle",
+  "description": "Validates, approves, and closes released production orders on Microsoft Dynamics 365 Business Central. Runs an 8-stage lifecycle that identifies candidate orders, validates output, consumption, routing, and warehouse completeness, triages exceptions against company-specific thresholds, builds an approval packet, routes fixes, finishes the order, and notifies stakeholders — keeping quality, traceability, and financial integrity intact while removing manual effort from the close workflow.",
+  "industry": [
+    "Food & Beverage",
+    "Discrete Manufacturing",
+    "Process Manufacturing"
+  ],
+  "function": "Operations",
+  "productLine": "Business Central",
+  "status": "live",
+  "flowId": "placeholder",
+  "tags": [
+    "Production Order",
+    "Business Central",
+    "Approval",
+    "Lifecycle"
+  ],
+  "emoji": "✅",
+  "iconBg": "#E1F5EE",
+  "rating": 4.9,
+  "reviews": [],
+  "usageCount": 71,
+  "videoUrl": "",
+  "docsUrl": "",
+  "reviewLinks": [],
+  "featured": true
+}

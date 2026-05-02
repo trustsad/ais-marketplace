@@ -1,0 +1,29 @@
+{
+  "id": "customer-engagement",
+  "name": "Customer Engagement Agent",
+  "tagline": "Drive proactive customer engagement through intelligent outreach and insights",
+  "description": "Drives proactive customer engagement by surfacing account health signals, recommending outreach timing, drafting personalised communications, and tracking engagement outcomes.",
+  "industry": [
+    "Process Manufacturing",
+    "Food & Beverage"
+  ],
+  "function": "Sales / CRM",
+  "productLine": "Ross",
+  "status": "coming-soon",
+  "flowId": "placeholder",
+  "tags": [
+    "Customer",
+    "Engagement",
+    "CRM",
+    "Outreach"
+  ],
+  "emoji": "🤝",
+  "iconBg": "#FBEAF0",
+  "rating": 0,
+  "reviews": [],
+  "usageCount": 0,
+  "videoUrl": "",
+  "docsUrl": "",
+  "reviewLinks": [],
+  "featured": false
+}

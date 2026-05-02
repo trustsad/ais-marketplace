@@ -1,0 +1,29 @@
+{
+  "id": "inventory-abc-analysis",
+  "name": "Inventory ABC Analysis Agent",
+  "tagline": "Classify inventory into ABC tiers based on demand-driven value",
+  "description": "Analyses inventory across the full item base to classify items into A, B, and C tiers based on actual demand-driven value, enabling planners to focus replenishment effort where it matters most.",
+  "industry": [
+    "Food & Beverage",
+    "Discrete Manufacturing"
+  ],
+  "function": "Inventory",
+  "productLine": "Aptean Food & Beverage ERP",
+  "status": "coming-soon",
+  "flowId": "placeholder",
+  "tags": [
+    "ABC",
+    "Inventory",
+    "Classification",
+    "Replenishment"
+  ],
+  "emoji": "📊",
+  "iconBg": "#FFF8E7",
+  "rating": 0,
+  "reviews": [],
+  "usageCount": 0,
+  "videoUrl": "",
+  "docsUrl": "",
+  "reviewLinks": [],
+  "featured": false
+}

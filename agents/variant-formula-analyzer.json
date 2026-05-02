@@ -1,0 +1,29 @@
+{
+  "id": "variant-formula-analyzer",
+  "name": "Variant Formula Analyzer",
+  "tagline": "Create and validate formula syntax for article variants",
+  "description": "Creates and validates formula syntax for article variants, ensuring configuration rules are correctly defined and reducing errors in variant-driven production and pricing.",
+  "industry": [
+    "Discrete Manufacturing",
+    "Process Manufacturing"
+  ],
+  "function": "Operations",
+  "productLine": "oxaion ERP",
+  "status": "live",
+  "flowId": "placeholder",
+  "tags": [
+    "Variants",
+    "Formula",
+    "Configuration",
+    "Articles"
+  ],
+  "emoji": "⚗️",
+  "iconBg": "#E1F5EE",
+  "rating": 4.3,
+  "reviews": [],
+  "usageCount": 11,
+  "videoUrl": "",
+  "docsUrl": "",
+  "reviewLinks": [],
+  "featured": false
+}

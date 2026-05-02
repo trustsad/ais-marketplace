@@ -1,0 +1,28 @@
+{
+  "id": "call-status-update",
+  "name": "Call Check / Status Update Agent",
+  "tagline": "Provide shipment status and ETA via natural language queries",
+  "description": "Provides real-time status of shipments and estimated time of arrival through natural language queries, eliminating manual tracking lookups for operations and customer service teams.",
+  "industry": [
+    "Logistics"
+  ],
+  "function": "Logistics / TMS",
+  "productLine": "TLX",
+  "status": "coming-soon",
+  "flowId": "placeholder",
+  "tags": [
+    "Shipment",
+    "Status",
+    "ETA",
+    "TMS"
+  ],
+  "emoji": "📡",
+  "iconBg": "#EFF6FF",
+  "rating": 0,
+  "reviews": [],
+  "usageCount": 0,
+  "videoUrl": "",
+  "docsUrl": "",
+  "reviewLinks": [],
+  "featured": false
+}

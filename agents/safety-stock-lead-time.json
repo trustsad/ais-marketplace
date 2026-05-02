@@ -1,0 +1,30 @@
+{
+  "id": "safety-stock-lead-time",
+  "name": "Safety Stock and Lead Time Analysis Agent",
+  "tagline": "Generate data-driven safety stock recommendations from 12 months of demand history",
+  "description": "Evaluates 12 months of demand variability, supplier and manufacturing lead-time performance, and stockout history to generate data-driven safety stock recommendations with transparent rationale and confidence levels.",
+  "industry": [
+    "Food & Beverage",
+    "Discrete Manufacturing",
+    "Process Manufacturing"
+  ],
+  "function": "Inventory",
+  "productLine": "Aptean Food & Beverage ERP",
+  "status": "live",
+  "flowId": "placeholder",
+  "tags": [
+    "Safety Stock",
+    "Lead Time",
+    "Demand",
+    "Stockout"
+  ],
+  "emoji": "🧮",
+  "iconBg": "#FFF8E7",
+  "rating": 4.8,
+  "reviews": [],
+  "usageCount": 54,
+  "videoUrl": "",
+  "docsUrl": "",
+  "reviewLinks": [],
+  "featured": false
+}

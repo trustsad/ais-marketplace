@@ -1,0 +1,28 @@
+{
+  "id": "sales-push-expiration",
+  "name": "Sales Push Agent",
+  "tagline": "Identify expiring inventory and recommend pricing to protect margin and reduce waste",
+  "description": "Identifies inventory nearing expiration, cross-references live market shortage data to optimize pricing, and outputs item-level price recommendations that protect margin and reduce waste.",
+  "industry": [
+    "Food & Beverage"
+  ],
+  "function": "Sales / CRM",
+  "productLine": "Aptean Food & Beverage ERP",
+  "status": "live",
+  "flowId": "placeholder",
+  "tags": [
+    "Expiration",
+    "Pricing",
+    "Inventory",
+    "Margin"
+  ],
+  "emoji": "📣",
+  "iconBg": "#FBEAF0",
+  "rating": 4.6,
+  "reviews": [],
+  "usageCount": 34,
+  "videoUrl": "",
+  "docsUrl": "",
+  "reviewLinks": [],
+  "featured": false
+}

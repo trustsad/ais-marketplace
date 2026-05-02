@@ -1,0 +1,29 @@
+{
+  "id": "financial-accounting-document",
+  "name": "Financial Accounting Document Assistant",
+  "tagline": "Upload receipts via mobile and post directly to the appropriate accounting system",
+  "description": "Receipts are uploaded via mobile phone or app and posted directly to the appropriate system — incoming invoice ledger or cash book — eliminating manual data entry and accelerating close processes.",
+  "industry": [
+    "Discrete Manufacturing",
+    "Process Manufacturing"
+  ],
+  "function": "Finance / AR",
+  "productLine": "oxaion ERP",
+  "status": "coming-soon",
+  "flowId": "placeholder",
+  "tags": [
+    "Receipts",
+    "Mobile",
+    "Accounting",
+    "Automation"
+  ],
+  "emoji": "📱",
+  "iconBg": "#EEEDFE",
+  "rating": 0,
+  "reviews": [],
+  "usageCount": 0,
+  "videoUrl": "",
+  "docsUrl": "",
+  "reviewLinks": [],
+  "featured": false
+}

@@ -30,17 +30,27 @@ const industryColors: Record<string, { bg: string; color: string }> = {
 };
 
 const productLineColors: Record<string, { bg: string; color: string }> = {
-  'Business Central': { bg: '#EBF4FF', color: '#0078D4' },
-  'JustFoodERP':      { bg: '#ECFDF5', color: '#1D9E75' },
-  'bcFood':           { bg: '#ECFDF5', color: '#2BAE80' },
-  'Food & Beverage':  { bg: '#ECFDF5', color: '#3DBE6E' },
-  'Apparel':          { bg: '#FDF2F8', color: '#C0397A' },
-  'Equipment':        { bg: '#FFFBEB', color: '#D97706' },
-  'Travers':          { bg: '#F5F3FF', color: '#7C3AED' },
-  'Made2Manage':      { bg: '#FFFBEB', color: '#B45309' },
-  'M2M':              { bg: '#FFFBEB', color: '#B45309' },
-  'ProcessPro':       { bg: '#EFF6FF', color: '#0369A1' },
-  'Ross':             { bg: '#FEF2F2', color: '#DC2626' },
+  'Business Central':           { bg: '#EBF4FF', color: '#0078D4' },
+  'JustFoodERP':                { bg: '#ECFDF5', color: '#1D9E75' },
+  'bcFood':                     { bg: '#ECFDF5', color: '#2BAE80' },
+  'Food & Beverage':            { bg: '#ECFDF5', color: '#3DBE6E' },
+  'Apparel':                    { bg: '#FDF2F8', color: '#C0397A' },
+  'Equipment':                  { bg: '#FFFBEB', color: '#D97706' },
+  'Travers':                    { bg: '#F5F3FF', color: '#7C3AED' },
+  'Traverse Global':            { bg: '#EDE9FE', color: '#6D28D9' },
+  'Made2Manage':                { bg: '#FFFBEB', color: '#B45309' },
+  'M2M':                        { bg: '#FFFBEB', color: '#B45309' },
+  'ProcessPro':                 { bg: '#EFF6FF', color: '#0369A1' },
+  'Ross':                       { bg: '#FEF2F2', color: '#DC2626' },
+  'Mistral ERP':                { bg: '#FAF5FF', color: '#9333EA' },
+  'oxaion ERP':                 { bg: '#ECFEFF', color: '#0891B2' },
+  'Apparel Next Gen':           { bg: '#FDF2F8', color: '#DB2777' },
+  'Aptean Food & Beverage ERP': { bg: '#F0FDF4', color: '#15803D' },
+  'Equipment DMS':              { bg: '#FFFBEB', color: '#D97706' },
+  'Equipsoft':                  { bg: '#FEF3C7', color: '#B45309' },
+  'Lascom PLM':                 { bg: '#E0F2FE', color: '#0284C7' },
+  'Logility - DAI+':            { bg: '#F5F3FF', color: '#7C3AED' },
+  'TLX':                        { bg: '#ECFDF5', color: '#059669' },
 };
 
 export default function AgentCard({ agent }: { agent: Agent }) {

@@ -1,0 +1,28 @@
+{
+  "id": "style-performance-analyzer",
+  "name": "Style Performance Analyzer",
+  "tagline": "Surface style-level performance signals across sales, margin, and inventory",
+  "description": "Surfaces style-level performance signals across sales, margin, and inventory data to deliver actionable insights that improve sell-through, inventory turnover, and seasonal exit decisions.",
+  "industry": [
+    "Apparel"
+  ],
+  "function": "Analytics",
+  "productLine": "Apparel Next Gen",
+  "status": "live",
+  "flowId": "placeholder",
+  "tags": [
+    "Sales",
+    "Margin",
+    "Inventory",
+    "Sell-Through"
+  ],
+  "emoji": "📈",
+  "iconBg": "#E6F1FB",
+  "rating": 4.8,
+  "reviews": [],
+  "usageCount": 44,
+  "videoUrl": "",
+  "docsUrl": "",
+  "reviewLinks": [],
+  "featured": true
+}

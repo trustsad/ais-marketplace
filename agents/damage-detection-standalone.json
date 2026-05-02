@@ -1,0 +1,28 @@
+{
+  "id": "damage-detection-standalone",
+  "name": "Damage Detection Agent (Stand Alone)",
+  "tagline": "Standalone equipment damage analysis with repair cost and parts estimation",
+  "description": "Provides quick and easy analysis of equipment physical damage through a standalone interface. Returns an estimated repair cost, parts required for repair, and approximate labour hours.",
+  "industry": [
+    "Discrete Manufacturing"
+  ],
+  "function": "Operations",
+  "productLine": "Equipment DMS",
+  "status": "live",
+  "flowId": "placeholder",
+  "tags": [
+    "Damage",
+    "Equipment",
+    "Repair Cost",
+    "Standalone"
+  ],
+  "emoji": "🔧",
+  "iconBg": "#FFF3E0",
+  "rating": 4.6,
+  "reviews": [],
+  "usageCount": 22,
+  "videoUrl": "",
+  "docsUrl": "",
+  "reviewLinks": [],
+  "featured": false
+}

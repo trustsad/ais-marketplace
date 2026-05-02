@@ -1,0 +1,29 @@
+{
+  "id": "inventory-lot-risk",
+  "name": "Inventory Lot Risk Agent",
+  "tagline": "Proactively track inventory nearing expiration and recommend disposal or reallocation",
+  "description": "Proactively tracks inventory nearing expiration, identifies impacted lots, and recommends actions such as reallocation, priority usage, or disposal. Continuously scans inventory and predicts expiry risk based on usage patterns and shelf life data.",
+  "industry": [
+    "Food & Beverage",
+    "Life Sciences"
+  ],
+  "function": "Inventory",
+  "productLine": "Aptean Food & Beverage ERP",
+  "status": "coming-soon",
+  "flowId": "placeholder",
+  "tags": [
+    "Lot Risk",
+    "Expiration",
+    "Shelf Life",
+    "Disposal"
+  ],
+  "emoji": "⚠️",
+  "iconBg": "#FFF8E7",
+  "rating": 0,
+  "reviews": [],
+  "usageCount": 0,
+  "videoUrl": "",
+  "docsUrl": "",
+  "reviewLinks": [],
+  "featured": false
+}

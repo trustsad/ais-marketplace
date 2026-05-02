@@ -1,0 +1,29 @@
+{
+  "id": "order-engagement",
+  "name": "Order Engagement Agent",
+  "tagline": "Proactively manage order status, exceptions, and customer communications",
+  "description": "Proactively manages order status updates, surfaces exceptions requiring attention, and facilitates customer communications around order changes, delays, or fulfilment issues.",
+  "industry": [
+    "Process Manufacturing",
+    "Food & Beverage"
+  ],
+  "function": "Sales / CRM",
+  "productLine": "Ross",
+  "status": "coming-soon",
+  "flowId": "placeholder",
+  "tags": [
+    "Orders",
+    "Status",
+    "Exceptions",
+    "Fulfilment"
+  ],
+  "emoji": "📋",
+  "iconBg": "#FBEAF0",
+  "rating": 0,
+  "reviews": [],
+  "usageCount": 0,
+  "videoUrl": "",
+  "docsUrl": "",
+  "reviewLinks": [],
+  "featured": false
+}

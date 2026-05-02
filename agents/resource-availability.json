@@ -1,0 +1,29 @@
+{
+  "id": "resource-availability",
+  "name": "Resource Availability Agent",
+  "tagline": "Check and manage resource availability across production and project schedules",
+  "description": "Provides a real-time view of resource availability across production lines, work centres, and project assignments, helping schedulers avoid bottlenecks and optimise capacity utilisation.",
+  "industry": [
+    "Discrete Manufacturing",
+    "Process Manufacturing"
+  ],
+  "function": "Planning & Forecasting",
+  "productLine": "Made2Manage",
+  "status": "coming-soon",
+  "flowId": "placeholder",
+  "tags": [
+    "Resources",
+    "Capacity",
+    "Scheduling",
+    "Production"
+  ],
+  "emoji": "👥",
+  "iconBg": "#E8F5E9",
+  "rating": 0,
+  "reviews": [],
+  "usageCount": 0,
+  "videoUrl": "",
+  "docsUrl": "",
+  "reviewLinks": [],
+  "featured": false
+}

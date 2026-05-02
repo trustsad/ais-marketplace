@@ -1,0 +1,29 @@
+{
+  "id": "recipe-formulation-costing",
+  "name": "Recipe Formulation Costing Agent",
+  "tagline": "Cost and analyse recipe formulations across ingredients and production scenarios",
+  "description": "Provides real-time costing analysis for recipe formulations, enabling food manufacturers to evaluate ingredient substitutions, batch size impacts, and cost-per-unit across production scenarios.",
+  "industry": [
+    "Food & Beverage",
+    "Process Manufacturing"
+  ],
+  "function": "Operations",
+  "productLine": "Aptean Food & Beverage ERP",
+  "status": "live",
+  "flowId": "placeholder",
+  "tags": [
+    "Recipe",
+    "Costing",
+    "Ingredients",
+    "BOM"
+  ],
+  "emoji": "🧮",
+  "iconBg": "#E1F5EE",
+  "rating": 4.5,
+  "reviews": [],
+  "usageCount": 28,
+  "videoUrl": "",
+  "docsUrl": "",
+  "reviewLinks": [],
+  "featured": false
+}

@@ -1,0 +1,30 @@
+{
+  "id": "known-bug-agent",
+  "name": "Known Bug Agent",
+  "tagline": "Analyse BC user errors against known DevOps issues and recommend workarounds",
+  "description": "Analyses Business Central user errors against a database of known issues in DevOps, surfaces matching bugs, and provides recommendations and workarounds to resolve them quickly.",
+  "industry": [
+    "Food & Beverage",
+    "Discrete Manufacturing",
+    "Apparel"
+  ],
+  "function": "Operations",
+  "productLine": "Business Central",
+  "status": "coming-soon",
+  "flowId": "placeholder",
+  "tags": [
+    "Bug",
+    "DevOps",
+    "Business Central",
+    "Workarounds"
+  ],
+  "emoji": "🐛",
+  "iconBg": "#FCEBEB",
+  "rating": 0,
+  "reviews": [],
+  "usageCount": 0,
+  "videoUrl": "",
+  "docsUrl": "",
+  "reviewLinks": [],
+  "featured": false
+}

@@ -1,0 +1,28 @@
+{
+  "id": "style-tags-bc",
+  "name": "Style Tags Agent",
+  "tagline": "Auto-generate product attribute tags from style details and product images",
+  "description": "Automatically generates product attribute tags from style details, descriptions, category data, and product images — ensuring consistent, searchable metadata without manual data entry.",
+  "industry": [
+    "Apparel"
+  ],
+  "function": "Style Management",
+  "productLine": "Apparel Next Gen",
+  "status": "live",
+  "flowId": "placeholder",
+  "tags": [
+    "Tags",
+    "Metadata",
+    "Style Card",
+    "Images"
+  ],
+  "emoji": "🏷️",
+  "iconBg": "#FDF2F8",
+  "rating": 4.6,
+  "reviews": [],
+  "usageCount": 41,
+  "videoUrl": "",
+  "docsUrl": "",
+  "reviewLinks": [],
+  "featured": false
+}

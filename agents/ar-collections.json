@@ -1,0 +1,29 @@
+{
+  "id": "ar-collections",
+  "name": "AR Collections Agent",
+  "tagline": "Automate and prioritise accounts receivable collections workflows",
+  "description": "Automates and prioritises accounts receivable collections by identifying overdue accounts, recommending follow-up actions, drafting collection communications, and tracking payment commitments.",
+  "industry": [
+    "Process Manufacturing",
+    "Food & Beverage"
+  ],
+  "function": "Finance / AR",
+  "productLine": "Ross",
+  "status": "coming-soon",
+  "flowId": "placeholder",
+  "tags": [
+    "AR",
+    "Collections",
+    "Overdue",
+    "Payments"
+  ],
+  "emoji": "💳",
+  "iconBg": "#EEEDFE",
+  "rating": 0,
+  "reviews": [],
+  "usageCount": 0,
+  "videoUrl": "",
+  "docsUrl": "",
+  "reviewLinks": [],
+  "featured": false
+}

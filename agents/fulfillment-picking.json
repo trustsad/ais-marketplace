@@ -1,0 +1,30 @@
+{
+  "id": "fulfillment-picking",
+  "name": "Fulfillment and Picking Agent",
+  "tagline": "Optimize order fulfillment and picking workflows across open orders",
+  "description": "Optimizes order fulfillment and picking workflows by recommending the most efficient pick sequences and allocation strategies across open orders.",
+  "industry": [
+    "Food & Beverage",
+    "Discrete Manufacturing",
+    "Logistics"
+  ],
+  "function": "Operations",
+  "productLine": "Aptean Food & Beverage ERP",
+  "status": "live",
+  "flowId": "placeholder",
+  "tags": [
+    "Fulfillment",
+    "Picking",
+    "Warehouse",
+    "Allocation"
+  ],
+  "emoji": "📦",
+  "iconBg": "#FAEEDA",
+  "rating": 4.5,
+  "reviews": [],
+  "usageCount": 47,
+  "videoUrl": "",
+  "docsUrl": "",
+  "reviewLinks": [],
+  "featured": false
+}
