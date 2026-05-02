@@ -1,6 +1,7 @@
 'use client';
 
 import Link from 'next/link';
+import { ShoppingCart, Check, Play, BookOpen, Clock } from 'lucide-react';
 import { useCart } from './CartContext';
 import type { Agent } from '@/lib/agents';
 
@@ -127,49 +128,58 @@ export default function AgentCard({ agent }: { agent: Agent }) {
 
       {/* CTA buttons */}
       <div style={{ display: 'flex', flexDirection: 'column', gap: '7px', marginTop: 'auto' }}>
-        <div style={{ display: 'flex', gap: '7px' }}>
-          {agent.status === 'live' ? (
-            <Link href={`/agents/${agent.id}`} style={{
-              flex: 1, padding: '9px 0', borderRadius: '8px',
-              background: '#7F77DD', color: '#fff', fontSize: '12px',
-              fontWeight: 600, textAlign: 'center', textDecoration: 'none',
-              display: 'block',
-            }}>
-              Try it →
-            </Link>
-          ) : (
-            <div style={{
-              flex: 1, padding: '9px 0', borderRadius: '8px',
-              background: '#f5f4ef', color: '#aaa', fontSize: '12px',
-              fontWeight: 600, textAlign: 'center', border: '1px solid #e2e0d8',
-            }}>
-              Coming soon
-            </div>
-          )}
 
+        {/* Row 1: Try it (full width) */}
+        {agent.status === 'live' ? (
+          <Link href={`/agents/${agent.id}`} style={{
+            display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '6px',
+            padding: '9px 0', borderRadius: '8px', background: '#7F77DD',
+            color: '#fff', fontSize: '12px', fontWeight: 600, textDecoration: 'none',
+          }}>
+            <Play size={13} fill="currentColor" />
+            Try it
+          </Link>
+        ) : (
+          <div style={{
+            display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '6px',
+            padding: '9px 0', borderRadius: '8px', background: '#f5f4ef',
+            color: '#aaa', fontSize: '12px', fontWeight: 600, border: '1px solid #e2e0d8',
+          }}>
+            <Clock size={13} />
+            Coming soon
+          </div>
+        )}
+
+        {/* Row 2: Add to cart + Learn more */}
+        <div style={{ display: 'flex', gap: '7px' }}>
           <button
             onClick={() => inCart ? removeItem(agent.id) : addItem({ id: agent.id, name: agent.name })}
-            title={inCart ? 'Remove from enquiry' : 'Add to enquiry'}
             style={{
-              width: '38px', height: '38px', borderRadius: '8px', border: '1px solid',
+              flex: 1, display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '5px',
+              padding: '7px 0', borderRadius: '8px', border: '1px solid',
               borderColor: inCart ? '#7F77DD' : '#d8d6ce',
               background: inCart ? '#EEEDFE' : '#fff',
-              color: inCart ? '#7F77DD' : '#888',
-              cursor: 'pointer', fontSize: '16px', flexShrink: 0,
-              display: 'flex', alignItems: 'center', justifyContent: 'center',
+              color: inCart ? '#7F77DD' : '#666',
+              fontSize: '11px', fontWeight: 600, cursor: 'pointer',
+              transition: 'all 0.15s',
             }}
           >
-            {inCart ? '✓' : '+'}
+            {inCart
+              ? <><Check size={12} /> Added</>
+              : <><ShoppingCart size={12} /> Add to enquiry</>}
           </button>
+
+          <Link href={`/agents/${agent.id}`} style={{
+            flex: 1, display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '5px',
+            padding: '7px 0', borderRadius: '8px', border: '1px solid #d8d6ce',
+            background: '#fff', color: '#666', fontSize: '11px', fontWeight: 600,
+            textDecoration: 'none',
+          }}>
+            <BookOpen size={12} />
+            Learn more
+          </Link>
         </div>
 
-        <Link href={`/agents/${agent.id}`} style={{
-          padding: '7px 0', borderRadius: '8px', border: '1px solid #d8d6ce',
-          background: '#fff', color: '#555', fontSize: '12px',
-          textAlign: 'center', textDecoration: 'none', display: 'block',
-        }}>
-          Learn more
-        </Link>
       </div>
     </div>
   );
