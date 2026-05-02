@@ -1,26 +1,26 @@
 {
   "id": "training-opportunities",
-  "name": "Working with Training Opportunities",
-  "tagline": "Retrieve and review ERP training opportunities for your team",
-  "description": "Retrieves and surfaces training opportunities within the ERP system, helping teams identify skill gaps and relevant learning resources.",
+  "name": "Training Opportunities Agent",
+  "tagline": "Retrieve and review available training opportunities within Logility",
+  "description": "Retrieves and presents training opportunities within the Logility platform, helping users discover relevant courses, certifications, and skill-building resources to maximize their planning capabilities.",
   "industry": [
-    "Discrete Manufacturing",
-    "Process Manufacturing"
+    "Food & Beverage"
   ],
   "function": "Operations",
-  "productLine": "oxaion ERP",
+  "productLine": "Logility - DAI+",
   "status": "live",
   "flowId": "placeholder",
   "tags": [
     "Training",
     "Learning",
-    "ERP"
+    "Logility",
+    "Courses"
   ],
   "emoji": "🎓",
   "iconBg": "#E6F1FB",
-  "rating": 4.2,
+  "rating": 4.4,
   "reviews": [],
-  "usageCount": 11,
+  "usageCount": 19,
   "videoUrl": "",
   "docsUrl": "",
   "reviewLinks": [],

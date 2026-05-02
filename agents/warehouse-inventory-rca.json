@@ -1,25 +1,24 @@
 {
   "id": "warehouse-inventory-rca",
   "name": "Warehouse Inventory RCA Agent",
-  "tagline": "Identify root causes of inventory discrepancies and warehouse variances",
-  "description": "Analyses warehouse inventory discrepancies, cycle count variances, and shrinkage patterns to identify root causes and recommend corrective actions that improve inventory accuracy.",
+  "tagline": "Diagnose warehouse inventory discrepancies with root-cause analysis",
+  "description": "Diagnoses warehouse inventory discrepancies, shrinkage, and cycle count variances with structured root-cause analysis—surfacing process gaps and recommending corrective actions to restore inventory accuracy.",
   "industry": [
-    "Food & Beverage",
-    "Discrete Manufacturing"
+    "Food & Beverage"
   ],
   "function": "Quality / RCA",
   "productLine": "Aptean Food & Beverage ERP",
   "status": "live",
   "flowId": "placeholder",
   "tags": [
-    "Inventory",
     "Warehouse",
+    "Inventory",
     "RCA",
     "Cycle Count"
   ],
-  "emoji": "🔍",
+  "emoji": "🏭",
   "iconBg": "#FCEBEB",
-  "rating": 4.5,
+  "rating": 4.7,
   "reviews": [],
   "usageCount": 33,
   "videoUrl": "",

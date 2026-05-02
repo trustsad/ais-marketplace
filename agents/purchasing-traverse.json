@@ -1,0 +1,28 @@
+{
+  "id": "purchasing-traverse",
+  "name": "Purchasing Agent",
+  "tagline": "Flag late POs, send supplier reminders, and surface actionable procurement tasks",
+  "description": "Manages the purchase order workspace by flagging late POs, sending supplier reminders, and surfacing actionable procurement tasks to keep supply timelines on track.",
+  "industry": [
+    "Food & Beverage"
+  ],
+  "function": "Procurement",
+  "productLine": "Traverse Global",
+  "status": "live",
+  "flowId": "placeholder",
+  "tags": [
+    "Purchase Orders",
+    "Procurement",
+    "Supplier",
+    "PO Tracking"
+  ],
+  "emoji": "🛒",
+  "iconBg": "#FAEEDA",
+  "rating": 4.6,
+  "reviews": [],
+  "usageCount": 39,
+  "videoUrl": "https://play.vidyard.com/jDbi3x9FtB389Xx7d6bZaB",
+  "docsUrl": "",
+  "reviewLinks": [],
+  "featured": false
+}

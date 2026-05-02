@@ -1,10 +1,10 @@
 {
   "id": "mistral-online-help",
-  "name": "Mistral Intelligent Online Help",
-  "tagline": "Chatbot providing contextual online help and guidelines within Mistral ERP",
-  "description": "Provides contextual online help and guidelines through a chatbot interface embedded in Mistral ERP, answering user questions about features, processes, and workflows in real time.",
+  "name": "Mistral Intelligent Online Help Agent",
+  "tagline": "Contextual help and guidelines when using Mistral ERP",
+  "description": "Provides contextual online help and guidelines through a chatbot interface embedded in Mistral ERP—answering how-to questions, explaining features, and guiding users through complex workflows.",
   "industry": [
-    "Discrete Manufacturing"
+    "Food & Beverage"
   ],
   "function": "Operations",
   "productLine": "Mistral ERP",
@@ -14,11 +14,11 @@
     "Help",
     "Chatbot",
     "Mistral",
-    "Guidelines"
+    "User Guide"
   ],
   "emoji": "💬",
-  "iconBg": "#F5F4EF",
-  "rating": 0,
+  "iconBg": "#FAF5FF",
+  "rating": 4.5,
   "reviews": [],
   "usageCount": 0,
   "videoUrl": "",

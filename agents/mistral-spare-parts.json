@@ -1,10 +1,10 @@
 {
   "id": "mistral-spare-parts",
-  "name": "Mistral Spare Part Catalog Update",
-  "tagline": "Automatically integrate and update parts catalogs with intelligent column mapping",
-  "description": "Automates the integration and updating of spare parts catalogs within Mistral ERP, including intelligent automatic column mapping to reduce manual data entry.",
+  "name": "Mistral Spare Part Catalog Update Agent",
+  "tagline": "Automatically integrate and update parts catalog with intelligent column mapping",
+  "description": "Automates the integration and updating of the spare parts catalog in Mistral ERP with intelligent column mapping—eliminating manual data entry and ensuring catalog accuracy.",
   "industry": [
-    "Discrete Manufacturing"
+    "Food & Beverage"
   ],
   "function": "Operations",
   "productLine": "Mistral ERP",
@@ -13,12 +13,12 @@
   "tags": [
     "Spare Parts",
     "Catalog",
-    "Mistral",
-    "Integration"
+    "Automation",
+    "Mistral"
   ],
   "emoji": "🔩",
-  "iconBg": "#F5F4EF",
-  "rating": 0,
+  "iconBg": "#FAF5FF",
+  "rating": 4.4,
   "reviews": [],
   "usageCount": 0,
   "videoUrl": "",

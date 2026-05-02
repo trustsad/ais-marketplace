@@ -4,26 +4,24 @@
   "tagline": "Reclassify ABC inventory codes using actual demand-driven value",
   "description": "Reclassifies ABC inventory codes using actual demand-driven value, enabling planners to prioritize high-impact items and optimize replenishment effort across the inventory base.",
   "industry": [
-    "Food & Beverage",
-    "Discrete Manufacturing",
-    "Process Manufacturing"
+    "Food & Beverage"
   ],
-  "function": "Inventory",
-  "productLine": "Aptean Food & Beverage ERP",
+  "function": "Supply Chain / Planning",
+  "productLine": "Made2Manage",
   "status": "live",
   "flowId": "placeholder",
   "tags": [
     "ABC Analysis",
     "Inventory",
-    "Replenishment",
-    "Planning"
+    "Classification",
+    "Replenishment"
   ],
-  "emoji": "📊",
-  "iconBg": "#FFF8E7",
+  "emoji": "🔢",
+  "iconBg": "#E1F5EE",
   "rating": 4.6,
   "reviews": [],
-  "usageCount": 37,
-  "videoUrl": "",
+  "usageCount": 31,
+  "videoUrl": "https://play.vidyard.com/pocBwRMGb4k3grWB1rqttK",
   "docsUrl": "",
   "reviewLinks": [],
   "featured": false

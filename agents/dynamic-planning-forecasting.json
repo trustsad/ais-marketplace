@@ -1,29 +1,27 @@
 {
   "id": "dynamic-planning-forecasting",
-  "name": "Dynamic Planning and Forecasting",
-  "tagline": "Replicate MPS/MRP planning to generate optimal supply plans through natural conversation",
-  "description": "Replicates the MPS/MRP planning engine to generate, validate, and execute optimal supply plans — converting demand signals into actionable purchase orders, production orders, and transfers through natural conversation.",
+  "name": "Dynamic Planning and Forecasting Agent",
+  "tagline": "Replicate MPS/MRP to generate optimal supply plans through natural conversation",
+  "description": "Replicates the MPS/MRP planning engine to generate, validate, and execute optimal supply plans—converting demand signals into actionable purchase orders, production orders, and transfers through natural conversation.",
   "industry": [
-    "Food & Beverage",
-    "Process Manufacturing",
-    "Discrete Manufacturing"
+    "Food & Beverage"
   ],
-  "function": "Planning & Forecasting",
-  "productLine": "Logility - DAI+",
+  "function": "Supply Chain / Planning",
+  "productLine": "Aptean Food & Beverage ERP",
   "status": "live",
   "flowId": "placeholder",
   "tags": [
     "MPS",
     "MRP",
-    "Supply Plan",
-    "Demand"
+    "Forecasting",
+    "Supply Plan"
   ],
-  "emoji": "📅",
-  "iconBg": "#E8F5E9",
-  "rating": 4.8,
+  "emoji": "📦",
+  "iconBg": "#E1F5EE",
+  "rating": 4.9,
   "reviews": [],
-  "usageCount": 67,
-  "videoUrl": "",
+  "usageCount": 89,
+  "videoUrl": "https://play.vidyard.com/wPsQfBGbQJN94nZrgcfiFW",
   "docsUrl": "",
   "reviewLinks": [],
   "featured": true

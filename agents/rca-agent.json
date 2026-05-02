@@ -1,12 +1,10 @@
 {
   "id": "rca-agent",
   "name": "Root Cause Analysis (RCA) Agent",
-  "tagline": "Identify root causes of quality and production issues with statistical rigour",
-  "description": "Applies statistical analysis including z-score and chi-square methods to identify root causes of quality deviations, production failures, and supply chain disruptions — surfacing actionable corrective recommendations.",
+  "tagline": "Diagnose quality failures with structured root-cause analysis workflows",
+  "description": "Guides quality and operations teams through structured root-cause analysis for production failures, non-conformances, and customer complaints—surfacing corrective actions and preventing recurrence.",
   "industry": [
-    "Food & Beverage",
-    "Process Manufacturing",
-    "Life Sciences"
+    "Food & Beverage"
   ],
   "function": "Quality / RCA",
   "productLine": "Aptean Food & Beverage ERP",
@@ -15,14 +13,14 @@
   "tags": [
     "RCA",
     "Quality",
-    "Statistics",
-    "Corrective Action"
+    "Non-conformance",
+    "CAPA"
   ],
-  "emoji": "🚨",
+  "emoji": "🔬",
   "iconBg": "#FCEBEB",
-  "rating": 4.7,
+  "rating": 4.8,
   "reviews": [],
-  "usageCount": 46,
+  "usageCount": 61,
   "videoUrl": "",
   "docsUrl": "",
   "reviewLinks": [],

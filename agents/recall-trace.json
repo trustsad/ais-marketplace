@@ -1,24 +1,28 @@
 {
   "id": "recall-trace",
-  "name": "Recall & Trace Expert",
-  "tagline": "Full forward/backward lot traceability and regulatory recall support",
-  "description": "The Recall & Trace Expert provides end-to-end lot traceability across your supply chain. It performs forward traces (where did this lot go?) and backward traces (what went into this batch?), identifies all affected finished goods, estimates recall scope by customer and shipment, and generates regulatory-ready summaries. Designed for Food & Beverage and Life Sciences companies where traceability is non-negotiable.",
-  "industry": ["Food & Beverage", "Life Sciences"],
+  "name": "Recall and Trace Agent",
+  "tagline": "Execute forward and backward lot traceability for rapid recall response",
+  "description": "Executes forward and backward lot traceability across the supply chain, instantly identifying affected batches, customers, and suppliers to support rapid recall response and regulatory reporting.",
+  "industry": [
+    "Food & Beverage"
+  ],
   "function": "Traceability",
-  "productLine": "Business Central",
+  "productLine": "Aptean Food & Beverage ERP",
   "status": "live",
   "flowId": "placeholder",
-  "tags": ["Lot tracking", "Item Ledger", "F&B / LS"],
-  "emoji": "🔬",
-  "iconBg": "#E1F5EE",
-  "rating": 4.6,
-  "reviews": [
-    { "author": "Quality Director, FreshFarm Co.", "stars": 5, "comment": "Traced a full lot recall in under 2 minutes. Previously took half a day with spreadsheets." },
-    { "author": "Regulatory Affairs, BioMed Inc.", "stars": 4, "comment": "Excellent for backward traces. Forward trace granularity could improve slightly." }
+  "tags": [
+    "Recall",
+    "Lot Traceability",
+    "FSMA",
+    "Batch"
   ],
-  "usageCount": 89,
+  "emoji": "🔗",
+  "iconBg": "#E0F5F5",
+  "rating": 4.9,
+  "reviews": [],
+  "usageCount": 77,
   "videoUrl": "",
   "docsUrl": "",
   "reviewLinks": [],
-  "featured": false
+  "featured": true
 }

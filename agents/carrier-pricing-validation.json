@@ -1,12 +1,12 @@
 {
   "id": "carrier-pricing-validation",
-  "name": "Carrier Pricing Agreement Validation",
-  "tagline": "Translate carrier pricing agreements into structured contract data",
-  "description": "Translates carrier pricing agreements into structured contract JSON/SQL values, automating the entry and validation of rate schedules and reducing manual contract management effort.",
+  "name": "Carrier Pricing Validation Agent",
+  "tagline": "Translate pricing agreements to structured contract data for validation",
+  "description": "Translates pricing agreement documents into structured contract JSON or SQL values for validation and entry—ensuring carrier contracts are accurately reflected in the TMS.",
   "industry": [
-    "Logistics"
+    "Food & Beverage"
   ],
-  "function": "Logistics / TMS",
+  "function": "Operations",
   "productLine": "TLX",
   "status": "coming-soon",
   "flowId": "placeholder",
@@ -14,11 +14,11 @@
     "Carrier",
     "Pricing",
     "Contract",
-    "Rates"
+    "TMS"
   ],
-  "emoji": "📜",
-  "iconBg": "#EFF6FF",
-  "rating": 0,
+  "emoji": "📑",
+  "iconBg": "#E0F5F5",
+  "rating": 4.4,
   "reviews": [],
   "usageCount": 0,
   "videoUrl": "",

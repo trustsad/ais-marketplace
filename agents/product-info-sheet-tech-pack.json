@@ -2,7 +2,7 @@
   "id": "product-info-sheet-tech-pack",
   "name": "Product Info Sheet from Tech Pack",
   "tagline": "Auto-generate five customer-ready deliverables from uploaded Tech Pack PDFs",
-  "description": "Analyzes uploaded Tech Pack PDFs and automatically generates five customer-ready deliverables — Product Info Sheet, Retail Sell Sheet, E-commerce Description, Line Sheet, and Size & Fit Guide — eliminating hours of manual copywriting per style.",
+  "description": "Analyzes uploaded Tech Pack PDFs and automatically generates five customer-ready deliverables—Product Info Sheet, Retail Sell Sheet, E-commerce Description, Line Sheet, and Size & Fit Guide—eliminating hours of manual copywriting per style.",
   "industry": [
     "Apparel"
   ],
@@ -21,7 +21,7 @@
   "rating": 4.7,
   "reviews": [],
   "usageCount": 38,
-  "videoUrl": "",
+  "videoUrl": "https://play.vidyard.com/JEGEc5zR3CDVUUZve2sCVq",
   "docsUrl": "",
   "reviewLinks": [],
   "featured": false

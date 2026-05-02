@@ -1,8 +1,8 @@
 {
   "id": "style-tags-bc",
   "name": "Style Tags Agent",
-  "tagline": "Auto-generate product attribute tags from style details and product images",
-  "description": "Automatically generates product attribute tags from style details, descriptions, category data, and product images — ensuring consistent, searchable metadata without manual data entry.",
+  "tagline": "Auto-generate product attribute tags from style details and images",
+  "description": "Automatically generates product attribute tags from style details, descriptions, category data, and product images—ensuring consistent, searchable metadata without manual data entry.",
   "industry": [
     "Apparel"
   ],
@@ -20,8 +20,8 @@
   "iconBg": "#FDF2F8",
   "rating": 4.6,
   "reviews": [],
-  "usageCount": 41,
-  "videoUrl": "",
+  "usageCount": 47,
+  "videoUrl": "https://play.vidyard.com/x7XvMLJnE3Jk2TVYkLncKW",
   "docsUrl": "",
   "reviewLinks": [],
   "featured": false

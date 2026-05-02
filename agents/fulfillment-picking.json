@@ -1,15 +1,13 @@
 {
   "id": "fulfillment-picking",
   "name": "Fulfillment and Picking Agent",
-  "tagline": "Optimize order fulfillment and picking workflows across open orders",
+  "tagline": "Optimize order fulfillment with efficient pick sequences and allocation strategies",
   "description": "Optimizes order fulfillment and picking workflows by recommending the most efficient pick sequences and allocation strategies across open orders.",
   "industry": [
-    "Food & Beverage",
-    "Discrete Manufacturing",
-    "Logistics"
+    "Food & Beverage"
   ],
   "function": "Operations",
-  "productLine": "Aptean Food & Beverage ERP",
+  "productLine": "Traverse Global",
   "status": "live",
   "flowId": "placeholder",
   "tags": [
@@ -19,11 +17,11 @@
     "Allocation"
   ],
   "emoji": "📦",
-  "iconBg": "#FAEEDA",
-  "rating": 4.5,
+  "iconBg": "#E1F5EE",
+  "rating": 4.7,
   "reviews": [],
-  "usageCount": 47,
-  "videoUrl": "",
+  "usageCount": 44,
+  "videoUrl": "https://play.vidyard.com/WSp48K4DEnZZmGPe1iynKj",
   "docsUrl": "",
   "reviewLinks": [],
   "featured": false

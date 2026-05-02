@@ -1,21 +1,35 @@
 {
   "id": "ar-aging",
   "name": "AR Aging Agent",
-  "tagline": "Accounts receivable analysis and overdue tracking",
-  "description": "The AR Aging Agent connects directly to your Business Central instance to deliver real-time accounts receivable insights. It analyses overdue balances, identifies at-risk customers, computes aging buckets (current, 30, 60, 90+ days), and surfaces payment trend anomalies — all through natural language. No BI tool or manual export required. Ask it to flag your top 10 overdue accounts, compute DSO, or summarise cash flow risk by customer segment.",
-  "industry": ["Food & Beverage"],
+  "tagline": "Instant AR aging analysis and customer balance intelligence for Business Central",
+  "description": "Delivers instant accounts receivable aging analysis directly from Business Central—surfacing overdue balances, customer payment trends, and collection priorities so finance teams can act on the highest-risk accounts first.",
+  "industry": [
+    "Food & Beverage"
+  ],
   "function": "Finance / AR",
   "productLine": "Business Central",
   "status": "live",
   "flowId": "d383b17f-35d5-4ce6-b96d-c5850cfe10c7",
-  "tags": ["AR Ledger", "Customer table", "retrieveData"],
+  "tags": [
+    "AR Ledger",
+    "Customer Table",
+    "Aging",
+    "Collections"
+  ],
   "emoji": "💳",
   "iconBg": "#EEEDFE",
   "rating": 4.8,
   "reviews": [
-    { "author": "Finance Manager, Apex Foods", "stars": 5, "comment": "Cut our monthly AR review from 3 hours to 15 minutes. Pinpoints overdue accounts instantly." },
-    { "author": "Controller, MidWest Dairy", "stars": 5, "comment": "No more spreadsheet exports. The aging buckets are accurate and always fresh." },
-    { "author": "CFO, Harvest Group", "stars": 4, "comment": "Great for daily aging snapshots. Would love more chart export options in future." }
+    {
+      "author": "Finance Director, Aptean Customer",
+      "stars": 5,
+      "comment": "Cuts our monthly AR review from half a day to under 10 minutes."
+    },
+    {
+      "author": "Controller, Food Manufacturer",
+      "stars": 5,
+      "comment": "Finally a way to get aging out of BC without exporting to Excel."
+    }
   ],
   "usageCount": 142,
   "videoUrl": "",

@@ -1,25 +1,24 @@
 {
   "id": "planning-by-attribute",
   "name": "Planning by Attribute Agent",
-  "tagline": "Plan demand and supply by product attributes rather than individual SKUs",
-  "description": "Enables planning teams to aggregate and analyse demand and supply at the product attribute level — colour, size, material — rather than individual SKUs, simplifying complexity in high-variant environments.",
+  "tagline": "Run demand planning filtered by item attributes for better segmented forecasts",
+  "description": "Enables planners to run demand planning filtered and grouped by item attributes, delivering more accurate segmented forecasts and replenishment plans across complex product portfolios.",
   "industry": [
-    "Apparel",
-    "Discrete Manufacturing"
+    "Food & Beverage"
   ],
-  "function": "Planning & Forecasting",
-  "productLine": "Apparel Next Gen",
+  "function": "Supply Chain / Planning",
+  "productLine": "Aptean Food & Beverage ERP",
   "status": "coming-soon",
   "flowId": "placeholder",
   "tags": [
-    "Attributes",
     "Planning",
-    "SKU",
-    "Variants"
+    "Attributes",
+    "Forecasting",
+    "Segmentation"
   ],
-  "emoji": "📅",
-  "iconBg": "#FDF2F8",
-  "rating": 0,
+  "emoji": "📦",
+  "iconBg": "#E1F5EE",
+  "rating": 4.6,
   "reviews": [],
   "usageCount": 0,
   "videoUrl": "",

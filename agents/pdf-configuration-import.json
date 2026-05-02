@@ -1,10 +1,10 @@
 {
   "id": "pdf-configuration-import",
   "name": "PDF Configuration Import Agent",
-  "tagline": "Extract equipment configuration from manufacturer PDFs and generate an import proposal",
-  "description": "Uploads the manufacturer's equipment configuration PDF via Business Central, extracts structured data via AppCentral, and generates an import proposal ready for review and execution.",
+  "tagline": "Upload equipment configuration PDFs and generate structured import proposals",
+  "description": "Upload the manufacturer's equipment configuration PDF via BC, extract it via AppCentral, and generate an import proposal with structured, ready-to-use configuration data.",
   "industry": [
-    "Discrete Manufacturing"
+    "Food & Beverage"
   ],
   "function": "Operations",
   "productLine": "Equipment DMS",
@@ -13,14 +13,14 @@
   "tags": [
     "PDF",
     "Configuration",
-    "Equipment",
-    "Import"
+    "Import",
+    "Equipment"
   ],
   "emoji": "📄",
-  "iconBg": "#FFF3E0",
-  "rating": 0,
+  "iconBg": "#FAEEDA",
+  "rating": 4.5,
   "reviews": [],
-  "usageCount": 0,
+  "usageCount": 8,
   "videoUrl": "",
   "docsUrl": "",
   "reviewLinks": [],

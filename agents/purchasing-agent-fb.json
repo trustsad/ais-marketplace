@@ -1,26 +1,25 @@
 {
-  "id": "purchasing-agent-m2m",
+  "id": "purchasing-agent-fb",
   "name": "Purchasing Agent",
-  "tagline": "Flag late POs, send supplier reminders, and surface actionable procurement tasks",
+  "tagline": "Manage the purchase order workspace and keep supply timelines on track",
   "description": "Manages the purchase order workspace by flagging late POs, sending supplier reminders, and surfacing actionable procurement tasks to keep supply timelines on track.",
   "industry": [
-    "Discrete Manufacturing",
     "Food & Beverage"
   ],
   "function": "Procurement",
-  "productLine": "Made2Manage",
+  "productLine": "Aptean Food & Beverage ERP",
   "status": "live",
   "flowId": "placeholder",
   "tags": [
     "Purchase Orders",
-    "Suppliers",
-    "Late POs"
+    "Procurement",
+    "Supplier"
   ],
-  "emoji": "📦",
+  "emoji": "🛒",
   "iconBg": "#FAEEDA",
-  "rating": 4.6,
+  "rating": 4.5,
   "reviews": [],
-  "usageCount": 58,
+  "usageCount": 36,
   "videoUrl": "",
   "docsUrl": "",
   "reviewLinks": [],

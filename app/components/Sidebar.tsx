@@ -51,6 +51,10 @@ const productLineDots: Record<string, string> = {
   'Lascom PLM':              '#0284C7',
   'Logility - DAI+':         '#7C3AED',
   'TLX':                     '#059669',
+  'Intuitive':               '#0891B2',
+  'Paragon':                 '#6366F1',
+  'rs2':                     '#0891B2',
+  'Southware':               '#D97706',
 };
 
 function SectionLabel({ children }: { children: React.ReactNode }) {

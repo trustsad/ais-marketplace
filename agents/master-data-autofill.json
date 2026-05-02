@@ -1,25 +1,24 @@
 {
   "id": "master-data-autofill",
   "name": "Master Data Autofill Agent",
-  "tagline": "Automatically create and enrich customer, vendor, and product master data",
-  "description": "Automatically creates and enriches customer, vendor, and product master data including SEO-optimised texts, reducing manual entry and improving data quality across the ERP.",
+  "tagline": "Auto-create and enrich customer, vendor, and product master data with SEO texts",
+  "description": "Automatically creates and enriches customer, vendor, and product master data including SEO texts—ensuring complete, consistent records across the ERP without manual data entry.",
   "industry": [
-    "Discrete Manufacturing",
-    "Process Manufacturing"
+    "Food & Beverage"
   ],
   "function": "Operations",
-  "productLine": "oxaion ERP",
+  "productLine": "rs2",
   "status": "coming-soon",
   "flowId": "placeholder",
   "tags": [
     "Master Data",
-    "Automation",
+    "Autofill",
     "Enrichment",
     "SEO"
   ],
   "emoji": "🗃️",
-  "iconBg": "#F5F4EF",
-  "rating": 0,
+  "iconBg": "#ECFEFF",
+  "rating": 4.5,
   "reviews": [],
   "usageCount": 0,
   "videoUrl": "",

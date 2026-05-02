@@ -1,24 +1,24 @@
 {
   "id": "dot-trucker-safety",
-  "name": "DOT Trucker Safety Lookup",
-  "tagline": "Look up and validate carrier safety ratings for compliance and risk management",
-  "description": "Provides recommended safety ratings for carriers by looking up DOT safety data, helping shippers validate carrier compliance and manage transportation risk.",
+  "name": "DOT Trucker Safety Lookup Agent",
+  "tagline": "Look up and validate DOT safety ratings for trucking carriers",
+  "description": "Provides recommended safety ratings by looking up DOT compliance information for trucking carriers—helping logistics teams vet carriers and maintain regulatory compliance.",
   "industry": [
-    "Logistics"
+    "Food & Beverage"
   ],
-  "function": "Logistics / TMS",
+  "function": "Compliance",
   "productLine": "TLX",
   "status": "coming-soon",
   "flowId": "placeholder",
   "tags": [
     "DOT",
-    "Safety",
+    "Safety Rating",
     "Carrier",
     "Compliance"
   ],
-  "emoji": "🛡️",
-  "iconBg": "#EFF6FF",
-  "rating": 0,
+  "emoji": "🚛",
+  "iconBg": "#E0F5F5",
+  "rating": 4.4,
   "reviews": [],
   "usageCount": 0,
   "videoUrl": "",

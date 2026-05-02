@@ -1,26 +1,24 @@
 {
   "id": "customer-trend-warning",
-  "name": "Customer Trend and Early Warning Agent",
-  "tagline": "Detect early signs of revenue decline or customer inactivity before it becomes a problem",
-  "description": "Continuously monitors customer purchasing behaviour to detect early signs of revenue decline, ordering slowdown, or full inactivity. Analyses historical and current sales order and invoice data by customer and part to identify deviations from normal buying patterns, providing risk classification, explainable insights, and timely alerts for sales teams.",
+  "name": "Customer Trend & Early Warning Agent",
+  "tagline": "Monitor customer purchasing behavior for early signs of revenue decline",
+  "description": "Continuously monitors customer purchasing behavior to detect early signs of revenue decline, ordering slowdown, or full inactivity. Analyzes historical and current sales data by customer and by part, provides risk classification and explainable insights so sales teams can proactively engage customers before revenue is lost.",
   "industry": [
-    "Food & Beverage",
-    "Discrete Manufacturing",
-    "Apparel"
+    "Food & Beverage"
   ],
   "function": "Sales / CRM",
-  "productLine": "Business Central",
+  "productLine": "Ross",
   "status": "coming-soon",
   "flowId": "placeholder",
   "tags": [
     "Customer",
-    "Churn",
+    "Trend",
     "Early Warning",
-    "Revenue"
+    "Revenue Risk"
   ],
-  "emoji": "📡",
+  "emoji": "📉",
   "iconBg": "#FBEAF0",
-  "rating": 0,
+  "rating": 4.7,
   "reviews": [],
   "usageCount": 0,
   "videoUrl": "",

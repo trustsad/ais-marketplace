@@ -1,25 +1,24 @@
 {
   "id": "inventory-balance",
   "name": "Inventory Balance Agent",
-  "tagline": "Real-time inventory balance visibility across locations and warehouses",
-  "description": "Provides real-time inventory balance visibility across all locations and warehouses, answering queries about on-hand quantities, reserved stock, and reorder status through natural language.",
+  "tagline": "Surface on-hand inventory balances and availability across locations",
+  "description": "Surfaces accurate on-hand inventory balances and availability across locations, helping operations and sales teams answer availability questions instantly without manual lookups.",
   "industry": [
-    "Process Manufacturing",
     "Food & Beverage"
   ],
-  "function": "Inventory",
-  "productLine": "Ross",
+  "function": "Supply Chain / Planning",
+  "productLine": "Southware",
   "status": "coming-soon",
   "flowId": "placeholder",
   "tags": [
     "Inventory",
     "Balance",
     "On-Hand",
-    "Locations"
+    "Availability"
   ],
-  "emoji": "🏭",
-  "iconBg": "#FFF8E7",
-  "rating": 0,
+  "emoji": "📦",
+  "iconBg": "#E1F5EE",
+  "rating": 4.4,
   "reviews": [],
   "usageCount": 0,
   "videoUrl": "",

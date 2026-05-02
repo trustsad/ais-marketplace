@@ -1,8 +1,8 @@
 {
   "id": "style-substitution-bc",
-  "name": "Style Substitution Agent (Embedded in BC)",
+  "name": "Style Substitution Agent (BC)",
   "tagline": "Recommend substitute styles instantly when items are out of stock or discontinued",
-  "description": "Recommends substitute styles by matching Style Card attributes and validating price range compatibility in Business Central, helping merchandisers respond instantly when items are out of stock or discontinued.",
+  "description": "Recommends substitute styles by matching Style Card attributes and validating price range compatibility, helping merchandisers respond instantly when items are out of stock or discontinued.",
   "industry": [
     "Apparel"
   ],
@@ -20,7 +20,7 @@
   "rating": 4.5,
   "reviews": [],
   "usageCount": 31,
-  "videoUrl": "",
+  "videoUrl": "https://play.vidyard.com/4yy24uGChaSh556XTU1S5q",
   "docsUrl": "",
   "reviewLinks": [],
   "featured": false

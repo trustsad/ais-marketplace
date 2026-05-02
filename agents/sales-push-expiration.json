@@ -1,7 +1,7 @@
 {
   "id": "sales-push-expiration",
   "name": "Sales Push Agent",
-  "tagline": "Identify expiring inventory and recommend pricing to protect margin and reduce waste",
+  "tagline": "Identify expiring inventory, optimize pricing, and protect margin from waste",
   "description": "Identifies inventory nearing expiration, cross-references live market shortage data to optimize pricing, and outputs item-level price recommendations that protect margin and reduce waste.",
   "industry": [
     "Food & Beverage"
@@ -16,12 +16,12 @@
     "Inventory",
     "Margin"
   ],
-  "emoji": "📣",
+  "emoji": "⏱️",
   "iconBg": "#FBEAF0",
-  "rating": 4.6,
+  "rating": 4.7,
   "reviews": [],
-  "usageCount": 34,
-  "videoUrl": "",
+  "usageCount": 42,
+  "videoUrl": "https://play.vidyard.com/AfyeK6eNFjCV2V2Ys3PYfX",
   "docsUrl": "",
   "reviewLinks": [],
   "featured": false

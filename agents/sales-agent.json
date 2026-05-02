@@ -1,28 +1,25 @@
 {
   "id": "sales-agent",
   "name": "Sales Agent",
-  "tagline": "Manage sales pipelines, orders, and customer interactions through natural language",
-  "description": "Provides a conversational interface for managing sales pipelines, creating and updating sales orders, tracking customer interactions, and surfacing actionable insights to drive revenue growth.",
+  "tagline": "Accelerate F&B sales with order insights, customer history, and opportunity alerts",
+  "description": "Accelerates food and beverage sales by surfacing customer order history, open opportunities, product recommendations, and market trend alerts—helping sales teams close faster and grow accounts.",
   "industry": [
-    "Food & Beverage",
-    "Discrete Manufacturing",
-    "Apparel"
+    "Food & Beverage"
   ],
   "function": "Sales / CRM",
-  "productLine": "Business Central",
+  "productLine": "Aptean Food & Beverage ERP",
   "status": "live",
   "flowId": "placeholder",
   "tags": [
-    "Sales Orders",
-    "Pipeline",
-    "CRM",
-    "Revenue"
+    "Sales",
+    "Customer History",
+    "Opportunities"
   ],
-  "emoji": "💼",
+  "emoji": "🤝",
   "iconBg": "#FBEAF0",
-  "rating": 4.5,
+  "rating": 4.6,
   "reviews": [],
-  "usageCount": 44,
+  "usageCount": 58,
   "videoUrl": "",
   "docsUrl": "",
   "reviewLinks": [],

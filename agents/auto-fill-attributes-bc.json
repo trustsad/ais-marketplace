@@ -1,26 +1,26 @@
 {
   "id": "auto-fill-attributes-bc",
-  "name": "Auto-Fill Attributes Agent (Embedded in BC)",
-  "tagline": "Auto-fill equipment specifications from OEM spec sheets via Business Central",
-  "description": "Utilizes OEM Specification sheets or Product Catalogs to auto-fill all available specifications and attributes for equipment in inventory, directly within Business Central.",
+  "name": "Auto-Fill Attributes Agent (BC)",
+  "tagline": "Auto-fill equipment specifications from OEM sheets via Business Central",
+  "description": "Utilizes OEM specification sheets or product catalogs to auto-fill all available specifications and attributes for equipment in inventory—embedded in Business Central.",
   "industry": [
-    "Discrete Manufacturing"
+    "Food & Beverage"
   ],
   "function": "Operations",
   "productLine": "Equipment DMS",
   "status": "live",
   "flowId": "placeholder",
   "tags": [
+    "Auto-Fill",
     "OEM",
-    "Attributes",
-    "Specs",
+    "Specifications",
     "Business Central"
   ],
-  "emoji": "📋",
-  "iconBg": "#FFF3E0",
-  "rating": 4.5,
+  "emoji": "⚙️",
+  "iconBg": "#FAEEDA",
+  "rating": 4.7,
   "reviews": [],
-  "usageCount": 19,
+  "usageCount": 32,
   "videoUrl": "",
   "docsUrl": "",
   "reviewLinks": [],

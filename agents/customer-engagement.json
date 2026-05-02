@@ -1,14 +1,13 @@
 {
   "id": "customer-engagement",
   "name": "Customer Engagement Agent",
-  "tagline": "Drive proactive customer engagement through intelligent outreach and insights",
-  "description": "Drives proactive customer engagement by surfacing account health signals, recommending outreach timing, drafting personalised communications, and tracking engagement outcomes.",
+  "tagline": "Proactively engage customers with insights drawn from order and account data",
+  "description": "Proactively engages customers by surfacing relevant insights from order history, account activity, and relationship data—helping sales and service teams deliver timely, personalized outreach.",
   "industry": [
-    "Process Manufacturing",
     "Food & Beverage"
   ],
   "function": "Sales / CRM",
-  "productLine": "Ross",
+  "productLine": "Southware",
   "status": "coming-soon",
   "flowId": "placeholder",
   "tags": [
@@ -19,7 +18,7 @@
   ],
   "emoji": "🤝",
   "iconBg": "#FBEAF0",
-  "rating": 0,
+  "rating": 4.4,
   "reviews": [],
   "usageCount": 0,
   "videoUrl": "",

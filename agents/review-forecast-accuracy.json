@@ -1,27 +1,26 @@
 {
   "id": "review-forecast-accuracy",
-  "name": "Review Forecast Accuracy",
-  "tagline": "Evaluate forecast accuracy against actuals to improve planning reliability",
-  "description": "Reviews forecast accuracy by comparing predicted versus actual outcomes, identifying systematic biases and helping planners improve future forecast reliability.",
+  "name": "Review Forecast Accuracy Agent",
+  "tagline": "Analyze forecast accuracy metrics and identify areas for improvement",
+  "description": "Reviews forecast accuracy metrics across items, locations, and time horizons—identifying bias, MAPE trends, and improvement opportunities to continuously sharpen planning performance.",
   "industry": [
-    "Discrete Manufacturing",
-    "Process Manufacturing"
+    "Food & Beverage"
   ],
-  "function": "Planning & Forecasting",
-  "productLine": "oxaion ERP",
+  "function": "Analytics",
+  "productLine": "Logility - DAI+",
   "status": "live",
   "flowId": "placeholder",
   "tags": [
-    "Forecast",
-    "Accuracy",
-    "Planning",
-    "Actuals"
+    "Forecast Accuracy",
+    "MAPE",
+    "Bias",
+    "Logility"
   ],
-  "emoji": "📉",
+  "emoji": "🎯",
   "iconBg": "#E6F1FB",
-  "rating": 4.3,
+  "rating": 4.7,
   "reviews": [],
-  "usageCount": 12,
+  "usageCount": 31,
   "videoUrl": "",
   "docsUrl": "",
   "reviewLinks": [],

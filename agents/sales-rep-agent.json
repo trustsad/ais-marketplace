@@ -1,29 +1,27 @@
 {
   "id": "sales-rep-agent",
   "name": "Sales Rep Agent",
-  "tagline": "Accelerate deal velocity with quote creation, updates, and follow-up reminders",
+  "tagline": "Assist sales reps with quotes, updates, and follow-up reminders",
   "description": "Assists sales representatives with quote creation, updates, and follow-up reminders to accelerate deal velocity and reduce manual administrative effort.",
   "industry": [
-    "Discrete Manufacturing",
-    "Food & Beverage",
-    "Apparel"
+    "Food & Beverage"
   ],
   "function": "Sales / CRM",
-  "productLine": "Made2Manage",
+  "productLine": "Traverse Global",
   "status": "live",
   "flowId": "placeholder",
   "tags": [
-    "Quotes",
     "Sales",
-    "Follow-Up",
-    "CRM"
+    "Quotes",
+    "CRM",
+    "Follow-up"
   ],
   "emoji": "🎯",
   "iconBg": "#FBEAF0",
-  "rating": 4.5,
+  "rating": 4.7,
   "reviews": [],
-  "usageCount": 49,
-  "videoUrl": "",
+  "usageCount": 48,
+  "videoUrl": "https://play.vidyard.com/bnRFiA62eEgNu92M4NjcxM",
   "docsUrl": "",
   "reviewLinks": [],
   "featured": false

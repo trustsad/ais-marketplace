@@ -1,26 +1,26 @@
 {
   "id": "damage-detection-standalone",
-  "name": "Damage Detection Agent (Stand Alone)",
-  "tagline": "Standalone equipment damage analysis with repair cost and parts estimation",
-  "description": "Provides quick and easy analysis of equipment physical damage through a standalone interface. Returns an estimated repair cost, parts required for repair, and approximate labour hours.",
+  "name": "Damage Detection Agent (Standalone)",
+  "tagline": "Analyze equipment physical damage and estimate repair cost via standalone interface",
+  "description": "Quick and easy analysis of equipment physical damage. Provides an estimated repair cost, parts required for repair, and approximate labor hours through a standalone interface accessible outside of Business Central.",
   "industry": [
-    "Discrete Manufacturing"
+    "Food & Beverage"
   ],
   "function": "Operations",
   "productLine": "Equipment DMS",
   "status": "live",
   "flowId": "placeholder",
   "tags": [
-    "Damage",
+    "Damage Detection",
+    "Repair",
     "Equipment",
-    "Repair Cost",
     "Standalone"
   ],
   "emoji": "🔧",
-  "iconBg": "#FFF3E0",
+  "iconBg": "#FAEEDA",
   "rating": 4.6,
   "reviews": [],
-  "usageCount": 22,
+  "usageCount": 28,
   "videoUrl": "",
   "docsUrl": "",
   "reviewLinks": [],

@@ -1,28 +1,26 @@
 {
   "id": "plan-then-execute",
   "name": "Plan Then Execute Agent",
-  "tagline": "Generate and sequence production schedules then guide step-by-step execution",
+  "tagline": "Generate and sequence production schedules based on capacity, due dates, and materials",
   "description": "Generates and sequences production schedules based on resource capacity, due dates, and material availability, then guides execution through actionable step-by-step plans.",
   "industry": [
-    "Food & Beverage",
-    "Process Manufacturing",
-    "Discrete Manufacturing"
+    "Food & Beverage"
   ],
-  "function": "Planning & Forecasting",
-  "productLine": "Aptean Food & Beverage ERP",
+  "function": "Supply Chain / Planning",
+  "productLine": "Traverse Global",
   "status": "live",
   "flowId": "placeholder",
   "tags": [
     "Production Schedule",
     "Capacity",
-    "Execution"
+    "Planning"
   ],
-  "emoji": "📋",
-  "iconBg": "#E8F5E9",
-  "rating": 4.7,
+  "emoji": "📅",
+  "iconBg": "#E1F5EE",
+  "rating": 4.8,
   "reviews": [],
-  "usageCount": 43,
-  "videoUrl": "",
+  "usageCount": 57,
+  "videoUrl": "https://play.vidyard.com/xSqJvFQmzp7R71xa955guf",
   "docsUrl": "",
   "reviewLinks": [],
   "featured": false

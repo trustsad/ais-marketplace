@@ -1,25 +1,24 @@
 {
   "id": "ar-collections",
   "name": "AR Collections Agent",
-  "tagline": "Automate and prioritise accounts receivable collections workflows",
-  "description": "Automates and prioritises accounts receivable collections by identifying overdue accounts, recommending follow-up actions, drafting collection communications, and tracking payment commitments.",
+  "tagline": "Streamline accounts receivable collections with intelligent follow-up workflows",
+  "description": "Streamlines accounts receivable collections by identifying overdue accounts, prioritizing follow-up actions, and automating reminder communications to improve cash flow.",
   "industry": [
-    "Process Manufacturing",
     "Food & Beverage"
   ],
   "function": "Finance / AR",
-  "productLine": "Ross",
+  "productLine": "Southware",
   "status": "coming-soon",
   "flowId": "placeholder",
   "tags": [
     "AR",
     "Collections",
     "Overdue",
-    "Payments"
+    "Cash Flow"
   ],
   "emoji": "💳",
   "iconBg": "#EEEDFE",
-  "rating": 0,
+  "rating": 4.4,
   "reviews": [],
   "usageCount": 0,
   "videoUrl": "",

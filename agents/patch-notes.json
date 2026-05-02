@@ -1,11 +1,10 @@
 {
   "id": "patch-notes",
   "name": "Patch Notes Agent",
-  "tagline": "Get a plain-language overview of ERP changes and updates",
-  "description": "Provides a plain-language overview of ERP changes, patches, and releases, helping users and administrators understand what has changed and what actions may be required.",
+  "tagline": "Get an instant overview of ERP changes across versions",
+  "description": "Provides ERP administrators and key users with an instant, conversational overview of changes introduced in each ERP version—eliminating the need to parse lengthy release notes manually.",
   "industry": [
-    "Discrete Manufacturing",
-    "Process Manufacturing"
+    "Food & Beverage"
   ],
   "function": "Operations",
   "productLine": "oxaion ERP",
@@ -13,15 +12,15 @@
   "flowId": "placeholder",
   "tags": [
     "Patch Notes",
-    "Updates",
-    "ERP",
-    "Release"
+    "Release",
+    "ERP Updates",
+    "Admin"
   ],
   "emoji": "📝",
-  "iconBg": "#F5F4EF",
-  "rating": 4.2,
+  "iconBg": "#ECFEFF",
+  "rating": 4.4,
   "reviews": [],
-  "usageCount": 8,
+  "usageCount": 18,
   "videoUrl": "",
   "docsUrl": "",
   "reviewLinks": [],

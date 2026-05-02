@@ -1,28 +1,26 @@
 {
   "id": "margin-traverse",
-  "name": "Margin Agent (Traverse)",
-  "tagline": "Executive-grade business insights across sales, margin, and profitability",
-  "description": "Transforms Business Central API data into executive-grade business insights across sales, revenue, margin, quantity, customer performance, item and style performance, trends, profitability, operational issues, bottlenecks, and opportunities.",
+  "name": "Margin Intelligence Agent",
+  "tagline": "Executive-grade margin and profitability insights from Business Central data",
+  "description": "Transforms Business Central API data into executive-grade business insights across sales, revenue, margin, quantity, customer performance, item/style performance, trends, profitability, operational issues, bottlenecks, and opportunities.",
   "industry": [
-    "Discrete Manufacturing",
-    "Process Manufacturing",
-    "Apparel"
+    "Food & Beverage"
   ],
   "function": "Analytics",
-  "productLine": "Traverse Global",
-  "status": "coming-soon",
+  "productLine": "Business Central",
+  "status": "live",
   "flowId": "placeholder",
   "tags": [
     "Margin",
-    "Revenue",
     "Profitability",
-    "Traverse"
+    "Analytics",
+    "Business Central"
   ],
   "emoji": "📈",
   "iconBg": "#E6F1FB",
-  "rating": 0,
+  "rating": 4.8,
   "reviews": [],
-  "usageCount": 0,
+  "usageCount": 41,
   "videoUrl": "",
   "docsUrl": "",
   "reviewLinks": [],

@@ -1,26 +1,26 @@
 {
   "id": "auto-fill-attributes-standalone",
-  "name": "Auto-Fill Attributes Agent (Stand Alone)",
-  "tagline": "Auto-fill equipment specifications from OEM spec sheets via standalone interface",
-  "description": "Utilizes OEM Specification sheets or Product Catalogs to auto-fill all available specifications and attributes for equipment in inventory through a standalone interface.",
+  "name": "Auto-Fill Attributes Agent (Standalone)",
+  "tagline": "Auto-fill equipment specifications from OEM sheets via standalone interface",
+  "description": "Utilizes OEM specification sheets or product catalogs to auto-fill all available specifications and attributes for equipment in inventory through a standalone interface.",
   "industry": [
-    "Discrete Manufacturing"
+    "Food & Beverage"
   ],
   "function": "Operations",
   "productLine": "Equipment DMS",
   "status": "live",
   "flowId": "placeholder",
   "tags": [
+    "Auto-Fill",
     "OEM",
-    "Attributes",
-    "Specs",
+    "Specifications",
     "Standalone"
   ],
-  "emoji": "📋",
-  "iconBg": "#FFF3E0",
-  "rating": 4.4,
+  "emoji": "⚙️",
+  "iconBg": "#FAEEDA",
+  "rating": 4.6,
   "reviews": [],
-  "usageCount": 14,
+  "usageCount": 25,
   "videoUrl": "",
   "docsUrl": "",
   "reviewLinks": [],

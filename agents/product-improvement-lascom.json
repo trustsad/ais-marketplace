@@ -1,7 +1,7 @@
 {
   "id": "product-improvement-lascom",
   "name": "Product Improvement Agent",
-  "tagline": "Analyse recipes and nutritional profiles to suggest formulation optimizations",
+  "tagline": "Optimize formulations for quality and cost using recipe and nutritional analysis",
   "description": "Analyzes finished-good recipes, ingredients, additives, and nutritional profiles to suggest formulation optimizations that improve product quality while reducing input costs.",
   "industry": [
     "Food & Beverage",
@@ -12,17 +12,17 @@
   "status": "live",
   "flowId": "placeholder",
   "tags": [
-    "Recipe",
-    "Nutrition",
     "Formulation",
-    "PLM"
+    "Recipe",
+    "PLM",
+    "Nutrition"
   ],
-  "emoji": "🧪",
-  "iconBg": "#E1F5EE",
-  "rating": 4.6,
+  "emoji": "🧬",
+  "iconBg": "#E6F1FB",
+  "rating": 4.8,
   "reviews": [],
-  "usageCount": 18,
-  "videoUrl": "",
+  "usageCount": 35,
+  "videoUrl": "https://play.vidyard.com/S6pMKSR8VB5aU9tbUggrM2",
   "docsUrl": "",
   "reviewLinks": [],
   "featured": false

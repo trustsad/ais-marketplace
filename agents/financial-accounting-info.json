@@ -1,14 +1,13 @@
 {
   "id": "financial-accounting-info",
   "name": "Financial Accounting Info Agent",
-  "tagline": "Instant access to customer balances, outstanding invoices, and upcoming payments",
-  "description": "Provides instant access to customer balances, outstanding invoices, and upcoming payment receipts through natural language queries, replacing manual ledger lookups.",
+  "tagline": "Answer questions about customer balances, invoices, and payment receipts",
+  "description": "Provides information about customer balances, outstanding invoices, and upcoming payment receipts—giving finance teams instant answers without running manual reports.",
   "industry": [
-    "Discrete Manufacturing",
-    "Process Manufacturing"
+    "Food & Beverage"
   ],
   "function": "Finance / AR",
-  "productLine": "oxaion ERP",
+  "productLine": "rs2",
   "status": "coming-soon",
   "flowId": "placeholder",
   "tags": [
@@ -17,9 +16,9 @@
     "Invoices",
     "Payments"
   ],
-  "emoji": "🏦",
+  "emoji": "💳",
   "iconBg": "#EEEDFE",
-  "rating": 0,
+  "rating": 4.4,
   "reviews": [],
   "usageCount": 0,
   "videoUrl": "",

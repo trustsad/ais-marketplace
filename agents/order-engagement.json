@@ -1,25 +1,24 @@
 {
   "id": "order-engagement",
   "name": "Order Engagement Agent",
-  "tagline": "Proactively manage order status, exceptions, and customer communications",
-  "description": "Proactively manages order status updates, surfaces exceptions requiring attention, and facilitates customer communications around order changes, delays, or fulfilment issues.",
+  "tagline": "Provide real-time order status and proactive alerts on open orders",
+  "description": "Provides real-time order status and proactive engagement on open orders—alerting teams to delays, changes, and actions needed to keep orders on track.",
   "industry": [
-    "Process Manufacturing",
     "Food & Beverage"
   ],
   "function": "Sales / CRM",
-  "productLine": "Ross",
+  "productLine": "Southware",
   "status": "coming-soon",
   "flowId": "placeholder",
   "tags": [
     "Orders",
     "Status",
-    "Exceptions",
-    "Fulfilment"
+    "Engagement",
+    "Alerts"
   ],
   "emoji": "📋",
   "iconBg": "#FBEAF0",
-  "rating": 0,
+  "rating": 4.4,
   "reviews": [],
   "usageCount": 0,
   "videoUrl": "",

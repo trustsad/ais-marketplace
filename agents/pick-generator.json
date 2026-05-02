@@ -4,9 +4,7 @@
   "tagline": "Generate optimized warehouse pick lists based on configurable business rules",
   "description": "Generates optimized warehouse pick lists based on configurable business rules, reducing pick time and improving order accuracy for warehouse teams.",
   "industry": [
-    "Food & Beverage",
-    "Process Manufacturing",
-    "Discrete Manufacturing"
+    "Food & Beverage"
   ],
   "function": "Operations",
   "productLine": "Aptean Food & Beverage ERP",
@@ -14,15 +12,15 @@
   "flowId": "placeholder",
   "tags": [
     "Warehouse",
-    "Pick Lists",
-    "Order Accuracy"
+    "Pick List",
+    "Fulfillment"
   ],
-  "emoji": "🏭",
+  "emoji": "📋",
   "iconBg": "#E1F5EE",
-  "rating": 4.5,
+  "rating": 4.7,
   "reviews": [],
-  "usageCount": 53,
-  "videoUrl": "",
+  "usageCount": 55,
+  "videoUrl": "https://play.vidyard.com/RA45iYWy987o1wKepNriqm",
   "docsUrl": "",
   "reviewLinks": [],
   "featured": false

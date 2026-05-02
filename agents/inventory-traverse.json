@@ -1,27 +1,26 @@
 {
   "id": "inventory-traverse",
-  "name": "Inventory Agent (Traverse)",
-  "tagline": "Accurate inventory aging, on-hand quantity, and value insights from Business Central",
-  "description": "Provides accurate inventory aging, on-hand quantity, and inventory value insights using verified Business Central Item data via Traverse Global. Explains aging or quantity patterns using Item Ledger Entries when explicitly requested.",
+  "name": "Inventory Insights Agent",
+  "tagline": "Inventory aging, on-hand quantity, and value insights from Business Central",
+  "description": "Provides accurate inventory aging, on-hand quantity, and inventory value insights using verified Business Central Item data. Explains why aging or quantity patterns exist only when explicitly requested, using Item Ledger Entries.",
   "industry": [
-    "Discrete Manufacturing",
-    "Process Manufacturing"
+    "Food & Beverage"
   ],
-  "function": "Inventory",
-  "productLine": "Traverse Global",
-  "status": "coming-soon",
+  "function": "Supply Chain / Planning",
+  "productLine": "Business Central",
+  "status": "live",
   "flowId": "placeholder",
   "tags": [
     "Inventory",
     "Aging",
     "On-Hand",
-    "Traverse"
+    "Business Central"
   ],
-  "emoji": "🏭",
-  "iconBg": "#FFF8E7",
-  "rating": 0,
+  "emoji": "📦",
+  "iconBg": "#E1F5EE",
+  "rating": 4.6,
   "reviews": [],
-  "usageCount": 0,
+  "usageCount": 29,
   "videoUrl": "",
   "docsUrl": "",
   "reviewLinks": [],

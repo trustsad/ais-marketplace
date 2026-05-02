@@ -1,25 +1,24 @@
 {
   "id": "late-purchase-orders",
-  "name": "Late Purchase Orders Workflow",
-  "tagline": "Automatically flag and escalate purchase orders past their expected receipt date",
-  "description": "Identifies purchase orders past their expected receipt date, automatically notifies suppliers, escalates internally based on criticality, and surfaces recommended actions to procurement teams.",
+  "name": "Late Purchase Orders Agent",
+  "tagline": "Surface and action late purchase orders before they impact production",
+  "description": "Automatically surfaces late and at-risk purchase orders, flags supplier delays, and recommends expediting actions before they impact production schedules or customer commitments.",
   "industry": [
-    "Food & Beverage",
-    "Discrete Manufacturing"
+    "Food & Beverage"
   ],
   "function": "Procurement",
-  "productLine": "Aptean Food & Beverage ERP",
+  "productLine": "Intuitive",
   "status": "coming-soon",
   "flowId": "placeholder",
   "tags": [
     "Late POs",
-    "Procurement",
-    "Suppliers",
-    "Workflow"
+    "Purchase Orders",
+    "Expediting",
+    "Procurement"
   ],
-  "emoji": "⏰",
+  "emoji": "⚠️",
   "iconBg": "#FAEEDA",
-  "rating": 0,
+  "rating": 4.5,
   "reviews": [],
   "usageCount": 0,
   "videoUrl": "",

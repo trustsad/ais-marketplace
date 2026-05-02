@@ -1,28 +1,26 @@
 {
   "id": "saleorder-24hrs",
-  "name": "Sales Order 24hr Agent (Traverse)",
-  "tagline": "Retrieve sales order health, status, and tracking in business-friendly language",
-  "description": "Retrieves sales order health, status, tracking, shipments, quantities, styles, colours, and dates from Business Central via Traverse Global and explains them in clear business-friendly language. Powers interactive dashboards and daily scheduled reporting.",
+  "name": "Sales Order 24-Hour Agent",
+  "tagline": "Track sales order health, status, and shipments in business-friendly language",
+  "description": "Retrieves sales order health, status, tracking, shipments, quantities, styles, colors, and dates from Business Central and explains it in clear business-friendly language. Powers interactive dashboards and daily scheduled reporting.",
   "industry": [
-    "Discrete Manufacturing",
-    "Process Manufacturing",
-    "Apparel"
+    "Food & Beverage"
   ],
   "function": "Sales / CRM",
-  "productLine": "Traverse Global",
-  "status": "coming-soon",
+  "productLine": "Business Central",
+  "status": "live",
   "flowId": "placeholder",
   "tags": [
     "Sales Orders",
-    "Status",
-    "Shipments",
-    "Traverse"
+    "Shipment",
+    "Tracking",
+    "Dashboard"
   ],
-  "emoji": "🎯",
+  "emoji": "📋",
   "iconBg": "#FBEAF0",
-  "rating": 0,
+  "rating": 4.6,
   "reviews": [],
-  "usageCount": 0,
+  "usageCount": 37,
   "videoUrl": "",
   "docsUrl": "",
   "reviewLinks": [],

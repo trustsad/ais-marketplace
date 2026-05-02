@@ -1,8 +1,8 @@
 {
   "id": "product-information-translator",
   "name": "Product Information Translator Agent",
-  "tagline": "Translate product texts and ingredient statements into all required export languages",
-  "description": "Translates product texts — including ingredient statements — into all required export languages, ensuring regulatory-compliant labeling ready for international markets.",
+  "tagline": "Translate product texts and ingredient statements into required export languages",
+  "description": "Translates product texts—including ingredient statements—into all required export languages, ensuring regulatory-compliant labeling ready for international markets.",
   "industry": [
     "Food & Beverage",
     "Life Sciences"
@@ -14,15 +14,15 @@
   "tags": [
     "Translation",
     "Labeling",
-    "Regulatory",
+    "Compliance",
     "Export"
   ],
   "emoji": "🌍",
   "iconBg": "#E6F1FB",
-  "rating": 4.5,
+  "rating": 4.6,
   "reviews": [],
-  "usageCount": 15,
-  "videoUrl": "",
+  "usageCount": 27,
+  "videoUrl": "https://play.vidyard.com/S6pMKSR8VB5aU9tbUggrM2",
   "docsUrl": "",
   "reviewLinks": [],
   "featured": false

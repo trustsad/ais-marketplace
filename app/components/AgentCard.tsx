@@ -51,6 +51,10 @@ const productLineColors: Record<string, { bg: string; color: string }> = {
   'Lascom PLM':                 { bg: '#E0F2FE', color: '#0284C7' },
   'Logility - DAI+':            { bg: '#F5F3FF', color: '#7C3AED' },
   'TLX':                        { bg: '#ECFDF5', color: '#059669' },
+  'Intuitive':                  { bg: '#ECFEFF', color: '#0891B2' },
+  'Paragon':                    { bg: '#EEF2FF', color: '#6366F1' },
+  'rs2':                        { bg: '#ECFEFF', color: '#0891B2' },
+  'Southware':                  { bg: '#FFFBEB', color: '#D97706' },
 };
 
 export default function AgentCard({ agent }: { agent: Agent }) {

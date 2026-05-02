@@ -1,10 +1,10 @@
 {
   "id": "mistral-advanced-search",
-  "name": "Mistral Advanced Search",
-  "tagline": "Global AI-powered search across Mistral ERP data",
-  "description": "Provides a global AI-powered search tool across all Mistral ERP data, enabling users to find records, documents, and transactions through natural language without knowing exact field locations.",
+  "name": "Mistral Advanced Search Agent",
+  "tagline": "Global search tool for finding any data across Mistral ERP instantly",
+  "description": "Provides a global search capability across Mistral ERP, enabling users to instantly locate any record, document, or data point without navigating complex menu structures.",
   "industry": [
-    "Discrete Manufacturing"
+    "Food & Beverage"
   ],
   "function": "Analytics",
   "productLine": "Mistral ERP",
@@ -12,13 +12,13 @@
   "flowId": "placeholder",
   "tags": [
     "Search",
-    "Mistral",
     "Global",
-    "AI"
+    "Mistral",
+    "ERP"
   ],
-  "emoji": "🔎",
-  "iconBg": "#F5F4EF",
-  "rating": 0,
+  "emoji": "🔍",
+  "iconBg": "#FAF5FF",
+  "rating": 4.5,
   "reviews": [],
   "usageCount": 0,
   "videoUrl": "",

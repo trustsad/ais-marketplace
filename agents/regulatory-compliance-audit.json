@@ -1,28 +1,27 @@
 {
   "id": "regulatory-compliance-audit",
   "name": "Regulatory Compliance Audit Agent",
-  "tagline": "Compile and export compliance evidence for continuous audit readiness",
+  "tagline": "Compile and validate compliance evidence for continuous audit readiness",
   "description": "Compiles, validates, and exports compliance evidence across suppliers, production, QC, allergen control, and traceability to ensure continuous audit readiness and reduce manual documentation effort.",
   "industry": [
-    "Food & Beverage",
-    "Life Sciences"
+    "Food & Beverage"
   ],
   "function": "Compliance",
   "productLine": "Aptean Food & Beverage ERP",
   "status": "live",
   "flowId": "placeholder",
   "tags": [
+    "Compliance",
+    "Audit",
     "Allergen",
-    "Traceability",
-    "QC",
-    "Audit"
+    "QC"
   ],
   "emoji": "🛡️",
-  "iconBg": "#FFF3E0",
-  "rating": 4.8,
+  "iconBg": "#FCEBEB",
+  "rating": 4.9,
   "reviews": [],
-  "usageCount": 39,
-  "videoUrl": "",
+  "usageCount": 48,
+  "videoUrl": "https://play.vidyard.com/LNmfWyc4Qb648TzCKANagS",
   "docsUrl": "",
   "reviewLinks": [],
   "featured": false

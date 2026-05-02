@@ -1,25 +1,24 @@
 {
   "id": "incoming-invoice-accounting",
-  "name": "Incoming Invoice Automated Accounting",
-  "tagline": "Automatic account assignment for incoming invoices with delivery note validation",
-  "description": "Automatically assigns accounts for incoming invoices including delivery note checks for supporting documents, reducing manual coding effort and improving posting accuracy.",
+  "name": "Incoming Invoice Accounting Agent",
+  "tagline": "Automatically assign accounts for incoming invoices with delivery note checks",
+  "description": "Automates account assignment for incoming invoices, including delivery note checks for documents—reducing manual coding effort and accelerating the AP posting cycle.",
   "industry": [
-    "Discrete Manufacturing",
-    "Process Manufacturing"
+    "Food & Beverage"
   ],
   "function": "Finance / AR",
-  "productLine": "oxaion ERP",
+  "productLine": "rs2",
   "status": "coming-soon",
   "flowId": "placeholder",
   "tags": [
     "Invoices",
-    "Accounting",
+    "Accounts Payable",
     "Automation",
-    "AP"
+    "rs2"
   ],
   "emoji": "🧾",
-  "iconBg": "#EEEDFE",
-  "rating": 0,
+  "iconBg": "#ECFEFF",
+  "rating": 4.5,
   "reviews": [],
   "usageCount": 0,
   "videoUrl": "",

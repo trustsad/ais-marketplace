@@ -1,0 +1,28 @@
+{
+  "id": "safety-stock-ross",
+  "name": "Safety Stock Optimization Agent",
+  "tagline": "Optimize safety stock levels for Ross ERP with the AIaaS team",
+  "description": "Optimizes safety stock levels across the product portfolio for Ross ERP, working with the AIaaS team to balance service level targets against carrying cost constraints.",
+  "industry": [
+    "Food & Beverage"
+  ],
+  "function": "Supply Chain / Planning",
+  "productLine": "Ross",
+  "status": "coming-soon",
+  "flowId": "placeholder",
+  "tags": [
+    "Safety Stock",
+    "Optimization",
+    "Ross",
+    "AIaaS"
+  ],
+  "emoji": "📊",
+  "iconBg": "#FEF2F2",
+  "rating": 4.5,
+  "reviews": [],
+  "usageCount": 0,
+  "videoUrl": "",
+  "docsUrl": "",
+  "reviewLinks": [],
+  "featured": false
+}

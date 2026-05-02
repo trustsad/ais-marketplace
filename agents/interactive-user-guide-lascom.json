@@ -1,7 +1,7 @@
 {
   "id": "interactive-user-guide-lascom",
   "name": "Interactive User Guide Agent",
-  "tagline": "Always-available interactive guide embedded in Lascom PLM",
+  "tagline": "Always-available guide for Lascom PLM navigation, features, and workflows",
   "description": "Serves as an always-available interactive guide embedded in Lascom PLM, answering user questions about system navigation, features, and workflows in real time.",
   "industry": [
     "Food & Beverage",
@@ -12,17 +12,17 @@
   "status": "live",
   "flowId": "placeholder",
   "tags": [
+    "Lascom",
     "PLM",
     "User Guide",
-    "Navigation",
-    "Lascom"
+    "Navigation"
   ],
   "emoji": "📖",
   "iconBg": "#E6F1FB",
-  "rating": 4.4,
+  "rating": 4.7,
   "reviews": [],
-  "usageCount": 21,
-  "videoUrl": "",
+  "usageCount": 29,
+  "videoUrl": "https://play.vidyard.com/d69UQSjvjCqrDU6Hm4JSNM",
   "docsUrl": "",
   "reviewLinks": [],
   "featured": false

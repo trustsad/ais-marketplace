@@ -1,13 +1,12 @@
 {
   "id": "smart-inbox",
   "name": "Smart Inbox Agent",
-  "tagline": "Automated incoming mail processing with intelligent follow-up actions",
-  "description": "Processes incoming emails automatically, classifies them by type and urgency, routes them to the appropriate workflow, and triggers follow-up actions — reducing manual inbox management time significantly.",
+  "tagline": "Automate incoming mail processing with intelligent follow-up actions",
+  "description": "Automates incoming mail processing with intelligent follow-up actions—classifying emails, routing them to the correct handler, and triggering ERP workflows based on content.",
   "industry": [
-    "Discrete Manufacturing",
-    "Process Manufacturing"
+    "Food & Beverage"
   ],
-  "function": "Document Management",
+  "function": "Operations",
   "productLine": "oxaion ERP",
   "status": "live",
   "flowId": "placeholder",
@@ -18,10 +17,10 @@
     "Routing"
   ],
   "emoji": "📬",
-  "iconBg": "#F5F4EF",
-  "rating": 4.5,
+  "iconBg": "#ECFEFF",
+  "rating": 4.6,
   "reviews": [],
-  "usageCount": 20,
+  "usageCount": 33,
   "videoUrl": "",
   "docsUrl": "",
   "reviewLinks": [],

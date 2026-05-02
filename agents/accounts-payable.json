@@ -1,28 +1,26 @@
 {
   "id": "accounts-payable",
   "name": "Accounts Payable (AP) Agent",
-  "tagline": "Streamline AP workflows with intelligent invoice processing and payment insights",
-  "description": "Streamlines accounts payable workflows by processing invoices, matching purchase orders, flagging discrepancies, and surfacing payment timing recommendations to optimise cash flow and supplier relationships.",
+  "tagline": "Streamline AP workflows with intelligent invoice matching and payment insights",
+  "description": "Streamlines accounts payable workflows by matching invoices to purchase orders, flagging discrepancies, tracking payment due dates, and surfacing cash flow insights to reduce late payments and improve vendor relationships.",
   "industry": [
-    "Food & Beverage",
-    "Discrete Manufacturing",
-    "Apparel"
+    "Food & Beverage"
   ],
   "function": "Finance / AR",
-  "productLine": "Business Central",
+  "productLine": "Aptean Food & Beverage ERP",
   "status": "live",
   "flowId": "placeholder",
   "tags": [
-    "AP",
-    "Invoices",
-    "Payments",
-    "Cash Flow"
+    "Accounts Payable",
+    "Invoice",
+    "Payment",
+    "AP"
   ],
-  "emoji": "💵",
+  "emoji": "💰",
   "iconBg": "#EEEDFE",
   "rating": 4.6,
   "reviews": [],
-  "usageCount": 51,
+  "usageCount": 44,
   "videoUrl": "",
   "docsUrl": "",
   "reviewLinks": [],

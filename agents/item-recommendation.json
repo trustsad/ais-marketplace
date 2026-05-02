@@ -2,9 +2,9 @@
   "id": "item-recommendation",
   "name": "Item Recommendation Agent",
   "tagline": "Recommend cross-sell items using sales history and inventory data",
-  "description": "Recommends items for cross-selling by utilising sales history and item inventory data. Sales person actions on recommended items are fed back to the agent to continuously improve recommendation accuracy.",
+  "description": "Recommends items for cross-selling by utilizing sales history and item inventory. Actions taken by the sales person on recommended items are sent back to improve future recommendations.",
   "industry": [
-    "Discrete Manufacturing"
+    "Food & Beverage"
   ],
   "function": "Sales / CRM",
   "productLine": "Equipment DMS",
@@ -13,13 +13,14 @@
   "tags": [
     "Cross-Sell",
     "Recommendations",
-    "Sales History"
+    "Sales History",
+    "Inventory"
   ],
-  "emoji": "🤝",
+  "emoji": "💡",
   "iconBg": "#FBEAF0",
   "rating": 4.5,
   "reviews": [],
-  "usageCount": 26,
+  "usageCount": 22,
   "videoUrl": "",
   "docsUrl": "",
   "reviewLinks": [],

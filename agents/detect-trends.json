@@ -1,27 +1,26 @@
 {
   "id": "detect-trends",
-  "name": "Detect Trends in Historic Data",
-  "tagline": "Review and surface trends from historic ERP data",
-  "description": "Analyses historic ERP data to surface meaningful trends in sales, production, and operational performance, helping planners and managers make informed decisions.",
+  "name": "Detect Trends Agent",
+  "tagline": "Review and surface trends hidden in historical demand data",
+  "description": "Analyzes historical demand data to surface actionable trend signals—identifying growth patterns, seasonal shifts, and anomalies that help planners make better forecasting decisions.",
   "industry": [
-    "Discrete Manufacturing",
-    "Process Manufacturing"
+    "Food & Beverage"
   ],
   "function": "Analytics",
-  "productLine": "oxaion ERP",
+  "productLine": "Logility - DAI+",
   "status": "live",
   "flowId": "placeholder",
   "tags": [
     "Trends",
-    "Analytics",
+    "Demand",
     "History",
-    "Reporting"
+    "Forecasting"
   ],
   "emoji": "📈",
   "iconBg": "#E6F1FB",
-  "rating": 4.4,
+  "rating": 4.6,
   "reviews": [],
-  "usageCount": 17,
+  "usageCount": 34,
   "videoUrl": "",
   "docsUrl": "",
   "reviewLinks": [],

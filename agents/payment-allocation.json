@@ -1,25 +1,24 @@
 {
   "id": "payment-allocation",
   "name": "Payment Allocation Agent",
-  "tagline": "Automatically detect customer numbers and posting information from payment references",
-  "description": "Automatically detects customer numbers, G/L accounts, and posting information from payment references, reducing manual allocation effort and improving cash application accuracy.",
+  "tagline": "Auto-detect customer numbers and posting info from payment references",
+  "description": "Automatically detects customer numbers, G/L accounts, and posting information from payment references—eliminating manual allocation effort and reducing posting errors.",
   "industry": [
-    "Discrete Manufacturing",
-    "Process Manufacturing"
+    "Food & Beverage"
   ],
   "function": "Finance / AR",
-  "productLine": "oxaion ERP",
+  "productLine": "rs2",
   "status": "coming-soon",
   "flowId": "placeholder",
   "tags": [
-    "Payments",
+    "Payment",
     "Allocation",
-    "Cash Application",
-    "AR"
+    "G/L",
+    "Posting"
   ],
   "emoji": "💰",
-  "iconBg": "#EEEDFE",
-  "rating": 0,
+  "iconBg": "#ECFEFF",
+  "rating": 4.5,
   "reviews": [],
   "usageCount": 0,
   "videoUrl": "",

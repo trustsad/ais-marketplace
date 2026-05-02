@@ -1,25 +1,24 @@
 {
   "id": "service-order-solution",
   "name": "Service Order Solution Agent",
-  "tagline": "Intelligently route and resolve service orders with recommended solutions",
-  "description": "Intelligently routes incoming service orders, recommends solutions based on historical resolution data, assigns to appropriate resources, and tracks through to close.",
+  "tagline": "Resolve service orders faster with diagnosis and solution recommendations",
+  "description": "Accelerates service order resolution by diagnosing reported issues, recommending proven solutions from historical data, and guiding technicians through structured resolution workflows.",
   "industry": [
-    "Process Manufacturing",
-    "Discrete Manufacturing"
+    "Food & Beverage"
   ],
   "function": "Operations",
-  "productLine": "Ross",
+  "productLine": "Southware",
   "status": "coming-soon",
   "flowId": "placeholder",
   "tags": [
     "Service Orders",
-    "Routing",
     "Resolution",
-    "Field Service"
+    "Diagnosis",
+    "Technician"
   ],
   "emoji": "🔧",
-  "iconBg": "#FFF3E0",
-  "rating": 0,
+  "iconBg": "#FAEEDA",
+  "rating": 4.4,
   "reviews": [],
   "usageCount": 0,
   "videoUrl": "",

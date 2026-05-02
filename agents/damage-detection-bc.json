@@ -1,26 +1,26 @@
 {
   "id": "damage-detection-bc",
-  "name": "Damage Detection Agent (Embedded in BC)",
-  "tagline": "Analyse equipment damage and estimate repair cost, parts, and labour hours",
-  "description": "Provides quick and easy analysis of equipment physical damage directly within Business Central. Returns an estimated repair cost, parts required for repair, and approximate labour hours.",
+  "name": "Damage Detection Agent (BC)",
+  "tagline": "Analyze equipment physical damage and estimate repair cost via Business Central",
+  "description": "Quick and easy analysis of equipment physical damage. Provides an estimated repair cost, parts required for repair, and approximate labor hours—embedded directly in Business Central.",
   "industry": [
-    "Discrete Manufacturing"
+    "Food & Beverage"
   ],
   "function": "Operations",
   "productLine": "Equipment DMS",
   "status": "live",
   "flowId": "placeholder",
   "tags": [
-    "Damage",
+    "Damage Detection",
+    "Repair",
     "Equipment",
-    "Repair Cost",
     "Business Central"
   ],
   "emoji": "🔧",
-  "iconBg": "#FFF3E0",
+  "iconBg": "#FAEEDA",
   "rating": 4.7,
   "reviews": [],
-  "usageCount": 29,
+  "usageCount": 36,
   "videoUrl": "",
   "docsUrl": "",
   "reviewLinks": [],

@@ -1,10 +1,10 @@
 {
   "id": "mistral-route-sales",
   "name": "Mistral Smart Route Planning — Sales",
-  "tagline": "Optimise sales rep routes to maximise customer coverage and reduce travel time",
-  "description": "Optimises sales representative routes to maximise customer coverage, reduce travel time, and prioritise high-value visits based on opportunity and proximity.",
+  "tagline": "Optimize sales routes to maximize coverage and minimize travel time",
+  "description": "Optimizes sales routes across territories to maximize customer coverage, minimize travel time, and increase the number of productive sales calls per day.",
   "industry": [
-    "Discrete Manufacturing"
+    "Food & Beverage"
   ],
   "function": "Sales / CRM",
   "productLine": "Mistral ERP",
@@ -13,12 +13,12 @@
   "tags": [
     "Route Planning",
     "Sales",
-    "Optimisation",
-    "Mistral"
+    "Territory",
+    "Optimization"
   ],
   "emoji": "🗺️",
-  "iconBg": "#FBEAF0",
-  "rating": 0,
+  "iconBg": "#FAF5FF",
+  "rating": 4.5,
   "reviews": [],
   "usageCount": 0,
   "videoUrl": "",

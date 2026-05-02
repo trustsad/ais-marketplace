@@ -1,27 +1,28 @@
 {
   "id": "hts-code-lookup",
-  "name": "Harmonized Tariff (HTS) Code Lookup",
-  "tagline": "Determine the most accurate HTS code to streamline customs classification",
+  "name": "HTS Code Lookup Agent",
+  "tagline": "Determine accurate Harmonized Tariff Schedule codes for customs classification",
   "description": "Determines the most accurate Harmonized Tariff Schedule code for a given product description, streamlining customs classification and reducing compliance risk on international shipments.",
   "industry": [
-    "Logistics"
+    "Food & Beverage",
+    "Apparel"
   ],
-  "function": "Logistics / TMS",
+  "function": "Compliance",
   "productLine": "TLX",
   "status": "live",
   "flowId": "placeholder",
   "tags": [
     "HTS",
     "Customs",
-    "Classification",
-    "Trade"
+    "Tariff",
+    "Classification"
   ],
-  "emoji": "🚛",
-  "iconBg": "#EFF6FF",
+  "emoji": "🚢",
+  "iconBg": "#E0F5F5",
   "rating": 4.7,
   "reviews": [],
-  "usageCount": 62,
-  "videoUrl": "",
+  "usageCount": 52,
+  "videoUrl": "https://play.vidyard.com/MX7ZGsTUaCRZFdHLhBYtt9",
   "docsUrl": "",
   "reviewLinks": [],
   "featured": false

@@ -1,27 +1,26 @@
 {
   "id": "safety-stock-traverse",
-  "name": "Safety Stock and Lead Time Analysis (Traverse)",
-  "tagline": "Evaluate safety stock and lead times against 12 months of real ERP data",
-  "description": "Connects directly to Traverse Global ERP data to evaluate whether current safety stock levels and lead times still reflect reality. Pulls 12 months of demand history and actual PO receipt or production cycle time data, applies statistical safety stock formulae at a 95% service level, and delivers specific recommendations with rationale. Handles purchased and manufactured items differently, flags items below safety stock, and verifies changes written back to the system.",
+  "name": "Safety Stock & Lead Time Analysis Agent",
+  "tagline": "Evaluate safety stock and lead times with 12 months of real ERP data",
+  "description": "Connects directly to your ERP data to evaluate whether current safety stock levels and lead times still reflect reality. Pulls 12 months of demand history, applies statistical safety stock formulas at a 95% service level, and tells you what to change and why—with specific numbers, not generalities.",
   "industry": [
-    "Discrete Manufacturing",
-    "Process Manufacturing"
+    "Food & Beverage"
   ],
-  "function": "Inventory",
+  "function": "Supply Chain / Planning",
   "productLine": "Traverse Global",
   "status": "coming-soon",
   "flowId": "placeholder",
   "tags": [
     "Safety Stock",
     "Lead Time",
-    "Traverse",
-    "Statistical"
+    "Statistical",
+    "ERP"
   ],
   "emoji": "📊",
-  "iconBg": "#FFF8E7",
-  "rating": 0,
+  "iconBg": "#E1F5EE",
+  "rating": 4.8,
   "reviews": [],
-  "usageCount": 0,
+  "usageCount": 18,
   "videoUrl": "",
   "docsUrl": "",
   "reviewLinks": [],

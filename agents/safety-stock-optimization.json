@@ -1,24 +1,24 @@
 {
   "id": "safety-stock-optimization",
   "name": "Safety Stock Optimization Agent",
-  "tagline": "Continuously optimise safety stock levels across the full inventory base",
-  "description": "Continuously monitors and optimises safety stock levels across all SKUs and locations, balancing service level targets against inventory carrying costs using real demand and lead time data.",
+  "tagline": "Optimize safety stock levels across the portfolio to balance service and cost",
+  "description": "Optimizes safety stock levels across the product portfolio, balancing service level targets against carrying cost constraints to right-size buffer inventory across all SKUs and locations.",
   "industry": [
-    "Food & Beverage",
-    "Discrete Manufacturing"
+    "Food & Beverage"
   ],
-  "function": "Inventory",
-  "productLine": "Aptean Food & Beverage ERP",
+  "function": "Supply Chain / Planning",
+  "productLine": "Intuitive",
   "status": "coming-soon",
   "flowId": "placeholder",
   "tags": [
     "Safety Stock",
-    "Optimisation",
-    "Service Level"
+    "Optimization",
+    "Service Level",
+    "Carrying Cost"
   ],
-  "emoji": "⚖️",
-  "iconBg": "#FFF8E7",
-  "rating": 0,
+  "emoji": "📊",
+  "iconBg": "#E1F5EE",
+  "rating": 4.5,
   "reviews": [],
   "usageCount": 0,
   "videoUrl": "",

@@ -1,25 +1,24 @@
 {
   "id": "vendor-engagement",
   "name": "Vendor Engagement Agent",
-  "tagline": "Proactively manage vendor communications and performance follow-up",
-  "description": "Proactively manages vendor communications by surfacing performance issues, drafting supplier correspondence, tracking commitment responses, and flagging at-risk supply relationships.",
+  "tagline": "Proactively engage vendors on orders, delivery timelines, and performance",
+  "description": "Proactively engages vendors on open purchase orders, delivery timelines, and performance metrics—reducing the manual effort of supplier communication and keeping procurement teams informed.",
   "industry": [
-    "Process Manufacturing",
     "Food & Beverage"
   ],
   "function": "Procurement",
-  "productLine": "Ross",
+  "productLine": "Southware",
   "status": "coming-soon",
   "flowId": "placeholder",
   "tags": [
     "Vendor",
+    "Procurement",
     "Supplier",
-    "Engagement",
-    "Performance"
+    "Communication"
   ],
-  "emoji": "🤝",
+  "emoji": "🏭",
   "iconBg": "#FAEEDA",
-  "rating": 0,
+  "rating": 4.4,
   "reviews": [],
   "usageCount": 0,
   "videoUrl": "",
