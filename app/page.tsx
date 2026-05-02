@@ -1,101 +1,107 @@
-import Image from "next/image";
+import Header from "./components/Header";
+import Sidebar from "./components/Sidebar";
+import AgentRow from "./components/AgentRow";
+import AgentCard from "./components/AgentCard";
+import RequestCard from "./components/RequestCard";
 
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="https://nextjs.org/icons/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
-              app/page.tsx
-            </code>
-            .
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
+    <div style={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
+      <Header />
+      <div style={{ display: 'flex', flex: 1 }}>
+        <Sidebar />
+        <main style={{ flex: 1, padding: '18px', background: '#f0efe9', overflowY: 'auto' }}>
 
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="https://nextjs.org/icons/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
+          {/* Title bar */}
+          <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '14px' }}>
+            <div style={{ fontSize: '14px', fontWeight: 600, color: '#1a1a1a' }}>
+              All agents{' '}
+              <span style={{ fontWeight: 400, color: '#888', fontSize: '12px' }}>— 11 available</span>
+            </div>
+            <div style={{
+              fontSize: '11px', color: '#666', border: '1px solid #d8d6ce',
+              padding: '4px 10px', borderRadius: '7px', background: '#fff',
+            }}>
+              Sort: Most used
+            </div>
+          </div>
+
+          {/* Featured full-width rows */}
+          <AgentRow
+            emoji="💳"
+            iconBg="#EEEDFE"
+            title="AR Aging Agent"
+            description="Accounts receivable analysis, overdue tracking, customer payment insights from BC"
+            tags={['AR Ledger', 'Customer table', 'retrieveData']}
+            status="live"
+          />
+          <div style={{ marginBottom: '18px' }}>
+            <AgentRow
+              emoji="🔬"
+              iconBg="#E1F5EE"
+              title="Recall & Trace Expert"
+              description="Full forward/backward lot traceability, finished goods impact, regulatory recall support"
+              tags={['Lot tracking', 'Item Ledger', 'F&B / LS']}
+              status="live"
             />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
-        </div>
-      </main>
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
+          </div>
+
+          {/* More agents grid */}
+          <div style={{
+            fontSize: '11px', fontWeight: 600, color: '#888',
+            letterSpacing: '.04em', textTransform: 'uppercase', marginBottom: '12px',
+          }}>
+            More agents
+          </div>
+
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(170px, 1fr))', gap: '12px' }}>
+            <AgentCard
+              featured
+              emoji="📊"
+              iconBg="#FAEEDA"
+              title="Vendor Scorecard"
+              description="Dynamic supplier scoring with configurable weights, MCP-driven."
+              industry={{ label: 'F&B', bg: '#E1F5EE', color: '#0F6E56' }}
+              stars={5}
+            />
+            <AgentCard
+              emoji="🚨"
+              iconBg="#FCEBEB"
+              title="RCA Agent"
+              description="Root cause analysis, z-score & chi-square. Zero narration."
+              industry={{ label: 'F&B', bg: '#E1F5EE', color: '#0F6E56' }}
+              stars={4}
+            />
+            <AgentCard
+              emoji="🧪"
+              iconBg="#E6F1FB"
+              title="Quality Inspector"
+              description="QC holds, spec deviations, batch release readiness."
+              industry={{ label: 'Life Sci', bg: '#E6F1FB', color: '#185FA5' }}
+              stars={4}
+            />
+            <AgentCard
+              emoji="🤝"
+              iconBg="#E1F5EE"
+              title="Customer BC Expert"
+              description="360 customer view — orders, balances, contacts."
+              industry={{ label: 'F&B', bg: '#E1F5EE', color: '#0F6E56' }}
+              stars={5}
+            />
+            <AgentCard
+              emoji="📦"
+              iconBg="#FBEAF0"
+              title="Production Order"
+              description="Batch split, upstream/downstream linkage, scheduler."
+              industry={{ label: 'F&B', bg: '#E1F5EE', color: '#0F6E56' }}
+              stars={2}
+              status="coming-soon"
+            />
+            <RequestCard />
+          </div>
+
+        </main>
+      </div>
     </div>
   );
 }
