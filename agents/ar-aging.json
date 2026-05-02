@@ -5,6 +5,7 @@
   "description": "The AR Aging Agent connects directly to your Business Central instance to deliver real-time accounts receivable insights. It analyses overdue balances, identifies at-risk customers, computes aging buckets (current, 30, 60, 90+ days), and surfaces payment trend anomalies — all through natural language. No BI tool or manual export required. Ask it to flag your top 10 overdue accounts, compute DSO, or summarise cash flow risk by customer segment.",
   "industry": ["Food & Beverage"],
   "function": "Finance / AR",
+  "productLine": "Business Central",
   "status": "live",
   "flowId": "d383b17f-35d5-4ce6-b96d-c5850cfe10c7",
   "tags": ["AR Ledger", "Customer table", "retrieveData"],

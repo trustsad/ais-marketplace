@@ -103,7 +103,7 @@ export default function AgentCard({ agent }: { agent: Agent }) {
         ))}
       </div>
 
-      {/* Industry badges + rating */}
+      {/* Industry badges + product line + rating */}
       <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', flexWrap: 'wrap', gap: '6px' }}>
         <div style={{ display: 'flex', gap: '4px', flexWrap: 'wrap' }}>
           {agent.industry.map(ind => {
@@ -117,6 +117,14 @@ export default function AgentCard({ agent }: { agent: Agent }) {
               </span>
             );
           })}
+          {agent.productLine && (
+            <span style={{
+              fontSize: '10px', padding: '2px 7px', borderRadius: '6px',
+              background: '#EBF4FF', color: '#0078D4', fontWeight: 600,
+            }}>
+              {agent.productLine}
+            </span>
+          )}
         </div>
         {reviewCount > 0 && <StarRating rating={rating} count={reviewCount} />}
       </div>

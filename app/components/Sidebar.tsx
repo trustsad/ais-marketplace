@@ -6,9 +6,11 @@ type Props = {
   agents: Agent[];
   activeIndustry: string | null;
   activeFunction: string | null;
+  activeProductLine: string | null;
   activeStatus: string | null;
   onIndustry: (v: string) => void;
   onFunction: (v: string) => void;
+  onProductLine: (v: string) => void;
   onStatus: (v: string) => void;
 };
 
@@ -23,6 +25,12 @@ const functionDots: Record<string, string> = {
   'Traceability':  '#378ADD',
   'Procurement':   '#7F77DD',
   'Sales / CRM':   '#1D9E75',
+};
+
+const productLineDots: Record<string, string> = {
+  'Business Central': '#0078D4',
+  'Aptean ERP':       '#E8541C',
+  'Aptean Comply':    '#6B4FBB',
 };
 
 function SectionLabel({ children }: { children: React.ReactNode }) {
@@ -69,16 +77,20 @@ function NavItem({
 }
 
 export default function Sidebar({
-  agents, activeIndustry, activeFunction, activeStatus,
-  onIndustry, onFunction, onStatus,
+  agents, activeIndustry, activeFunction, activeProductLine, activeStatus,
+  onIndustry, onFunction, onProductLine, onStatus,
 }: Props) {
-  const industries = Array.from(new Set(agents.flatMap((a) => a.industry)));
-  const functions  = Array.from(new Set(agents.map((a) => a.function)));
+  const industries   = Array.from(new Set(agents.flatMap((a) => a.industry)));
+  const functions    = Array.from(new Set(agents.map((a) => a.function)));
+  const productLines = Array.from(new Set(agents.map((a) => a.productLine).filter(Boolean)));
 
-  const countByIndustry = (ind: string) => agents.filter(a => a.industry.includes(ind)).length;
-  const countByFunction = (fn: string)  => agents.filter(a => a.function === fn).length;
-  const liveCount        = agents.filter(a => a.status === 'live').length;
-  const comingSoonCount  = agents.filter(a => a.status === 'coming-soon').length;
+  const countByIndustry    = (v: string) => agents.filter(a => a.industry.includes(v)).length;
+  const countByFunction    = (v: string) => agents.filter(a => a.function === v).length;
+  const countByProductLine = (v: string) => agents.filter(a => a.productLine === v).length;
+  const liveCount          = agents.filter(a => a.status === 'live').length;
+  const comingSoonCount    = agents.filter(a => a.status === 'coming-soon').length;
+
+  const allActive = !activeIndustry && !activeFunction && !activeProductLine && !activeStatus;
 
   return (
     <aside style={{
@@ -88,8 +100,8 @@ export default function Sidebar({
       {/* All agents */}
       <NavItem
         label="All agents" dot="#7F77DD" count={agents.length}
-        active={!activeIndustry && !activeFunction && !activeStatus}
-        onClick={() => { onIndustry(''); onFunction(''); onStatus(''); }}
+        active={allActive}
+        onClick={() => { onIndustry(''); onFunction(''); onProductLine(''); onStatus(''); }}
       />
 
       <div style={{ marginTop: '10px' }}>
@@ -118,6 +130,21 @@ export default function Sidebar({
           />
         ))}
       </div>
+
+      {productLines.length > 0 && (
+        <div style={{ marginTop: '14px' }}>
+          <SectionLabel>Product Line</SectionLabel>
+          {productLines.map(pl => (
+            <NavItem
+              key={pl} label={pl}
+              dot={productLineDots[pl] ?? '#888'}
+              count={countByProductLine(pl)}
+              active={activeProductLine === pl}
+              onClick={() => onProductLine(pl)}
+            />
+          ))}
+        </div>
+      )}
 
       <div style={{ marginTop: '14px' }}>
         <SectionLabel>Status</SectionLabel>

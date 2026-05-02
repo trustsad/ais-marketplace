@@ -5,6 +5,7 @@
   "description": "The Vendor Scorecard Agent delivers real-time supplier performance analysis driven by your Business Central data. Configure scoring weights for on-time delivery, quality rejection rates, pricing variance, and responsiveness. The agent generates ranked scorecards, highlights underperformers, flags risk concentrations, and recommends procurement actions — in plain language. Replace your quarterly spreadsheet review with a live, queryable scorecard.",
   "industry": ["Food & Beverage"],
   "function": "Procurement",
+  "productLine": "Business Central",
   "status": "live",
   "flowId": "placeholder",
   "tags": ["Vendor table", "Purchase Ledger", "Item Ledger"],

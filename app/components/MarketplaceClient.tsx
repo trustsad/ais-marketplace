@@ -40,17 +40,19 @@ function RequestCard() {
 type Props = { agents: Agent[] };
 
 export default function MarketplaceClient({ agents }: Props) {
-  const [activeIndustry, setActiveIndustry] = useState<string | null>(null);
-  const [activeFunction, setActiveFunction] = useState<string | null>(null);
-  const [activeStatus, setActiveStatus] = useState<string | null>(null);
+  const [activeIndustry,    setActiveIndustry]    = useState<string | null>(null);
+  const [activeFunction,    setActiveFunction]    = useState<string | null>(null);
+  const [activeProductLine, setActiveProductLine] = useState<string | null>(null);
+  const [activeStatus,      setActiveStatus]      = useState<string | null>(null);
   const [cartOpen, setCartOpen] = useState(false);
   const [search, setSearch] = useState('');
   const { items } = useCart();
 
   const filtered = useMemo(() => agents.filter(a => {
-    if (activeIndustry && !a.industry.includes(activeIndustry)) return false;
-    if (activeFunction && a.function !== activeFunction) return false;
-    if (activeStatus && a.status !== activeStatus) return false;
+    if (activeIndustry    && !a.industry.includes(activeIndustry)) return false;
+    if (activeFunction    && a.function    !== activeFunction)      return false;
+    if (activeProductLine && a.productLine !== activeProductLine)   return false;
+    if (activeStatus      && a.status      !== activeStatus)        return false;
     if (search) {
       const q = search.toLowerCase();
       if (
@@ -60,13 +62,17 @@ export default function MarketplaceClient({ agents }: Props) {
       ) return false;
     }
     return true;
-  }), [agents, activeIndustry, activeFunction, activeStatus, search]);
+  }), [agents, activeIndustry, activeFunction, activeProductLine, activeStatus, search]);
 
-  const handleIndustry = (v: string) => setActiveIndustry(prev => (prev === v || v === '') ? null : v);
-  const handleFunction = (v: string) => setActiveFunction(prev => (prev === v || v === '') ? null : v);
-  const handleStatus   = (v: string) => setActiveStatus(prev => (prev === v || v === '') ? null : v);
+  const toggle = <T,>(set: React.Dispatch<React.SetStateAction<T | null>>, prev: T | null, v: T) =>
+    set(prev === v || (v as unknown as string) === '' ? null : v);
 
-  const filterLabel = activeIndustry ?? activeFunction ?? (activeStatus ? 'Status filter' : null);
+  const handleIndustry    = (v: string) => toggle(setActiveIndustry, activeIndustry, v);
+  const handleFunction    = (v: string) => toggle(setActiveFunction, activeFunction, v);
+  const handleProductLine = (v: string) => toggle(setActiveProductLine, activeProductLine, v);
+  const handleStatus      = (v: string) => toggle(setActiveStatus, activeStatus, v);
+
+  const filterLabel = activeIndustry ?? activeProductLine ?? activeFunction ?? (activeStatus ? 'Status filter' : null);
 
   return (
     <div style={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
@@ -82,9 +88,11 @@ export default function MarketplaceClient({ agents }: Props) {
           agents={agents}
           activeIndustry={activeIndustry}
           activeFunction={activeFunction}
+          activeProductLine={activeProductLine}
           activeStatus={activeStatus}
           onIndustry={handleIndustry}
           onFunction={handleFunction}
+          onProductLine={handleProductLine}
           onStatus={handleStatus}
         />
 

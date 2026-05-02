@@ -14,6 +14,7 @@ export type Agent = {
   description: string;
   industry: string[];
   function: string;
+  productLine: string;
   status: 'live' | 'coming-soon';
   flowId: string;
   tags: string[];

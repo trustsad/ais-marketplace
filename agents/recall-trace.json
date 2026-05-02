@@ -5,6 +5,7 @@
   "description": "The Recall & Trace Expert provides end-to-end lot traceability across your supply chain. It performs forward traces (where did this lot go?) and backward traces (what went into this batch?), identifies all affected finished goods, estimates recall scope by customer and shipment, and generates regulatory-ready summaries. Designed for Food & Beverage and Life Sciences companies where traceability is non-negotiable.",
   "industry": ["Food & Beverage", "Life Sciences"],
   "function": "Traceability",
+  "productLine": "Business Central",
   "status": "live",
   "flowId": "placeholder",
   "tags": ["Lot tracking", "Item Ledger", "F&B / LS"],
