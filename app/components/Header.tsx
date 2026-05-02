@@ -62,8 +62,8 @@ export default function Header({ cartCount, onCartOpen, search, onSearch }: Head
           gap: '6px', color: '#AFA9EC', fontSize: '12px', fontWeight: 500,
         }}
       >
-        <span>🛒</span>
-        <span>Enquiry</span>
+        <span>🔖</span>
+        <span>Shortlist</span>
         {cartCount > 0 && (
           <span style={{
             position: 'absolute', top: '-6px', right: '-6px',

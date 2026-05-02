@@ -1,7 +1,7 @@
 'use client';
 
 import Link from 'next/link';
-import { ShoppingCart, Check, Play, BookOpen, Clock } from 'lucide-react';
+import { BookmarkPlus, BookmarkCheck, Play, BookOpen, Clock } from 'lucide-react';
 import { useCart } from './CartContext';
 import type { Agent } from '@/lib/agents';
 
@@ -27,6 +27,20 @@ function StarRating({ rating, count }: { rating: number; count: number }) {
 const industryColors: Record<string, { bg: string; color: string }> = {
   'Food & Beverage': { bg: '#E1F5EE', color: '#0F6E56' },
   'Life Sciences':   { bg: '#E6F1FB', color: '#185FA5' },
+};
+
+const productLineColors: Record<string, { bg: string; color: string }> = {
+  'Business Central': { bg: '#EBF4FF', color: '#0078D4' },
+  'JustFoodERP':      { bg: '#ECFDF5', color: '#1D9E75' },
+  'bcFood':           { bg: '#ECFDF5', color: '#2BAE80' },
+  'Food & Beverage':  { bg: '#ECFDF5', color: '#3DBE6E' },
+  'Apparel':          { bg: '#FDF2F8', color: '#C0397A' },
+  'Equipment':        { bg: '#FFFBEB', color: '#D97706' },
+  'Travers':          { bg: '#F5F3FF', color: '#7C3AED' },
+  'Made2Manage':      { bg: '#FFFBEB', color: '#B45309' },
+  'M2M':              { bg: '#FFFBEB', color: '#B45309' },
+  'ProcessPro':       { bg: '#EFF6FF', color: '#0369A1' },
+  'Ross':             { bg: '#FEF2F2', color: '#DC2626' },
 };
 
 export default function AgentCard({ agent }: { agent: Agent }) {
@@ -117,14 +131,17 @@ export default function AgentCard({ agent }: { agent: Agent }) {
               </span>
             );
           })}
-          {agent.productLine && (
-            <span style={{
-              fontSize: '10px', padding: '2px 7px', borderRadius: '6px',
-              background: '#EBF4FF', color: '#0078D4', fontWeight: 600,
-            }}>
-              {agent.productLine}
-            </span>
-          )}
+          {agent.productLine && (() => {
+            const pc = productLineColors[agent.productLine] ?? { bg: '#F3F4F6', color: '#555' };
+            return (
+              <span style={{
+                fontSize: '10px', padding: '2px 7px', borderRadius: '6px',
+                background: pc.bg, color: pc.color, fontWeight: 600,
+              }}>
+                {agent.productLine}
+              </span>
+            );
+          })()}
         </div>
         {reviewCount > 0 && <StarRating rating={rating} count={reviewCount} />}
       </div>
@@ -145,7 +162,7 @@ export default function AgentCard({ agent }: { agent: Agent }) {
             color: '#fff', fontSize: '12px', fontWeight: 600, textDecoration: 'none',
           }}>
             <Play size={13} fill="currentColor" />
-            Try it
+            Try It
           </Link>
         ) : (
           <div style={{
@@ -154,11 +171,11 @@ export default function AgentCard({ agent }: { agent: Agent }) {
             color: '#aaa', fontSize: '12px', fontWeight: 600, border: '1px solid #e2e0d8',
           }}>
             <Clock size={13} />
-            Coming soon
+            Coming Soon
           </div>
         )}
 
-        {/* Row 2: Add to cart + Learn more */}
+        {/* Row 2: Shortlist + Learn More */}
         <div style={{ display: 'flex', gap: '7px' }}>
           <button
             onClick={() => inCart ? removeItem(agent.id) : addItem({ id: agent.id, name: agent.name })}
@@ -173,8 +190,8 @@ export default function AgentCard({ agent }: { agent: Agent }) {
             }}
           >
             {inCart
-              ? <><Check size={12} /> Added</>
-              : <><ShoppingCart size={12} /> Add to enquiry</>}
+              ? <><BookmarkCheck size={12} /> Shortlisted</>
+              : <><BookmarkPlus size={12} /> Shortlist</>}
           </button>
 
           <Link href={`/agents/${agent.id}`} style={{
@@ -184,7 +201,7 @@ export default function AgentCard({ agent }: { agent: Agent }) {
             textDecoration: 'none',
           }}>
             <BookOpen size={12} />
-            Learn more
+            Learn More
           </Link>
         </div>
 

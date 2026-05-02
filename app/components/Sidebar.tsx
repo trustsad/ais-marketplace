@@ -28,9 +28,19 @@ const functionDots: Record<string, string> = {
 };
 
 const productLineDots: Record<string, string> = {
+  // Microsoft BC and its verticals
   'Business Central': '#0078D4',
-  'Aptean ERP':       '#E8541C',
-  'Aptean Comply':    '#6B4FBB',
+  'JustFoodERP':      '#1D9E75',
+  'bcFood':           '#2BAE80',
+  'Food & Beverage':  '#3DBE6E',
+  'Apparel':          '#C0397A',
+  'Equipment':        '#D97706',
+  // Aptean ERPs
+  'Travers':          '#7C3AED',
+  'Made2Manage':      '#B45309',
+  'M2M':              '#B45309',
+  'ProcessPro':       '#0369A1',
+  'Ross':             '#DC2626',
 };
 
 function SectionLabel({ children }: { children: React.ReactNode }) {

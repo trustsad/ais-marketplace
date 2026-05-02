@@ -34,10 +34,10 @@ export default function CartDrawer({ onClose }: Props) {
         }}>
           <div>
             <div style={{ fontSize: '15px', fontWeight: 600, color: '#1a1a1a' }}>
-              Your AIS Enquiry
+              Your Shortlist
             </div>
             <div style={{ fontSize: '12px', color: '#888', marginTop: '2px' }}>
-              {items.length === 0 ? 'No agents selected' : `${items.length} agent${items.length > 1 ? 's' : ''} selected`}
+              {items.length === 0 ? 'No agents shortlisted' : `${items.length} agent${items.length > 1 ? 's' : ''} shortlisted`}
             </div>
           </div>
           <button onClick={onClose} style={{
@@ -56,7 +56,7 @@ export default function CartDrawer({ onClose }: Props) {
               padding: '20px', background: '#f5f4ef', borderRadius: '10px',
               textAlign: 'center', fontSize: '13px', color: '#888',
             }}>
-              Add agents from the marketplace to include them in your enquiry.
+              Add agents from the marketplace to shortlist them for a demo.
             </div>
           ) : (
             <div style={{ display: 'flex', flexDirection: 'column', gap: '8px' }}>
