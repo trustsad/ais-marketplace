@@ -117,10 +117,10 @@ export default function MarketplaceClient({ agents }: Props) {
             gridTemplateColumns: 'repeat(auto-fill, minmax(270px, 1fr))',
             gap: '14px',
           }}>
+            <RequestCard />
             {filtered.map(agent => (
               <AgentCard key={agent.id} agent={agent} />
             ))}
-            <RequestCard />
           </div>
         </main>
       </div>
