@@ -1,0 +1,24 @@
+{
+  "id": "vendor-scorecard",
+  "name": "Vendor Scorecard",
+  "tagline": "Dynamic supplier scoring with configurable weights",
+  "description": "The Vendor Scorecard Agent delivers real-time supplier performance analysis driven by your Business Central data. Configure scoring weights for on-time delivery, quality rejection rates, pricing variance, and responsiveness. The agent generates ranked scorecards, highlights underperformers, flags risk concentrations, and recommends procurement actions — in plain language. Replace your quarterly spreadsheet review with a live, queryable scorecard.",
+  "industry": ["Food & Beverage"],
+  "function": "Procurement",
+  "status": "live",
+  "flowId": "placeholder",
+  "tags": ["Vendor table", "Purchase Ledger", "Item Ledger"],
+  "emoji": "📊",
+  "iconBg": "#FAEEDA",
+  "rating": 5.0,
+  "reviews": [
+    { "author": "Procurement Lead, Crest Foods", "stars": 5, "comment": "Finally a supplier view that doesn't require a data analyst to build." },
+    { "author": "Supply Chain Manager, PacNorth Beverages", "stars": 5, "comment": "Automated our quarterly vendor reviews entirely. Saves us 2 days per quarter." },
+    { "author": "VP Operations, Grain & Co.", "stars": 5, "comment": "Best procurement intelligence tool we have added to BC in years." }
+  ],
+  "usageCount": 78,
+  "videoUrl": "",
+  "docsUrl": "",
+  "reviewLinks": [],
+  "featured": true
+}

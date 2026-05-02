@@ -1,0 +1,23 @@
+{
+  "id": "recall-trace",
+  "name": "Recall & Trace Expert",
+  "tagline": "Full forward/backward lot traceability and regulatory recall support",
+  "description": "The Recall & Trace Expert provides end-to-end lot traceability across your supply chain. It performs forward traces (where did this lot go?) and backward traces (what went into this batch?), identifies all affected finished goods, estimates recall scope by customer and shipment, and generates regulatory-ready summaries. Designed for Food & Beverage and Life Sciences companies where traceability is non-negotiable.",
+  "industry": ["Food & Beverage", "Life Sciences"],
+  "function": "Traceability",
+  "status": "live",
+  "flowId": "placeholder",
+  "tags": ["Lot tracking", "Item Ledger", "F&B / LS"],
+  "emoji": "🔬",
+  "iconBg": "#E1F5EE",
+  "rating": 4.6,
+  "reviews": [
+    { "author": "Quality Director, FreshFarm Co.", "stars": 5, "comment": "Traced a full lot recall in under 2 minutes. Previously took half a day with spreadsheets." },
+    { "author": "Regulatory Affairs, BioMed Inc.", "stars": 4, "comment": "Excellent for backward traces. Forward trace granularity could improve slightly." }
+  ],
+  "usageCount": 89,
+  "videoUrl": "",
+  "docsUrl": "",
+  "reviewLinks": [],
+  "featured": false
+}
