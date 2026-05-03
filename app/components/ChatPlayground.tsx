@@ -21,6 +21,7 @@ export default function ChatPlayground({ agentId, agentName, agentEmoji, isLive 
   const bottomRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
+    if (messages.length === 0 && !loading) return;
     bottomRef.current?.scrollIntoView({ behavior: 'smooth' });
   }, [messages, loading]);
 
