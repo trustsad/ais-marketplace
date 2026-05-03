@@ -169,7 +169,7 @@ export default function AgentDetailPage({ params }: { params: { id: string } }) 
             agentId={agent.id}
             agentName={agent.name}
             agentEmoji={agent.emoji}
-            isLive={agent.status === 'live' && agent.flowId !== 'placeholder'}
+            isLive={agent.status === 'live' && agent.flowId !== 'placeholder' && agent.flowId !== ''}
           />
         </div>
 

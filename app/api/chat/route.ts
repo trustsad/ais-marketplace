@@ -9,7 +9,7 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ error: 'Agent not found' }, { status: 404 });
   }
 
-  if (agent.flowId === 'placeholder') {
+  if (!agent.flowId || agent.flowId === 'placeholder') {
     return NextResponse.json({ error: 'Agent not yet live' }, { status: 422 });
   }
 
