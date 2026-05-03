@@ -128,7 +128,22 @@ export default function Sidebar({
         onClick={() => { onIndustry(''); onFunction(''); onProductLine(''); onStatus(''); }}
       />
 
-      <div style={{ marginTop: '10px' }}>
+      {productLines.length > 0 && (
+        <div style={{ marginTop: '10px' }}>
+          <SectionLabel>Product Line</SectionLabel>
+          {productLines.map(pl => (
+            <NavItem
+              key={pl} label={pl}
+              dot={productLineDots[pl] ?? '#888'}
+              count={countByProductLine(pl)}
+              active={activeProductLine === pl}
+              onClick={() => onProductLine(pl)}
+            />
+          ))}
+        </div>
+      )}
+
+      <div style={{ marginTop: '14px' }}>
         <SectionLabel>Industry</SectionLabel>
         {industries.map(ind => (
           <NavItem
@@ -154,21 +169,6 @@ export default function Sidebar({
           />
         ))}
       </div>
-
-      {productLines.length > 0 && (
-        <div style={{ marginTop: '14px' }}>
-          <SectionLabel>Product Line</SectionLabel>
-          {productLines.map(pl => (
-            <NavItem
-              key={pl} label={pl}
-              dot={productLineDots[pl] ?? '#888'}
-              count={countByProductLine(pl)}
-              active={activeProductLine === pl}
-              onClick={() => onProductLine(pl)}
-            />
-          ))}
-        </div>
-      )}
 
       <div style={{ marginTop: '14px' }}>
         <SectionLabel>Status</SectionLabel>

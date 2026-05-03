@@ -3,6 +3,7 @@ import Link from 'next/link';
 import { getAllAgents, getAgentById, computeRating } from '@/lib/agents';
 import ChatPlayground from '@/components/ChatPlayground';
 import EnquiryForm from '@/components/EnquiryForm';
+import ScrollToTop from '@/components/ScrollToTop';
 
 export async function generateStaticParams() {
   const agents = getAllAgents();
@@ -25,6 +26,7 @@ export default function AgentDetailPage({ params }: { params: { id: string } }) 
       fontFamily: "-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif",
       background: '#f0efe9', minHeight: '100vh', color: '#1a1a1a',
     }}>
+      <ScrollToTop />
       {/* Top bar */}
       <div style={{
         background: '#1e1e1e', borderBottom: '1px solid #2e2e2e',
