@@ -170,7 +170,7 @@ export default function AgentCard({ agent }: { agent: Agent }) {
 
         {/* Row 1: Try it (full width) */}
         {agent.status === 'live' && agent.flowId !== 'placeholder' ? (
-          <Link href={`/agents/${agent.id}`} style={{
+          <Link href={`/agents/${agent.id}#try-it`} style={{
             display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '6px',
             padding: '9px 0', borderRadius: '8px', background: '#7F77DD',
             color: '#fff', fontSize: '12px', fontWeight: 600, textDecoration: 'none',

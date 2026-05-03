@@ -155,7 +155,7 @@ export default function AgentDetailPage({ params }: { params: { id: string } }) 
         </div>
 
         {/* Chat playground */}
-        <div style={{
+        <div id="try-it" style={{
           background: '#fff', border: '1px solid #e2e0d8', borderRadius: '14px',
           padding: '24px', marginBottom: '20px', boxShadow: '0 1px 4px rgba(0,0,0,0.06)',
         }}>
