@@ -42,20 +42,20 @@ export default function ChatPlayground({ agentId, agentName, agentEmoji, isLive 
   }
 
   const send = async () => {
-    const text = input.trim();
-    if (!text || loading) return;
+    const userText = input.trim();
+    if (!userText || loading) return;
     setInput('');
-    setMessages(m => [...m, { role: 'user', text }]);
+    setMessages(m => [...m, { role: 'user', text: userText }]);
     setLoading(true);
     try {
       const res = await fetch('/api/chat', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ agentId, message: text }),
+        body: JSON.stringify({ agentId, message: userText }),
       });
       const data = await res.json();
-      const text = data.text ?? (data.error ? `Error: ${data.error}${data.detail ? `\n\n${data.detail}` : ''}` : 'No response.');
-      setMessages(m => [...m, { role: 'agent', text }]);
+      const replyText = data.text ?? (data.error ? `Error: ${data.error}${data.detail ? `\n\n${data.detail}` : ''}` : 'No response.');
+      setMessages(m => [...m, { role: 'agent', text: replyText }]);
     } catch {
       setMessages(m => [...m, { role: 'agent', text: 'Something went wrong. Please try again.' }]);
     }
