@@ -18,7 +18,8 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ error: 'API key not configured' }, { status: 500 });
   }
 
-  const url = `https://appcentral-demo.aptean.com/ais/api/v1/run/${agent.flowId}?stream=false`;
+  const baseUrl = process.env.INTELLIGENCE_STUDIO_BASE_URL ?? 'https://appcentral-demo.aptean.com';
+  const url = `${baseUrl}/ais/api/v1/run/${agent.flowId}?stream=false`;
 
   const upstream = await fetch(url, {
     method: 'POST',
