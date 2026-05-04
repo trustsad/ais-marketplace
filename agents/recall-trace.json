@@ -7,9 +7,9 @@
     "Food & Beverage"
   ],
   "function": "Traceability",
-  "productLine": "Aptean Food & Beverage ERP",
+  "productLine": "Business Central",
   "status": "live",
-  "flowId": "placeholder",
+  "flowId": "7fe21ec9-ec2c-4a6d-b845-b60e042ef6ca",
   "tags": [
     "Recall",
     "Lot Traceability",

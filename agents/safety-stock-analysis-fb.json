@@ -7,9 +7,9 @@
     "Food & Beverage"
   ],
   "function": "Supply Chain / Planning",
-  "productLine": "Aptean Food & Beverage ERP",
-  "status": "coming-soon",
-  "flowId": "placeholder",
+  "productLine": "Business Central",
+  "status": "live",
+  "flowId": "0238e4d7-ea56-4a43-ad36-df7560963ef2",
   "tags": [
     "Safety Stock",
     "F&B",

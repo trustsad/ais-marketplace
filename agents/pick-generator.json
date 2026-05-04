@@ -7,9 +7,9 @@
     "Food & Beverage"
   ],
   "function": "Operations",
-  "productLine": "Aptean Food & Beverage ERP",
+  "productLine": "Business Central",
   "status": "live",
-  "flowId": "placeholder",
+  "flowId": "83a3250d-7c38-4b1f-a272-4b9adc349335",
   "tags": [
     "Warehouse",
     "Pick List",

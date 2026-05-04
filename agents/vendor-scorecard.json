@@ -7,9 +7,9 @@
     "Food & Beverage"
   ],
   "function": "Procurement",
-  "productLine": "Aptean Food & Beverage ERP",
+  "productLine": "Business Central",
   "status": "live",
-  "flowId": "placeholder",
+  "flowId": "fd155868-82df-496b-891f-9afb098b4220",
   "tags": [
     "Vendor",
     "Scorecard",

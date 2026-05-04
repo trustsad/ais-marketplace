@@ -7,9 +7,9 @@
     "Food & Beverage"
   ],
   "function": "Procurement",
-  "productLine": "Aptean Food & Beverage ERP",
+  "productLine": "Business Central",
   "status": "live",
-  "flowId": "placeholder",
+  "flowId": "3f367906-ebe1-49e0-8027-af85e0389058",
   "tags": [
     "Purchase Orders",
     "Procurement",

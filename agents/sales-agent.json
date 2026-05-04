@@ -7,9 +7,9 @@
     "Food & Beverage"
   ],
   "function": "Sales / CRM",
-  "productLine": "Aptean Food & Beverage ERP",
+  "productLine": "Business Central",
   "status": "live",
-  "flowId": "placeholder",
+  "flowId": "32f65985-344c-4465-83f4-11f1d7ab3e5d",
   "tags": [
     "Sales",
     "Customer History",
