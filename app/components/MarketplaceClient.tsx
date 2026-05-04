@@ -48,21 +48,27 @@ export default function MarketplaceClient({ agents }: Props) {
   const [search, setSearch] = useState('');
   const { items } = useCart();
 
-  const filtered = useMemo(() => agents.filter(a => {
-    if (activeIndustry    && !a.industry.includes(activeIndustry)) return false;
-    if (activeFunction    && a.function    !== activeFunction)      return false;
-    if (activeProductLine && a.productLine !== activeProductLine)   return false;
-    if (activeStatus      && a.status      !== activeStatus)        return false;
-    if (search) {
-      const q = search.toLowerCase();
-      if (
-        !a.name.toLowerCase().includes(q) &&
-        !a.tagline.toLowerCase().includes(q) &&
-        !a.tags.some(t => t.toLowerCase().includes(q))
-      ) return false;
-    }
-    return true;
-  }), [agents, activeIndustry, activeFunction, activeProductLine, activeStatus, search]);
+  const filtered = useMemo(() => {
+    const result = agents.filter(a => {
+      if (activeIndustry    && !a.industry.includes(activeIndustry)) return false;
+      if (activeFunction    && a.function    !== activeFunction)      return false;
+      if (activeProductLine && a.productLine !== activeProductLine)   return false;
+      if (activeStatus      && a.status      !== activeStatus)        return false;
+      if (search) {
+        const q = search.toLowerCase();
+        if (
+          !a.name.toLowerCase().includes(q) &&
+          !a.tagline.toLowerCase().includes(q) &&
+          !a.tags.some(t => t.toLowerCase().includes(q))
+        ) return false;
+      }
+      return true;
+    });
+    return result.sort((a, b) => {
+      if (a.status === b.status) return a.name.localeCompare(b.name);
+      return a.status === 'live' ? -1 : 1;
+    });
+  }, [agents, activeIndustry, activeFunction, activeProductLine, activeStatus, search]);
 
   const toggle = <T,>(set: React.Dispatch<React.SetStateAction<T | null>>, prev: T | null, v: T) =>
     set(prev === v || (v as unknown as string) === '' ? null : v);
@@ -103,12 +109,6 @@ export default function MarketplaceClient({ agents }: Props) {
               <span style={{ fontWeight: 400, color: '#888', fontSize: '12px' }}>
                 — {filtered.length} available
               </span>
-            </div>
-            <div style={{
-              fontSize: '11px', color: '#666', border: '1px solid #d8d6ce',
-              padding: '4px 10px', borderRadius: '7px', background: '#fff',
-            }}>
-              Sort: Most used
             </div>
           </div>
 
