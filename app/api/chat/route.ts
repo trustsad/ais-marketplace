@@ -34,7 +34,12 @@ export async function POST(req: NextRequest) {
   });
 
   if (!upstream.ok) {
-    return NextResponse.json({ error: 'Upstream error' }, { status: upstream.status });
+    const body = await upstream.text().catch(() => '');
+    console.error(`Upstream error ${upstream.status} for flowId ${agent.flowId}:`, body);
+    return NextResponse.json(
+      { error: `Upstream error (${upstream.status})`, detail: body },
+      { status: upstream.status }
+    );
   }
 
   const data = await upstream.json();

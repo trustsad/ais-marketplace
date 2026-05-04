@@ -18,11 +18,12 @@ export default function ChatPlayground({ agentId, agentName, agentEmoji, isLive 
   const [messages, setMessages] = useState<Message[]>([]);
   const [input, setInput] = useState('');
   const [loading, setLoading] = useState(false);
-  const bottomRef = useRef<HTMLDivElement>(null);
+  const messagesRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     if (messages.length === 0 && !loading) return;
-    bottomRef.current?.scrollIntoView({ behavior: 'smooth' });
+    const el = messagesRef.current;
+    if (el) el.scrollTop = el.scrollHeight;
   }, [messages, loading]);
 
   if (!isLive) {
@@ -53,7 +54,8 @@ export default function ChatPlayground({ agentId, agentName, agentEmoji, isLive 
         body: JSON.stringify({ agentId, message: text }),
       });
       const data = await res.json();
-      setMessages(m => [...m, { role: 'agent', text: data.text ?? data.error ?? 'No response.' }]);
+      const text = data.text ?? (data.error ? `Error: ${data.error}${data.detail ? `\n\n${data.detail}` : ''}` : 'No response.');
+      setMessages(m => [...m, { role: 'agent', text }]);
     } catch {
       setMessages(m => [...m, { role: 'agent', text: 'Something went wrong. Please try again.' }]);
     }
@@ -67,7 +69,7 @@ export default function ChatPlayground({ agentId, agentName, agentEmoji, isLive 
   return (
     <div style={{ border: '1px solid #e2e0d8', borderRadius: '12px', overflow: 'hidden' }}>
       {/* Messages */}
-      <div style={{
+      <div ref={messagesRef} style={{
         minHeight: '280px', maxHeight: '420px', overflowY: 'auto',
         padding: '16px', background: '#fafaf8', display: 'flex',
         flexDirection: 'column', gap: '10px',
@@ -104,7 +106,6 @@ export default function ChatPlayground({ agentId, agentName, agentEmoji, isLive 
             </div>
           </div>
         )}
-        <div ref={bottomRef} />
       </div>
 
       {/* Input row */}
