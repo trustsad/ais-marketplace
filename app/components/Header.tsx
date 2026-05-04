@@ -22,7 +22,7 @@ export default function Header({ cartCount, onCartOpen, search, onSearch }: Head
         }}>
           <div style={{ width: '10px', height: '10px', borderRadius: '50%', background: '#fff' }} />
         </div>
-        AIS Marketplace
+        Aptean AI Agent Marketplace
         <span style={{
           background: '#2e2a4a', color: '#AFA9EC', fontSize: '10px',
           padding: '2px 7px', borderRadius: '8px', fontWeight: 500,

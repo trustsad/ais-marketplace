@@ -36,7 +36,7 @@ export default function AgentDetailPage({ params }: { params: { id: string } }) 
           <div style={{ width: '24px', height: '24px', borderRadius: '6px', background: '#7F77DD', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
             <div style={{ width: '10px', height: '10px', borderRadius: '50%', background: '#fff' }} />
           </div>
-          AIS Marketplace
+          Aptean AI Agent Marketplace
         </div>
         <div style={{ flex: 1 }} />
         <Link href="/" style={{ fontSize: '12px', color: '#888', textDecoration: 'none' }}>

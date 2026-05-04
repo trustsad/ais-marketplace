@@ -3,8 +3,8 @@ import "./globals.css";
 import { CartProvider } from "./components/CartContext";
 
 export const metadata: Metadata = {
-  title: "AIS Marketplace",
-  description: "AI Services Marketplace — powered by Aptean Intelligence Studio",
+  title: "Aptean AI Agent Marketplace",
+  description: "Aptean AI Agent Marketplace — powered by AIaaS",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
