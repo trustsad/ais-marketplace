@@ -6,9 +6,10 @@ import Header from './Header';
 import Sidebar from './Sidebar';
 import AgentCard from './AgentCard';
 import CartDrawer from './CartDrawer';
+import RequestAgentModal from './RequestAgentModal';
 import type { Agent } from '@/lib/agents';
 
-function RequestCard() {
+function RequestCard({ onRequest }: { onRequest: () => void }) {
   return (
     <div style={{
       background: '#f5f4ef', border: '1.5px dashed #ccc', borderRadius: '14px',
@@ -23,14 +24,17 @@ function RequestCard() {
       }}>
         +
       </div>
-      <div style={{ fontSize: '13px', fontWeight: 600, color: '#555' }}>Request an agent</div>
+      <div style={{ fontSize: '13px', fontWeight: 600, color: '#555' }}>Request an Agent</div>
       <div style={{ fontSize: '12px', color: '#888', lineHeight: 1.5 }}>
         Have a use case in mind? Submit it to the AIS team.
       </div>
-      <button style={{
-        fontSize: '12px', padding: '7px 16px', borderRadius: '8px',
-        border: '1px solid #ccc', background: '#fff', cursor: 'pointer', color: '#666',
-      }}>
+      <button
+        onClick={onRequest}
+        style={{
+          fontSize: '12px', padding: '7px 16px', borderRadius: '8px',
+          border: '1px solid #ccc', background: '#fff', cursor: 'pointer', color: '#666',
+        }}
+      >
         Request
       </button>
     </div>
@@ -45,6 +49,7 @@ export default function MarketplaceClient({ agents }: Props) {
   const [activeProductLine, setActiveProductLine] = useState<string | null>(null);
   const [activeStatus,      setActiveStatus]      = useState<string | null>(null);
   const [cartOpen, setCartOpen] = useState(false);
+  const [requestOpen, setRequestOpen] = useState(false);
   const [search, setSearch] = useState('');
   const { items } = useCart();
 
@@ -117,7 +122,7 @@ export default function MarketplaceClient({ agents }: Props) {
             gridTemplateColumns: 'repeat(auto-fill, minmax(270px, 1fr))',
             gap: '14px',
           }}>
-            <RequestCard />
+            <RequestCard onRequest={() => setRequestOpen(true)} />
             {filtered.map(agent => (
               <AgentCard key={agent.id} agent={agent} />
             ))}
@@ -126,6 +131,7 @@ export default function MarketplaceClient({ agents }: Props) {
       </div>
 
       {cartOpen && <CartDrawer onClose={() => setCartOpen(false)} />}
+      {requestOpen && <RequestAgentModal onClose={() => setRequestOpen(false)} />}
     </div>
   );
 }

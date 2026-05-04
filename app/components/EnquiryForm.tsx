@@ -5,9 +5,11 @@ import { useState } from 'react';
 type Props = {
   defaultAgents: string[];
   onSuccess?: () => void;
+  mode?: 'enquiry' | 'request';
 };
 
-export default function EnquiryForm({ defaultAgents, onSuccess }: Props) {
+export default function EnquiryForm({ defaultAgents, onSuccess, mode = 'enquiry' }: Props) {
+  const isRequest = mode === 'request';
   const [form, setForm] = useState({
     name: '', email: '', company: '', message: '',
     agents: defaultAgents.join(', '),
@@ -77,15 +79,16 @@ export default function EnquiryForm({ defaultAgents, onSuccess }: Props) {
           onChange={e => set('company', e.target.value)} placeholder="Company name" />
       </div>
       <div>
-        <label style={labelStyle}>Agents interested in</label>
+        <label style={labelStyle}>{isRequest ? 'Agent Idea Name' : 'Agents interested in'}</label>
         <input style={inputStyle} value={form.agents}
-          onChange={e => set('agents', e.target.value)} placeholder="Agent names" />
+          onChange={e => set('agents', e.target.value)}
+          placeholder={isRequest ? 'Give your agent idea a name' : 'Agent names'} />
       </div>
       <div>
-        <label style={labelStyle}>Message</label>
+        <label style={labelStyle}>{isRequest ? 'Agent Idea' : 'Message'}</label>
         <textarea style={{ ...inputStyle, resize: 'vertical', minHeight: '90px' }}
           value={form.message} onChange={e => set('message', e.target.value)}
-          placeholder="Tell us about your use case..." />
+          placeholder={isRequest ? 'Describe what you want this agent to do…' : 'Tell us about your use case...'} />
       </div>
       <button
         type="submit"
@@ -96,7 +99,7 @@ export default function EnquiryForm({ defaultAgents, onSuccess }: Props) {
           fontSize: '13px', fontWeight: 600, cursor: submitting ? 'not-allowed' : 'pointer',
         }}
       >
-        {submitting ? 'Sending…' : 'Send enquiry'}
+        {submitting ? 'Sending…' : isRequest ? 'Submit request' : 'Send enquiry'}
       </button>
     </form>
   );
