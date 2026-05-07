@@ -132,7 +132,7 @@ export async function POST(req: NextRequest) {
 
             try {
               const parsed = JSON.parse(raw) as Record<string, unknown>;
-              const chunk = tryExtractChunk(parsed);
+              const chunk = tryExtractChunk(parsed) ?? tryExtractFull(parsed);
               if (chunk) {
                 hasChunks = true;
                 emit({ chunk });

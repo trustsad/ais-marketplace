@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, useRef, useEffect } from 'react';
+import ReactMarkdown from 'react-markdown';
 
 type Message = {
   role: 'user' | 'agent';
@@ -113,7 +114,7 @@ export default function ChatPlayground({ agentId, agentName, agentEmoji, isLive 
       }
 
       if (!agentMsgAdded) {
-        setMessages(m => [...m, { role: 'agent', text: fullText || 'No response.' }]);
+        setMessages(m => [...m, { role: 'agent', text: fullText || 'The agent is taking longer than expected. Please try again in a moment.' }]);
       }
     } catch {
       setMessages(m => [...m, { role: 'agent', text: 'Something went wrong. Please try again.' }]);
@@ -145,14 +146,18 @@ export default function ChatPlayground({ agentId, agentName, agentEmoji, isLive 
             display: 'flex', justifyContent: m.role === 'user' ? 'flex-end' : 'flex-start',
           }}>
             <div style={{
-              maxWidth: '75%', padding: '9px 13px', borderRadius: '10px',
+              maxWidth: '85%', padding: '9px 13px', borderRadius: '10px',
               fontSize: '13px', lineHeight: 1.55,
               background: m.role === 'user' ? '#7F77DD' : '#fff',
               color: m.role === 'user' ? '#fff' : '#1a1a1a',
               border: m.role === 'agent' ? '1px solid #e2e0d8' : 'none',
-              whiteSpace: 'pre-wrap',
+              whiteSpace: m.role === 'user' ? 'pre-wrap' : undefined,
             }}>
-              {m.text}
+              {m.role === 'user' ? m.text : (
+                <div className="markdown-body">
+                  <ReactMarkdown>{m.text}</ReactMarkdown>
+                </div>
+              )}
             </div>
           </div>
         ))}
