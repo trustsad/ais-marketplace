@@ -1,6 +1,37 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { getAgentById } from '@/lib/agents';
 
+async function getServiceToken(baseUrl: string): Promise<string> {
+  const clientId     = process.env.IAM_CLIENT_ID;
+  const clientSecret = process.env.IAM_CLIENT_SECRET;
+  const realm        = process.env.IAM_REALM ?? 'aptean-demo';
+
+  if (!clientId || !clientSecret) {
+    throw new Error('IAM credentials not configured');
+  }
+
+  const iamUrl = `${baseUrl}/iam/auth/realms/${realm}/protocol/openid-connect/token`;
+
+  const res = await fetch(iamUrl, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+    body: new URLSearchParams({
+      client_id:     clientId,
+      client_secret: clientSecret,
+      grant_type:    'client_credentials',
+    }),
+  });
+
+  if (!res.ok) {
+    const body = await res.text().catch(() => '');
+    throw new Error(`IAM token fetch failed (${res.status}): ${body}`);
+  }
+
+  const data = await res.json();
+  if (!data.access_token) throw new Error('No access_token in IAM response');
+  return data.access_token as string;
+}
+
 export async function POST(req: NextRequest) {
   const { agentId, message } = await req.json();
 
@@ -19,17 +50,29 @@ export async function POST(req: NextRequest) {
   }
 
   const baseUrl = process.env.INTELLIGENCE_STUDIO_BASE_URL ?? 'https://appcentral-demo.aptean.com';
+
+  // Get IAM service token
+  let serviceToken: string;
+  try {
+    serviceToken = await getServiceToken(baseUrl);
+  } catch (err) {
+    const msg = err instanceof Error ? err.message : String(err);
+    console.error('IAM error:', msg);
+    return NextResponse.json({ error: `Auth error: ${msg}` }, { status: 500 });
+  }
+
   const url = `${baseUrl}/ais/api/v1/run/${agent.flowId}?stream=false`;
 
   const upstream = await fetch(url, {
     method: 'POST',
     headers: {
-      'Content-Type': 'application/json',
-      'x-api-key': apiKey,
+      'Content-Type':  'application/json',
+      'x-api-key':     apiKey,
+      'Authorization': `Bearer ${serviceToken}`,
     },
     body: JSON.stringify({
       output_type: 'chat',
-      input_type: 'chat',
+      input_type:  'chat',
       input_value: message,
     }),
   });
