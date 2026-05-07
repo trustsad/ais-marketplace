@@ -1,6 +1,9 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { getAgentById } from '@/lib/agents';
 
+// Extend Vercel function timeout to 5 minutes (Pro plan max)
+export const maxDuration = 300;
+
 async function getServiceToken(baseUrl: string): Promise<string> {
   const clientId     = process.env.IAM_CLIENT_ID;
   const clientSecret = process.env.IAM_CLIENT_SECRET;
