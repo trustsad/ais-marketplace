@@ -88,7 +88,10 @@ export async function POST(req: NextRequest) {
     return json({ error: `Upstream error (${upstream.status})`, detail: body }, upstream.status);
   }
 
-  // Pipe AIS SSE stream → client SSE stream
+  // AIS returns application/x-ndjson — each line is a raw JSON event object:
+  //   {"event": "session"|"heartbeat"|"add_message"|"end", "data": {...}}
+  // The final text lives in the "end" event at:
+  //   data.result.outputs[0].outputs[0].results.message.data.text
   const encoder = new TextEncoder();
 
   const stream = new ReadableStream({
@@ -96,31 +99,35 @@ export async function POST(req: NextRequest) {
       const reader = upstream.body!.getReader();
       const decoder = new TextDecoder();
       let buffer = '';
-      let hasChunks = false;
 
       const emit = (obj: object) =>
         controller.enqueue(encoder.encode(`data: ${JSON.stringify(obj)}\n\n`));
 
-      const tryExtractChunk = (parsed: Record<string, unknown>): string | null =>
-        (parsed?.chunk as string) ??
-        (parsed?.text  as string) ??
-        null;
+      // Extract the response text from any known AIS event shape
+      type AisEvent = { event: string; data: Record<string, unknown> };
 
-      // Extract text from any known AIS/Langflow response shape
-      const tryExtractFull = (parsed: Record<string, unknown>): string | null => {
-        // Non-streaming shape: outputs[0].outputs[0].results.message.text
-        const outputs = parsed?.outputs as Array<{ outputs: Array<{ results?: { message?: { text?: string } }, artifacts?: { message?: string } }> }> | undefined;
-        const fromOutputs =
-          outputs?.[0]?.outputs?.[0]?.results?.message?.text ??
-          outputs?.[0]?.outputs?.[0]?.artifacts?.message ??
-          null;
-        if (fromOutputs) return fromOutputs;
+      const extractText = (ev: AisEvent): string | null => {
+        const d = ev.data;
 
-        // Streaming shape: output_value.message.data.text  (or .text directly)
-        const ov = parsed?.output_value as Record<string, unknown> | undefined;
-        const msg = ov?.message as Record<string, unknown> | undefined;
-        const data = msg?.data as Record<string, unknown> | undefined;
-        return (data?.text as string) ?? (msg?.text as string) ?? null;
+        // "end" event: data.result.outputs[0].outputs[0].results.message.data.text
+        if (ev.event === 'end' && d?.result) {
+          const result = d.result as Record<string, unknown>;
+          const outputs = result?.outputs as Array<{ outputs: Array<{ results?: { message?: { data?: { text?: string }; text?: string } }; artifacts?: { message?: string } }> }> | undefined;
+          return (
+            outputs?.[0]?.outputs?.[0]?.results?.message?.data?.text ??
+            outputs?.[0]?.outputs?.[0]?.results?.message?.text ??
+            outputs?.[0]?.outputs?.[0]?.artifacts?.message ??
+            null
+          );
+        }
+
+        // "add_message" event from Machine with non-empty text (final AI message)
+        if (ev.event === 'add_message' && (d?.sender === 'Machine' || d?.sender_name === 'AI')) {
+          const text = d?.text as string | undefined;
+          if (text) return text;
+        }
+
+        return null;
       };
 
       try {
@@ -133,37 +140,24 @@ export async function POST(req: NextRequest) {
           buffer = lines.pop() ?? '';
 
           for (const line of lines) {
-            if (!line.startsWith('data: ')) continue;
-            const raw = line.slice(6).trim();
-            if (!raw || raw === '[DONE]') continue;
-
+            const trimmed = line.trim();
+            if (!trimmed) continue;
             try {
-              const parsed = JSON.parse(raw) as Record<string, unknown>;
-              const chunk = tryExtractChunk(parsed) ?? tryExtractFull(parsed);
-              if (chunk) {
-                hasChunks = true;
-                emit({ chunk });
-              }
-            } catch { /* non-JSON line — skip */ }
+              const ev = JSON.parse(trimmed) as AisEvent;
+              const text = extractText(ev);
+              if (text) emit({ chunk: text });
+            } catch { /* skip malformed lines */ }
           }
         }
 
         // Flush remaining buffer
-        if (buffer.startsWith('data: ')) {
-          const raw = buffer.slice(6).trim();
-          if (raw && raw !== '[DONE]') {
-            try {
-              const parsed = JSON.parse(raw) as Record<string, unknown>;
-              const chunk = tryExtractChunk(parsed);
-              if (chunk) { hasChunks = true; emit({ chunk }); }
-
-              // Fallback: non-streaming full response arrived as one blob
-              if (!hasChunks) {
-                const full = tryExtractFull(parsed);
-                if (full) emit({ chunk: full });
-              }
-            } catch { /* skip */ }
-          }
+        const trimmed = buffer.trim();
+        if (trimmed) {
+          try {
+            const ev = JSON.parse(trimmed) as AisEvent;
+            const text = extractText(ev);
+            if (text) emit({ chunk: text });
+          } catch { /* skip */ }
         }
 
         emit({ done: true });
