@@ -106,14 +106,21 @@ export async function POST(req: NextRequest) {
         (parsed?.text  as string) ??
         null;
 
-      // If the whole response arrives as one non-streaming JSON blob, extract text
+      // Extract text from any known AIS/Langflow response shape
       const tryExtractFull = (parsed: Record<string, unknown>): string | null => {
+        // Non-streaming shape: outputs[0].outputs[0].results.message.text
         const outputs = parsed?.outputs as Array<{ outputs: Array<{ results?: { message?: { text?: string } }, artifacts?: { message?: string } }> }> | undefined;
-        return (
+        const fromOutputs =
           outputs?.[0]?.outputs?.[0]?.results?.message?.text ??
           outputs?.[0]?.outputs?.[0]?.artifacts?.message ??
-          null
-        );
+          null;
+        if (fromOutputs) return fromOutputs;
+
+        // Streaming shape: output_value.message.data.text  (or .text directly)
+        const ov = parsed?.output_value as Record<string, unknown> | undefined;
+        const msg = ov?.message as Record<string, unknown> | undefined;
+        const data = msg?.data as Record<string, unknown> | undefined;
+        return (data?.text as string) ?? (msg?.text as string) ?? null;
       };
 
       try {
