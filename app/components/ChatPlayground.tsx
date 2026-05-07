@@ -47,18 +47,78 @@ export default function ChatPlayground({ agentId, agentName, agentEmoji, isLive 
     setInput('');
     setMessages(m => [...m, { role: 'user', text: userText }]);
     setLoading(true);
+
     try {
       const res = await fetch('/api/chat', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ agentId, message: userText }),
       });
-      const data = await res.json();
-      const replyText = data.text ?? (data.error ? `Error: ${data.error}${data.detail ? `\n\n${data.detail}` : ''}` : 'No response.');
-      setMessages(m => [...m, { role: 'agent', text: replyText }]);
+
+      // Non-streaming error (4xx/5xx before body starts)
+      if (!res.ok) {
+        const data = await res.json().catch(() => ({})) as { error?: string; detail?: string };
+        const errText = `Error: ${data.error ?? `HTTP ${res.status}`}${data.detail ? `\n\n${data.detail}` : ''}`;
+        setMessages(m => [...m, { role: 'agent', text: errText }]);
+        setLoading(false);
+        return;
+      }
+
+      // Read SSE stream
+      const reader = res.body!.getReader();
+      const decoder = new TextDecoder();
+      let buffer = '';
+      let fullText = '';
+      let agentMsgAdded = false;
+
+      outer: while (true) {
+        const { done, value } = await reader.read();
+        if (done) break;
+
+        buffer += decoder.decode(value, { stream: true });
+        const lines = buffer.split('\n');
+        buffer = lines.pop() ?? '';
+
+        for (const line of lines) {
+          if (!line.startsWith('data: ')) continue;
+          const raw = line.slice(6).trim();
+          if (!raw) continue;
+
+          try {
+            const parsed = JSON.parse(raw) as { chunk?: string; error?: string; done?: boolean };
+
+            if (parsed.error) {
+              const errText = `Error: ${parsed.error}`;
+              if (agentMsgAdded) {
+                setMessages(m => [...m.slice(0, -1), { role: 'agent', text: errText }]);
+              } else {
+                setMessages(m => [...m, { role: 'agent', text: errText }]);
+              }
+              break outer;
+            }
+
+            if (parsed.chunk) {
+              fullText += parsed.chunk;
+              // Hide the "thinking…" spinner once first token arrives
+              setLoading(false);
+              if (!agentMsgAdded) {
+                agentMsgAdded = true;
+                setMessages(m => [...m, { role: 'agent', text: fullText }]);
+              } else {
+                setMessages(m => [...m.slice(0, -1), { role: 'agent', text: fullText }]);
+              }
+            }
+          } catch { /* skip malformed JSON */ }
+        }
+      }
+
+      if (!agentMsgAdded) {
+        setMessages(m => [...m, { role: 'agent', text: fullText || 'No response.' }]);
+      }
     } catch {
       setMessages(m => [...m, { role: 'agent', text: 'Something went wrong. Please try again.' }]);
     }
+
     setLoading(false);
   };
 
@@ -96,7 +156,7 @@ export default function ChatPlayground({ agentId, agentName, agentEmoji, isLive 
             </div>
           </div>
         ))}
-        {loading && (
+        {loading && (messages.length === 0 || messages[messages.length - 1].role === 'user') && (
           <div style={{ display: 'flex' }}>
             <div style={{
               padding: '9px 13px', borderRadius: '10px', background: '#fff',
