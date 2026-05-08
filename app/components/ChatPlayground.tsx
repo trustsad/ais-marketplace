@@ -21,7 +21,29 @@ export default function ChatPlayground({ agentId, flowId, agentName, agentEmoji,
   const [messages, setMessages] = useState<Message[]>([]);
   const [input, setInput] = useState('');
   const [loading, setLoading] = useState(false);
+  const [statusMsg, setStatusMsg] = useState('');
   const messagesRef = useRef<HTMLDivElement>(null);
+
+  const CYCLE = [
+    'Connecting to agent…',
+    'Querying data…',
+    'Gathering records…',
+    'Analyzing results…',
+    'Formatting response…',
+    'Almost there…',
+  ];
+
+  useEffect(() => {
+    if (!loading) { setStatusMsg(''); return; }
+    let idx = 0;
+    setStatusMsg(CYCLE[0]);
+    const t = setInterval(() => {
+      idx = (idx + 1) % CYCLE.length;
+      setStatusMsg(CYCLE[idx]);
+    }, 3500);
+    return () => clearInterval(t);
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [loading]);
 
   useEffect(() => {
     if (messages.length === 0 && !loading) return;
@@ -91,7 +113,11 @@ export default function ChatPlayground({ agentId, flowId, agentName, agentEmoji,
           if (!raw) continue;
 
           try {
-            const parsed = JSON.parse(raw) as { chunk?: string; error?: string; done?: boolean };
+            const parsed = JSON.parse(raw) as { chunk?: string; error?: string; done?: boolean; progress?: string };
+
+            if (parsed.progress) {
+              setStatusMsg(parsed.progress);
+            }
 
             if (parsed.error) {
               const errText = `Error: ${parsed.error}`;
@@ -170,9 +196,15 @@ export default function ChatPlayground({ agentId, flowId, agentName, agentEmoji,
           <div style={{ display: 'flex' }}>
             <div style={{
               padding: '9px 13px', borderRadius: '10px', background: '#fff',
-              border: '1px solid #e2e0d8', fontSize: '13px', color: '#aaa',
+              border: '1px solid #e2e0d8', fontSize: '13px', color: '#888',
+              display: 'flex', alignItems: 'center', gap: '8px',
             }}>
-              {agentEmoji} thinking…
+              <span style={{ display: 'inline-block', animation: 'pulse 1.4s ease-in-out infinite' }}>
+                {agentEmoji}
+              </span>
+              <span key={statusMsg} style={{ animation: 'fadeIn 0.4s ease' }}>
+                {statusMsg}
+              </span>
             </div>
           </div>
         )}
