@@ -1,0 +1,29 @@
+{
+  "id": "bc-ai-query",
+  "name": "BC AI Query",
+  "tagline": "Ask anything about your Business Central data in plain English",
+  "description": "Turn natural language questions into instant Business Central insights — no reports, no filters, no waiting. Ask about inventory levels, open orders, customer balances, vendor performance, or any operational metric and get a clear, formatted answer pulled live from your BC environment. Ideal for managers, analysts, and ops teams who need fast answers without needing to know where to look.",
+  "industry": [
+    "Food & Beverage"
+  ],
+  "function": "Analytics",
+  "productLine": "Business Central",
+  "status": "live",
+  "flowId": "25a2cac8-985a-41e0-b4ac-0ace203d1f95",
+  "tags": [
+    "Analytics",
+    "Natural Language",
+    "Business Central",
+    "Query",
+    "Reporting"
+  ],
+  "emoji": "🔍",
+  "iconBg": "#EBF4FF",
+  "rating": 4.7,
+  "reviews": [],
+  "usageCount": 12,
+  "videoUrl": "",
+  "docsUrl": "",
+  "reviewLinks": [],
+  "featured": false
+}
