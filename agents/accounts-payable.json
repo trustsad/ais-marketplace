@@ -1,28 +1,32 @@
-{
-  "id": "accounts-payable",
-  "name": "Accounts Payable (AP) Agent",
-  "tagline": "Streamline AP workflows with intelligent invoice matching and payment insights",
-  "description": "Streamlines accounts payable workflows by matching invoices to purchase orders, flagging discrepancies, tracking payment due dates, and surfacing cash flow insights to reduce late payments and improve vendor relationships.",
-  "industry": [
-    "Food & Beverage"
-  ],
-  "function": "Finance / AR",
-  "productLine": "Business Central",
-  "status": "live",
-  "flowId": "placeholder",
-  "tags": [
-    "Accounts Payable",
-    "Invoice",
-    "Payment",
-    "AP"
-  ],
-  "emoji": "💰",
-  "iconBg": "#EEEDFE",
-  "rating": 4.6,
-  "reviews": [],
-  "usageCount": 44,
-  "videoUrl": "",
-  "docsUrl": "",
-  "reviewLinks": [],
-  "featured": false
+﻿{
+    "id":  "accounts-payable",
+    "name":  "Accounts Payable (AP) Agent",
+    "tagline":  "Streamline AP workflows with intelligent invoice matching and payment insights",
+    "description":  "Streamlines accounts payable workflows by matching invoices to purchase orders, flagging discrepancies, tracking payment due dates, and surfacing cash flow insights to reduce late payments and improve vendor relationships.",
+    "industry":  [
+                     "Food \u0026 Beverage"
+                 ],
+    "function":  "Finance / AR",
+    "productLine":  "Business Central",
+    "status":  "coming-soon",
+    "flowId":  "placeholder",
+    "tags":  [
+                 "Accounts Payable",
+                 "Invoice",
+                 "Payment",
+                 "AP"
+             ],
+    "emoji":  "ðŸ’°",
+    "iconBg":  "#EEEDFE",
+    "rating":  4.6,
+    "reviews":  [
+
+                ],
+    "usageCount":  44,
+    "videoUrl":  "",
+    "docsUrl":  "",
+    "reviewLinks":  [
+
+                    ],
+    "featured":  false
 }
