@@ -10,12 +10,13 @@ type Message = {
 
 type Props = {
   agentId: string;
+  flowId?: string;
   agentName: string;
   agentEmoji: string;
   isLive: boolean;
 };
 
-export default function ChatPlayground({ agentId, agentName, agentEmoji, isLive }: Props) {
+export default function ChatPlayground({ agentId, flowId, agentName, agentEmoji, isLive }: Props) {
   const [messages, setMessages] = useState<Message[]>([]);
   const [input, setInput] = useState('');
   const [loading, setLoading] = useState(false);
@@ -56,7 +57,7 @@ export default function ChatPlayground({ agentId, agentName, agentEmoji, isLive 
       const res = await fetch(endpoint, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ agentId, message: userText }),
+        body: JSON.stringify({ agentId, flowId, message: userText }),
       });
 
       // Non-streaming error (4xx/5xx before body starts)

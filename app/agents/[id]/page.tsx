@@ -167,6 +167,7 @@ export default function AgentDetailPage({ params }: { params: { id: string } }) 
           </p>
           <ChatPlayground
             agentId={agent.id}
+            flowId={agent.flowId}
             agentName={agent.name}
             agentEmoji={agent.emoji}
             isLive={agent.status === 'live' && agent.flowId !== 'placeholder' && agent.flowId !== ''}
