@@ -1,32 +1,28 @@
 {
-    "id":  "shipment-24hrs",
-    "name":  "Shipment 24-Hour Agent",
-    "tagline":  "Explain shipment activity from the last 24 hours including delivery risk",
-    "description":  "Pulls shipment activity from the last 24 hours and explains it in business-friendly language: what shipped, what is pending, delivery risk, and overall order health.",
-    "industry":  [
-                     "Food \u0026 Beverage"
-                 ],
-    "function":  "Operations",
-    "productLine":  "Business Central",
-    "status":  "coming-soon",
-    "flowId":  "placeholder",
-    "tags":  [
-                 "Shipment",
-                 "Delivery",
-                 "Order Health",
-                 "24-Hour"
-             ],
-    "emoji":  "ðŸš›",
-    "iconBg":  "#E0F5F5",
-    "rating":  4.5,
-    "reviews":  [
-
-                ],
-    "usageCount":  28,
-    "videoUrl":  "",
-    "docsUrl":  "",
-    "reviewLinks":  [
-
-                    ],
-    "featured":  false
+  "id": "shipment-24hrs",
+  "name": "Shipment 24-Hour Agent",
+  "tagline": "Explain shipment activity from the last 24 hours including delivery risk",
+  "description": "Pulls shipment activity from the last 24 hours and explains it in business-friendly language: what shipped, what is pending, delivery risk, and overall order health.",
+  "industry": [
+    "Food & Beverage"
+  ],
+  "function": "Operations",
+  "productLine": "Business Central",
+  "status": "coming-soon",
+  "flowId": "placeholder",
+  "tags": [
+    "Shipment",
+    "Delivery",
+    "Order Health",
+    "24-Hour"
+  ],
+  "emoji": "ðŸš›",
+  "iconBg": "#E0F5F5",
+  "rating": 4.5,
+  "reviews": [],
+  "usageCount": 28,
+  "videoUrl": "",
+  "docsUrl": "",
+  "reviewLinks": [],
+  "featured": false
 }

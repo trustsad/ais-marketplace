@@ -1,32 +1,28 @@
 {
-    "id":  "saleorder-24hrs",
-    "name":  "Sales Order 24-Hour Agent",
-    "tagline":  "Track sales order health, status, and shipments in business-friendly language",
-    "description":  "Retrieves sales order health, status, tracking, shipments, quantities, styles, colors, and dates from Business Central and explains it in clear business-friendly language. Powers interactive dashboards and daily scheduled reporting.",
-    "industry":  [
-                     "Food \u0026 Beverage"
-                 ],
-    "function":  "Sales / CRM",
-    "productLine":  "Business Central",
-    "status":  "coming-soon",
-    "flowId":  "placeholder",
-    "tags":  [
-                 "Sales Orders",
-                 "Shipment",
-                 "Tracking",
-                 "Dashboard"
-             ],
-    "emoji":  "ðŸ“‹",
-    "iconBg":  "#FBEAF0",
-    "rating":  4.6,
-    "reviews":  [
-
-                ],
-    "usageCount":  37,
-    "videoUrl":  "",
-    "docsUrl":  "",
-    "reviewLinks":  [
-
-                    ],
-    "featured":  false
+  "id": "saleorder-24hrs",
+  "name": "Sales Order 24-Hour Agent",
+  "tagline": "Track sales order health, status, and shipments in business-friendly language",
+  "description": "Retrieves sales order health, status, tracking, shipments, quantities, styles, colors, and dates from Business Central and explains it in clear business-friendly language. Powers interactive dashboards and daily scheduled reporting.",
+  "industry": [
+    "Food & Beverage"
+  ],
+  "function": "Sales / CRM",
+  "productLine": "Business Central",
+  "status": "coming-soon",
+  "flowId": "placeholder",
+  "tags": [
+    "Sales Orders",
+    "Shipment",
+    "Tracking",
+    "Dashboard"
+  ],
+  "emoji": "ðŸ“‹",
+  "iconBg": "#FBEAF0",
+  "rating": 4.6,
+  "reviews": [],
+  "usageCount": 37,
+  "videoUrl": "",
+  "docsUrl": "",
+  "reviewLinks": [],
+  "featured": false
 }

@@ -1,31 +1,27 @@
 {
-    "id":  "auto-order",
-    "name":  "Auto Order Agent",
-    "tagline":  "Automatically generate purchase orders from demand signals and reorder rules",
-    "description":  "Automatically generates purchase orders based on demand signals, reorder point rules, and supplier lead timesâ€”reducing manual procurement effort and preventing stockouts.",
-    "industry":  [
-                     "Food \u0026 Beverage"
-                 ],
-    "function":  "Procurement",
-    "productLine":  "Business Central",
-    "status":  "coming-soon",
-    "flowId":  "placeholder",
-    "tags":  [
-                 "Purchase Orders",
-                 "Reorder",
-                 "Automation"
-             ],
-    "emoji":  "ðŸ›’",
-    "iconBg":  "#FAEEDA",
-    "rating":  4.6,
-    "reviews":  [
-
-                ],
-    "usageCount":  53,
-    "videoUrl":  "",
-    "docsUrl":  "",
-    "reviewLinks":  [
-
-                    ],
-    "featured":  false
+  "id": "auto-order",
+  "name": "Auto Order Agent",
+  "tagline": "Automatically generate purchase orders from demand signals and reorder rules",
+  "description": "Automatically generates purchase orders based on demand signals, reorder point rules, and supplier lead timesâ€”reducing manual procurement effort and preventing stockouts.",
+  "industry": [
+    "Food & Beverage"
+  ],
+  "function": "Procurement",
+  "productLine": "Business Central",
+  "status": "coming-soon",
+  "flowId": "placeholder",
+  "tags": [
+    "Purchase Orders",
+    "Reorder",
+    "Automation"
+  ],
+  "emoji": "ðŸ›’",
+  "iconBg": "#FAEEDA",
+  "rating": 4.6,
+  "reviews": [],
+  "usageCount": 53,
+  "videoUrl": "",
+  "docsUrl": "",
+  "reviewLinks": [],
+  "featured": false
 }

@@ -1,32 +1,28 @@
 {
-    "id":  "recipe-formulation-costing",
-    "name":  "Recipe Formulation Costing Agent",
-    "tagline":  "Calculate and optimize recipe costs across ingredients and formulation scenarios",
-    "description":  "Calculates and compares recipe formulation costs across ingredient alternatives, yield scenarios, and batch sizesâ€”helping R\u0026D and operations teams make cost-effective formulation decisions without leaving their workflow.",
-    "industry":  [
-                     "Food \u0026 Beverage"
-                 ],
-    "function":  "Operations",
-    "productLine":  "Business Central",
-    "status":  "coming-soon",
-    "flowId":  "placeholder",
-    "tags":  [
-                 "Recipe",
-                 "Formulation",
-                 "Costing",
-                 "BOM"
-             ],
-    "emoji":  "ðŸ§ª",
-    "iconBg":  "#E1F5EE",
-    "rating":  4.7,
-    "reviews":  [
-
-                ],
-    "usageCount":  41,
-    "videoUrl":  "",
-    "docsUrl":  "",
-    "reviewLinks":  [
-
-                    ],
-    "featured":  false
+  "id": "recipe-formulation-costing",
+  "name": "Recipe Formulation Costing Agent",
+  "tagline": "Calculate and optimize recipe costs across ingredients and formulation scenarios",
+  "description": "Calculates and compares recipe formulation costs across ingredient alternatives, yield scenarios, and batch sizesâ€”helping R&D and operations teams make cost-effective formulation decisions without leaving their workflow.",
+  "industry": [
+    "Food & Beverage"
+  ],
+  "function": "Operations",
+  "productLine": "Business Central",
+  "status": "coming-soon",
+  "flowId": "placeholder",
+  "tags": [
+    "Recipe",
+    "Formulation",
+    "Costing",
+    "BOM"
+  ],
+  "emoji": "ðŸ§ª",
+  "iconBg": "#E1F5EE",
+  "rating": 4.7,
+  "reviews": [],
+  "usageCount": 41,
+  "videoUrl": "",
+  "docsUrl": "",
+  "reviewLinks": [],
+  "featured": false
 }

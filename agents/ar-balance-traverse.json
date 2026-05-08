@@ -1,32 +1,28 @@
 {
-    "id":  "ar-balance-traverse",
-    "name":  "AR Balance Agent",
-    "tagline":  "API-driven Accounts Receivable insights for Business Central customers",
-    "description":  "Provides accurate, API-driven Accounts Receivable insights for customers in Business Central. Answers questions related to sales, payments received, outstanding balances, recent payments, and overdue exposure using verified Customer data. Drills down into Customer Ledger Entries for transaction-level clarity.",
-    "industry":  [
-                     "Food \u0026 Beverage"
-                 ],
-    "function":  "Finance / AR",
-    "productLine":  "Business Central",
-    "status":  "coming-soon",
-    "flowId":  "placeholder",
-    "tags":  [
-                 "AR",
-                 "Accounts Receivable",
-                 "Business Central",
-                 "Balance"
-             ],
-    "emoji":  "ðŸ’³",
-    "iconBg":  "#EEEDFE",
-    "rating":  4.7,
-    "reviews":  [
-
-                ],
-    "usageCount":  34,
-    "videoUrl":  "",
-    "docsUrl":  "",
-    "reviewLinks":  [
-
-                    ],
-    "featured":  false
+  "id": "ar-balance-traverse",
+  "name": "AR Balance Agent",
+  "tagline": "API-driven Accounts Receivable insights for Business Central customers",
+  "description": "Provides accurate, API-driven Accounts Receivable insights for customers in Business Central. Answers questions related to sales, payments received, outstanding balances, recent payments, and overdue exposure using verified Customer data. Drills down into Customer Ledger Entries for transaction-level clarity.",
+  "industry": [
+    "Food & Beverage"
+  ],
+  "function": "Finance / AR",
+  "productLine": "Business Central",
+  "status": "coming-soon",
+  "flowId": "placeholder",
+  "tags": [
+    "AR",
+    "Accounts Receivable",
+    "Business Central",
+    "Balance"
+  ],
+  "emoji": "ðŸ’³",
+  "iconBg": "#EEEDFE",
+  "rating": 4.7,
+  "reviews": [],
+  "usageCount": 34,
+  "videoUrl": "",
+  "docsUrl": "",
+  "reviewLinks": [],
+  "featured": false
 }
