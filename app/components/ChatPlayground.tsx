@@ -2,6 +2,7 @@
 
 import { useState, useRef, useEffect } from 'react';
 import ReactMarkdown from 'react-markdown';
+import remarkGfm from 'remark-gfm';
 
 type Message = {
   role: 'user' | 'agent';
@@ -159,7 +160,7 @@ export default function ChatPlayground({ agentId, flowId, agentName, agentEmoji,
             }}>
               {m.role === 'user' ? m.text : (
                 <div className="markdown-body">
-                  <ReactMarkdown>{m.text}</ReactMarkdown>
+                  <ReactMarkdown remarkPlugins={[remarkGfm]}>{m.text}</ReactMarkdown>
                 </div>
               )}
             </div>
