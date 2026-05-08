@@ -1,4 +1,4 @@
-﻿{
+{
     "id":  "auto-order",
     "name":  "Auto Order Agent",
     "tagline":  "Automatically generate purchase orders from demand signals and reorder rules",

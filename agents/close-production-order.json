@@ -1,4 +1,4 @@
-﻿{
+{
     "id":  "close-production-order",
     "name":  "Close Production Order Agent",
     "tagline":  "Validate, approve, and close released production orders through an 8-stage lifecycle",
