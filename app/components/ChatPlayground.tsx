@@ -50,7 +50,10 @@ export default function ChatPlayground({ agentId, agentName, agentEmoji, isLive 
     setLoading(true);
 
     try {
-      const res = await fetch('/api/chat', {
+      const endpoint = process.env.NEXT_PUBLIC_CHAT_PROXY_URL
+        ? `${process.env.NEXT_PUBLIC_CHAT_PROXY_URL}/api/chat`
+        : '/api/chat';
+      const res = await fetch(endpoint, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ agentId, message: userText }),
