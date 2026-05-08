@@ -2,7 +2,7 @@
   "id": "recipe-formulation-costing",
   "name": "Recipe Formulation Costing Agent",
   "tagline": "Calculate and optimize recipe costs across ingredients and formulation scenarios",
-  "description": "Calculates and compares recipe formulation costs across ingredient alternatives, yield scenarios, and batch sizesâ€”helping R&D and operations teams make cost-effective formulation decisions without leaving their workflow.",
+  "description": "Calculates and compares recipe formulation costs across ingredient alternatives, yield scenarios, and batch sizes—helping R&D and operations teams make cost-effective formulation decisions without leaving their workflow.",
   "industry": [
     "Food & Beverage"
   ],
@@ -16,7 +16,7 @@
     "Costing",
     "BOM"
   ],
-  "emoji": "ðŸ§ª",
+  "emoji": "🧪",
   "iconBg": "#E1F5EE",
   "rating": 4.7,
   "reviews": [],

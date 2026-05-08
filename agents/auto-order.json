@@ -2,7 +2,7 @@
   "id": "auto-order",
   "name": "Auto Order Agent",
   "tagline": "Automatically generate purchase orders from demand signals and reorder rules",
-  "description": "Automatically generates purchase orders based on demand signals, reorder point rules, and supplier lead timesâ€”reducing manual procurement effort and preventing stockouts.",
+  "description": "Automatically generates purchase orders based on demand signals, reorder point rules, and supplier lead times—reducing manual procurement effort and preventing stockouts.",
   "industry": [
     "Food & Beverage"
   ],
@@ -15,7 +15,7 @@
     "Reorder",
     "Automation"
   ],
-  "emoji": "ðŸ›’",
+  "emoji": "🛒",
   "iconBg": "#FAEEDA",
   "rating": 4.6,
   "reviews": [],
